@@ -477,15 +477,29 @@ def save_datasets(examples, output_dir):
     return stats
 
 
+def load_synthetic_data():
+    """Load synthetic 8-dot data if available"""
+    synthetic_path = Path(__file__).parent.parent / "data_collection" / "synthetic_8dot.json"
+    if synthetic_path.exists():
+        with open(synthetic_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return []
+
+
 def main():
     print("=" * 60)
     print("Preparing LoRA Training Dataset for Braille-Native Cognition")
     print("=" * 60)
     
-    # Generate examples
     examples = create_instruction_dataset()
     
-    # Save in multiple formats
+    # Add synthetic 8-dot data
+    synthetic = load_synthetic_data()
+    if synthetic:
+        print(f"Adding {len(synthetic)} synthetic 8-dot examples...")
+        examples.extend(synthetic)
+    
+    # Save in different formats
     output_dir = Path(__file__).parent
     stats = save_datasets(examples, output_dir)
     

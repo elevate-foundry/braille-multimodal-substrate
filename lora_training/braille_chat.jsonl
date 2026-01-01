@@ -166,3 +166,543 @@
 {"messages": [{"role": "user", "content": "A child is learning the letter 'h'. Give a memorable hint about its braille pattern."}, {"role": "assistant", "content": "The letter 'h' in braille is ⠓. Think of it like a little house! It has dots 1, 2, and 5 - two dots stacked on the left side (like a wall) and one dot on the right (like a window). H is for House!"}]}
 {"messages": [{"role": "user", "content": "A student got 3 correct and 7 wrong while learning braille. Give encouraging feedback."}, {"role": "assistant", "content": "You're making progress! 3 correct answers means you're starting to recognize patterns. Braille takes practice - even Louis Braille took time to perfect his system. Focus on the letters you got right and build from there. Every expert was once a beginner!"}]}
 {"messages": [{"role": "user", "content": "Generate an easy braille practice exercise for a beginner."}, {"role": "assistant", "content": "Try this: What letter is ⠑? Hint: It's a vowel and it's the most common letter in English! (Answer: 'e')"}]}
+{"messages": [{"role": "user", "content": "Convert byte 0 (0x00) to braille"}, {"role": "assistant", "content": "Byte 0 (0x00) = ⠀ (dots: none)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠀ represent?"}, {"role": "assistant", "content": "⠀ represents byte 0 (0x00), with dots none raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 1 (0x01) to braille"}, {"role": "assistant", "content": "Byte 1 (0x01) = ⠁ (dots: 1)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠁ represent?"}, {"role": "assistant", "content": "⠁ represents byte 1 (0x01), with dots 1 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 2 (0x02) to braille"}, {"role": "assistant", "content": "Byte 2 (0x02) = ⠂ (dots: 2)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠂ represent?"}, {"role": "assistant", "content": "⠂ represents byte 2 (0x02), with dots 2 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 3 (0x03) to braille"}, {"role": "assistant", "content": "Byte 3 (0x03) = ⠃ (dots: 1,2)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠃ represent?"}, {"role": "assistant", "content": "⠃ represents byte 3 (0x03), with dots 1,2 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 4 (0x04) to braille"}, {"role": "assistant", "content": "Byte 4 (0x04) = ⠄ (dots: 3)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠄ represent?"}, {"role": "assistant", "content": "⠄ represents byte 4 (0x04), with dots 3 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 5 (0x05) to braille"}, {"role": "assistant", "content": "Byte 5 (0x05) = ⠅ (dots: 1,3)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠅ represent?"}, {"role": "assistant", "content": "⠅ represents byte 5 (0x05), with dots 1,3 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 6 (0x06) to braille"}, {"role": "assistant", "content": "Byte 6 (0x06) = ⠆ (dots: 2,3)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠆ represent?"}, {"role": "assistant", "content": "⠆ represents byte 6 (0x06), with dots 2,3 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 7 (0x07) to braille"}, {"role": "assistant", "content": "Byte 7 (0x07) = ⠇ (dots: 1,2,3)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠇ represent?"}, {"role": "assistant", "content": "⠇ represents byte 7 (0x07), with dots 1,2,3 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 8 (0x08) to braille"}, {"role": "assistant", "content": "Byte 8 (0x08) = ⠈ (dots: 4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠈ represent?"}, {"role": "assistant", "content": "⠈ represents byte 8 (0x08), with dots 4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 9 (0x09) to braille"}, {"role": "assistant", "content": "Byte 9 (0x09) = ⠉ (dots: 1,4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠉ represent?"}, {"role": "assistant", "content": "⠉ represents byte 9 (0x09), with dots 1,4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 10 (0x0A) to braille"}, {"role": "assistant", "content": "Byte 10 (0x0A) = ⠊ (dots: 2,4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠊ represent?"}, {"role": "assistant", "content": "⠊ represents byte 10 (0x0A), with dots 2,4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 11 (0x0B) to braille"}, {"role": "assistant", "content": "Byte 11 (0x0B) = ⠋ (dots: 1,2,4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠋ represent?"}, {"role": "assistant", "content": "⠋ represents byte 11 (0x0B), with dots 1,2,4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 12 (0x0C) to braille"}, {"role": "assistant", "content": "Byte 12 (0x0C) = ⠌ (dots: 3,4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠌ represent?"}, {"role": "assistant", "content": "⠌ represents byte 12 (0x0C), with dots 3,4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 13 (0x0D) to braille"}, {"role": "assistant", "content": "Byte 13 (0x0D) = ⠍ (dots: 1,3,4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠍ represent?"}, {"role": "assistant", "content": "⠍ represents byte 13 (0x0D), with dots 1,3,4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 14 (0x0E) to braille"}, {"role": "assistant", "content": "Byte 14 (0x0E) = ⠎ (dots: 2,3,4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠎ represent?"}, {"role": "assistant", "content": "⠎ represents byte 14 (0x0E), with dots 2,3,4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 15 (0x0F) to braille"}, {"role": "assistant", "content": "Byte 15 (0x0F) = ⠏ (dots: 1,2,3,4)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠏ represent?"}, {"role": "assistant", "content": "⠏ represents byte 15 (0x0F), with dots 1,2,3,4 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 16 (0x10) to braille"}, {"role": "assistant", "content": "Byte 16 (0x10) = ⠐ (dots: 5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠐ represent?"}, {"role": "assistant", "content": "⠐ represents byte 16 (0x10), with dots 5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 17 (0x11) to braille"}, {"role": "assistant", "content": "Byte 17 (0x11) = ⠑ (dots: 1,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠑ represent?"}, {"role": "assistant", "content": "⠑ represents byte 17 (0x11), with dots 1,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 18 (0x12) to braille"}, {"role": "assistant", "content": "Byte 18 (0x12) = ⠒ (dots: 2,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠒ represent?"}, {"role": "assistant", "content": "⠒ represents byte 18 (0x12), with dots 2,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 19 (0x13) to braille"}, {"role": "assistant", "content": "Byte 19 (0x13) = ⠓ (dots: 1,2,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠓ represent?"}, {"role": "assistant", "content": "⠓ represents byte 19 (0x13), with dots 1,2,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 20 (0x14) to braille"}, {"role": "assistant", "content": "Byte 20 (0x14) = ⠔ (dots: 3,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠔ represent?"}, {"role": "assistant", "content": "⠔ represents byte 20 (0x14), with dots 3,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 21 (0x15) to braille"}, {"role": "assistant", "content": "Byte 21 (0x15) = ⠕ (dots: 1,3,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠕ represent?"}, {"role": "assistant", "content": "⠕ represents byte 21 (0x15), with dots 1,3,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 22 (0x16) to braille"}, {"role": "assistant", "content": "Byte 22 (0x16) = ⠖ (dots: 2,3,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠖ represent?"}, {"role": "assistant", "content": "⠖ represents byte 22 (0x16), with dots 2,3,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 23 (0x17) to braille"}, {"role": "assistant", "content": "Byte 23 (0x17) = ⠗ (dots: 1,2,3,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠗ represent?"}, {"role": "assistant", "content": "⠗ represents byte 23 (0x17), with dots 1,2,3,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 24 (0x18) to braille"}, {"role": "assistant", "content": "Byte 24 (0x18) = ⠘ (dots: 4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠘ represent?"}, {"role": "assistant", "content": "⠘ represents byte 24 (0x18), with dots 4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 25 (0x19) to braille"}, {"role": "assistant", "content": "Byte 25 (0x19) = ⠙ (dots: 1,4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠙ represent?"}, {"role": "assistant", "content": "⠙ represents byte 25 (0x19), with dots 1,4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 26 (0x1A) to braille"}, {"role": "assistant", "content": "Byte 26 (0x1A) = ⠚ (dots: 2,4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠚ represent?"}, {"role": "assistant", "content": "⠚ represents byte 26 (0x1A), with dots 2,4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 27 (0x1B) to braille"}, {"role": "assistant", "content": "Byte 27 (0x1B) = ⠛ (dots: 1,2,4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠛ represent?"}, {"role": "assistant", "content": "⠛ represents byte 27 (0x1B), with dots 1,2,4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 28 (0x1C) to braille"}, {"role": "assistant", "content": "Byte 28 (0x1C) = ⠜ (dots: 3,4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠜ represent?"}, {"role": "assistant", "content": "⠜ represents byte 28 (0x1C), with dots 3,4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 29 (0x1D) to braille"}, {"role": "assistant", "content": "Byte 29 (0x1D) = ⠝ (dots: 1,3,4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠝ represent?"}, {"role": "assistant", "content": "⠝ represents byte 29 (0x1D), with dots 1,3,4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 30 (0x1E) to braille"}, {"role": "assistant", "content": "Byte 30 (0x1E) = ⠞ (dots: 2,3,4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠞ represent?"}, {"role": "assistant", "content": "⠞ represents byte 30 (0x1E), with dots 2,3,4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 31 (0x1F) to braille"}, {"role": "assistant", "content": "Byte 31 (0x1F) = ⠟ (dots: 1,2,3,4,5)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠟ represent?"}, {"role": "assistant", "content": "⠟ represents byte 31 (0x1F), with dots 1,2,3,4,5 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 32 (0x20) to braille"}, {"role": "assistant", "content": "Byte 32 (0x20) = ⠠ (dots: 6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠠ represent?"}, {"role": "assistant", "content": "⠠ represents byte 32 (0x20), with dots 6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 33 (0x21) to braille"}, {"role": "assistant", "content": "Byte 33 (0x21) = ⠡ (dots: 1,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠡ represent?"}, {"role": "assistant", "content": "⠡ represents byte 33 (0x21), with dots 1,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 34 (0x22) to braille"}, {"role": "assistant", "content": "Byte 34 (0x22) = ⠢ (dots: 2,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠢ represent?"}, {"role": "assistant", "content": "⠢ represents byte 34 (0x22), with dots 2,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 35 (0x23) to braille"}, {"role": "assistant", "content": "Byte 35 (0x23) = ⠣ (dots: 1,2,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠣ represent?"}, {"role": "assistant", "content": "⠣ represents byte 35 (0x23), with dots 1,2,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 36 (0x24) to braille"}, {"role": "assistant", "content": "Byte 36 (0x24) = ⠤ (dots: 3,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠤ represent?"}, {"role": "assistant", "content": "⠤ represents byte 36 (0x24), with dots 3,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 37 (0x25) to braille"}, {"role": "assistant", "content": "Byte 37 (0x25) = ⠥ (dots: 1,3,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠥ represent?"}, {"role": "assistant", "content": "⠥ represents byte 37 (0x25), with dots 1,3,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 38 (0x26) to braille"}, {"role": "assistant", "content": "Byte 38 (0x26) = ⠦ (dots: 2,3,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠦ represent?"}, {"role": "assistant", "content": "⠦ represents byte 38 (0x26), with dots 2,3,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 39 (0x27) to braille"}, {"role": "assistant", "content": "Byte 39 (0x27) = ⠧ (dots: 1,2,3,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠧ represent?"}, {"role": "assistant", "content": "⠧ represents byte 39 (0x27), with dots 1,2,3,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 40 (0x28) to braille"}, {"role": "assistant", "content": "Byte 40 (0x28) = ⠨ (dots: 4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠨ represent?"}, {"role": "assistant", "content": "⠨ represents byte 40 (0x28), with dots 4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 41 (0x29) to braille"}, {"role": "assistant", "content": "Byte 41 (0x29) = ⠩ (dots: 1,4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠩ represent?"}, {"role": "assistant", "content": "⠩ represents byte 41 (0x29), with dots 1,4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 42 (0x2A) to braille"}, {"role": "assistant", "content": "Byte 42 (0x2A) = ⠪ (dots: 2,4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠪ represent?"}, {"role": "assistant", "content": "⠪ represents byte 42 (0x2A), with dots 2,4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 43 (0x2B) to braille"}, {"role": "assistant", "content": "Byte 43 (0x2B) = ⠫ (dots: 1,2,4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠫ represent?"}, {"role": "assistant", "content": "⠫ represents byte 43 (0x2B), with dots 1,2,4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 44 (0x2C) to braille"}, {"role": "assistant", "content": "Byte 44 (0x2C) = ⠬ (dots: 3,4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠬ represent?"}, {"role": "assistant", "content": "⠬ represents byte 44 (0x2C), with dots 3,4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 45 (0x2D) to braille"}, {"role": "assistant", "content": "Byte 45 (0x2D) = ⠭ (dots: 1,3,4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠭ represent?"}, {"role": "assistant", "content": "⠭ represents byte 45 (0x2D), with dots 1,3,4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 46 (0x2E) to braille"}, {"role": "assistant", "content": "Byte 46 (0x2E) = ⠮ (dots: 2,3,4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠮ represent?"}, {"role": "assistant", "content": "⠮ represents byte 46 (0x2E), with dots 2,3,4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 47 (0x2F) to braille"}, {"role": "assistant", "content": "Byte 47 (0x2F) = ⠯ (dots: 1,2,3,4,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠯ represent?"}, {"role": "assistant", "content": "⠯ represents byte 47 (0x2F), with dots 1,2,3,4,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 48 (0x30) to braille"}, {"role": "assistant", "content": "Byte 48 (0x30) = ⠰ (dots: 5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠰ represent?"}, {"role": "assistant", "content": "⠰ represents byte 48 (0x30), with dots 5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 49 (0x31) to braille"}, {"role": "assistant", "content": "Byte 49 (0x31) = ⠱ (dots: 1,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠱ represent?"}, {"role": "assistant", "content": "⠱ represents byte 49 (0x31), with dots 1,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 50 (0x32) to braille"}, {"role": "assistant", "content": "Byte 50 (0x32) = ⠲ (dots: 2,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠲ represent?"}, {"role": "assistant", "content": "⠲ represents byte 50 (0x32), with dots 2,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 51 (0x33) to braille"}, {"role": "assistant", "content": "Byte 51 (0x33) = ⠳ (dots: 1,2,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠳ represent?"}, {"role": "assistant", "content": "⠳ represents byte 51 (0x33), with dots 1,2,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 52 (0x34) to braille"}, {"role": "assistant", "content": "Byte 52 (0x34) = ⠴ (dots: 3,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠴ represent?"}, {"role": "assistant", "content": "⠴ represents byte 52 (0x34), with dots 3,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 53 (0x35) to braille"}, {"role": "assistant", "content": "Byte 53 (0x35) = ⠵ (dots: 1,3,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠵ represent?"}, {"role": "assistant", "content": "⠵ represents byte 53 (0x35), with dots 1,3,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 54 (0x36) to braille"}, {"role": "assistant", "content": "Byte 54 (0x36) = ⠶ (dots: 2,3,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠶ represent?"}, {"role": "assistant", "content": "⠶ represents byte 54 (0x36), with dots 2,3,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 55 (0x37) to braille"}, {"role": "assistant", "content": "Byte 55 (0x37) = ⠷ (dots: 1,2,3,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠷ represent?"}, {"role": "assistant", "content": "⠷ represents byte 55 (0x37), with dots 1,2,3,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 56 (0x38) to braille"}, {"role": "assistant", "content": "Byte 56 (0x38) = ⠸ (dots: 4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠸ represent?"}, {"role": "assistant", "content": "⠸ represents byte 56 (0x38), with dots 4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 57 (0x39) to braille"}, {"role": "assistant", "content": "Byte 57 (0x39) = ⠹ (dots: 1,4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠹ represent?"}, {"role": "assistant", "content": "⠹ represents byte 57 (0x39), with dots 1,4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 58 (0x3A) to braille"}, {"role": "assistant", "content": "Byte 58 (0x3A) = ⠺ (dots: 2,4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠺ represent?"}, {"role": "assistant", "content": "⠺ represents byte 58 (0x3A), with dots 2,4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 59 (0x3B) to braille"}, {"role": "assistant", "content": "Byte 59 (0x3B) = ⠻ (dots: 1,2,4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠻ represent?"}, {"role": "assistant", "content": "⠻ represents byte 59 (0x3B), with dots 1,2,4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 60 (0x3C) to braille"}, {"role": "assistant", "content": "Byte 60 (0x3C) = ⠼ (dots: 3,4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠼ represent?"}, {"role": "assistant", "content": "⠼ represents byte 60 (0x3C), with dots 3,4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 61 (0x3D) to braille"}, {"role": "assistant", "content": "Byte 61 (0x3D) = ⠽ (dots: 1,3,4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠽ represent?"}, {"role": "assistant", "content": "⠽ represents byte 61 (0x3D), with dots 1,3,4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 62 (0x3E) to braille"}, {"role": "assistant", "content": "Byte 62 (0x3E) = ⠾ (dots: 2,3,4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠾ represent?"}, {"role": "assistant", "content": "⠾ represents byte 62 (0x3E), with dots 2,3,4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 63 (0x3F) to braille"}, {"role": "assistant", "content": "Byte 63 (0x3F) = ⠿ (dots: 1,2,3,4,5,6)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⠿ represent?"}, {"role": "assistant", "content": "⠿ represents byte 63 (0x3F), with dots 1,2,3,4,5,6 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 64 (0x40) to braille"}, {"role": "assistant", "content": "Byte 64 (0x40) = ⡀ (dots: 7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡀ represent?"}, {"role": "assistant", "content": "⡀ represents byte 64 (0x40), with dots 7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 65 (0x41) to braille"}, {"role": "assistant", "content": "Byte 65 (0x41) = ⡁ (dots: 1,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡁ represent?"}, {"role": "assistant", "content": "⡁ represents byte 65 (0x41), with dots 1,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 66 (0x42) to braille"}, {"role": "assistant", "content": "Byte 66 (0x42) = ⡂ (dots: 2,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡂ represent?"}, {"role": "assistant", "content": "⡂ represents byte 66 (0x42), with dots 2,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 67 (0x43) to braille"}, {"role": "assistant", "content": "Byte 67 (0x43) = ⡃ (dots: 1,2,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡃ represent?"}, {"role": "assistant", "content": "⡃ represents byte 67 (0x43), with dots 1,2,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 68 (0x44) to braille"}, {"role": "assistant", "content": "Byte 68 (0x44) = ⡄ (dots: 3,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡄ represent?"}, {"role": "assistant", "content": "⡄ represents byte 68 (0x44), with dots 3,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 69 (0x45) to braille"}, {"role": "assistant", "content": "Byte 69 (0x45) = ⡅ (dots: 1,3,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡅ represent?"}, {"role": "assistant", "content": "⡅ represents byte 69 (0x45), with dots 1,3,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 70 (0x46) to braille"}, {"role": "assistant", "content": "Byte 70 (0x46) = ⡆ (dots: 2,3,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡆ represent?"}, {"role": "assistant", "content": "⡆ represents byte 70 (0x46), with dots 2,3,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 71 (0x47) to braille"}, {"role": "assistant", "content": "Byte 71 (0x47) = ⡇ (dots: 1,2,3,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡇ represent?"}, {"role": "assistant", "content": "⡇ represents byte 71 (0x47), with dots 1,2,3,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 72 (0x48) to braille"}, {"role": "assistant", "content": "Byte 72 (0x48) = ⡈ (dots: 4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡈ represent?"}, {"role": "assistant", "content": "⡈ represents byte 72 (0x48), with dots 4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 73 (0x49) to braille"}, {"role": "assistant", "content": "Byte 73 (0x49) = ⡉ (dots: 1,4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡉ represent?"}, {"role": "assistant", "content": "⡉ represents byte 73 (0x49), with dots 1,4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 74 (0x4A) to braille"}, {"role": "assistant", "content": "Byte 74 (0x4A) = ⡊ (dots: 2,4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡊ represent?"}, {"role": "assistant", "content": "⡊ represents byte 74 (0x4A), with dots 2,4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 75 (0x4B) to braille"}, {"role": "assistant", "content": "Byte 75 (0x4B) = ⡋ (dots: 1,2,4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡋ represent?"}, {"role": "assistant", "content": "⡋ represents byte 75 (0x4B), with dots 1,2,4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 76 (0x4C) to braille"}, {"role": "assistant", "content": "Byte 76 (0x4C) = ⡌ (dots: 3,4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡌ represent?"}, {"role": "assistant", "content": "⡌ represents byte 76 (0x4C), with dots 3,4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 77 (0x4D) to braille"}, {"role": "assistant", "content": "Byte 77 (0x4D) = ⡍ (dots: 1,3,4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡍ represent?"}, {"role": "assistant", "content": "⡍ represents byte 77 (0x4D), with dots 1,3,4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 78 (0x4E) to braille"}, {"role": "assistant", "content": "Byte 78 (0x4E) = ⡎ (dots: 2,3,4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡎ represent?"}, {"role": "assistant", "content": "⡎ represents byte 78 (0x4E), with dots 2,3,4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 79 (0x4F) to braille"}, {"role": "assistant", "content": "Byte 79 (0x4F) = ⡏ (dots: 1,2,3,4,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡏ represent?"}, {"role": "assistant", "content": "⡏ represents byte 79 (0x4F), with dots 1,2,3,4,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 80 (0x50) to braille"}, {"role": "assistant", "content": "Byte 80 (0x50) = ⡐ (dots: 5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡐ represent?"}, {"role": "assistant", "content": "⡐ represents byte 80 (0x50), with dots 5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 81 (0x51) to braille"}, {"role": "assistant", "content": "Byte 81 (0x51) = ⡑ (dots: 1,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡑ represent?"}, {"role": "assistant", "content": "⡑ represents byte 81 (0x51), with dots 1,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 82 (0x52) to braille"}, {"role": "assistant", "content": "Byte 82 (0x52) = ⡒ (dots: 2,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡒ represent?"}, {"role": "assistant", "content": "⡒ represents byte 82 (0x52), with dots 2,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 83 (0x53) to braille"}, {"role": "assistant", "content": "Byte 83 (0x53) = ⡓ (dots: 1,2,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡓ represent?"}, {"role": "assistant", "content": "⡓ represents byte 83 (0x53), with dots 1,2,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 84 (0x54) to braille"}, {"role": "assistant", "content": "Byte 84 (0x54) = ⡔ (dots: 3,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡔ represent?"}, {"role": "assistant", "content": "⡔ represents byte 84 (0x54), with dots 3,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 85 (0x55) to braille"}, {"role": "assistant", "content": "Byte 85 (0x55) = ⡕ (dots: 1,3,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡕ represent?"}, {"role": "assistant", "content": "⡕ represents byte 85 (0x55), with dots 1,3,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 86 (0x56) to braille"}, {"role": "assistant", "content": "Byte 86 (0x56) = ⡖ (dots: 2,3,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡖ represent?"}, {"role": "assistant", "content": "⡖ represents byte 86 (0x56), with dots 2,3,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 87 (0x57) to braille"}, {"role": "assistant", "content": "Byte 87 (0x57) = ⡗ (dots: 1,2,3,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡗ represent?"}, {"role": "assistant", "content": "⡗ represents byte 87 (0x57), with dots 1,2,3,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 88 (0x58) to braille"}, {"role": "assistant", "content": "Byte 88 (0x58) = ⡘ (dots: 4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡘ represent?"}, {"role": "assistant", "content": "⡘ represents byte 88 (0x58), with dots 4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 89 (0x59) to braille"}, {"role": "assistant", "content": "Byte 89 (0x59) = ⡙ (dots: 1,4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡙ represent?"}, {"role": "assistant", "content": "⡙ represents byte 89 (0x59), with dots 1,4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 90 (0x5A) to braille"}, {"role": "assistant", "content": "Byte 90 (0x5A) = ⡚ (dots: 2,4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡚ represent?"}, {"role": "assistant", "content": "⡚ represents byte 90 (0x5A), with dots 2,4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 91 (0x5B) to braille"}, {"role": "assistant", "content": "Byte 91 (0x5B) = ⡛ (dots: 1,2,4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡛ represent?"}, {"role": "assistant", "content": "⡛ represents byte 91 (0x5B), with dots 1,2,4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 92 (0x5C) to braille"}, {"role": "assistant", "content": "Byte 92 (0x5C) = ⡜ (dots: 3,4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡜ represent?"}, {"role": "assistant", "content": "⡜ represents byte 92 (0x5C), with dots 3,4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 93 (0x5D) to braille"}, {"role": "assistant", "content": "Byte 93 (0x5D) = ⡝ (dots: 1,3,4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡝ represent?"}, {"role": "assistant", "content": "⡝ represents byte 93 (0x5D), with dots 1,3,4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 94 (0x5E) to braille"}, {"role": "assistant", "content": "Byte 94 (0x5E) = ⡞ (dots: 2,3,4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡞ represent?"}, {"role": "assistant", "content": "⡞ represents byte 94 (0x5E), with dots 2,3,4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 95 (0x5F) to braille"}, {"role": "assistant", "content": "Byte 95 (0x5F) = ⡟ (dots: 1,2,3,4,5,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡟ represent?"}, {"role": "assistant", "content": "⡟ represents byte 95 (0x5F), with dots 1,2,3,4,5,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 96 (0x60) to braille"}, {"role": "assistant", "content": "Byte 96 (0x60) = ⡠ (dots: 6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡠ represent?"}, {"role": "assistant", "content": "⡠ represents byte 96 (0x60), with dots 6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 97 (0x61) to braille"}, {"role": "assistant", "content": "Byte 97 (0x61) = ⡡ (dots: 1,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡡ represent?"}, {"role": "assistant", "content": "⡡ represents byte 97 (0x61), with dots 1,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 98 (0x62) to braille"}, {"role": "assistant", "content": "Byte 98 (0x62) = ⡢ (dots: 2,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡢ represent?"}, {"role": "assistant", "content": "⡢ represents byte 98 (0x62), with dots 2,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 99 (0x63) to braille"}, {"role": "assistant", "content": "Byte 99 (0x63) = ⡣ (dots: 1,2,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡣ represent?"}, {"role": "assistant", "content": "⡣ represents byte 99 (0x63), with dots 1,2,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 100 (0x64) to braille"}, {"role": "assistant", "content": "Byte 100 (0x64) = ⡤ (dots: 3,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡤ represent?"}, {"role": "assistant", "content": "⡤ represents byte 100 (0x64), with dots 3,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 101 (0x65) to braille"}, {"role": "assistant", "content": "Byte 101 (0x65) = ⡥ (dots: 1,3,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡥ represent?"}, {"role": "assistant", "content": "⡥ represents byte 101 (0x65), with dots 1,3,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 102 (0x66) to braille"}, {"role": "assistant", "content": "Byte 102 (0x66) = ⡦ (dots: 2,3,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡦ represent?"}, {"role": "assistant", "content": "⡦ represents byte 102 (0x66), with dots 2,3,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 103 (0x67) to braille"}, {"role": "assistant", "content": "Byte 103 (0x67) = ⡧ (dots: 1,2,3,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡧ represent?"}, {"role": "assistant", "content": "⡧ represents byte 103 (0x67), with dots 1,2,3,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 104 (0x68) to braille"}, {"role": "assistant", "content": "Byte 104 (0x68) = ⡨ (dots: 4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡨ represent?"}, {"role": "assistant", "content": "⡨ represents byte 104 (0x68), with dots 4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 105 (0x69) to braille"}, {"role": "assistant", "content": "Byte 105 (0x69) = ⡩ (dots: 1,4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡩ represent?"}, {"role": "assistant", "content": "⡩ represents byte 105 (0x69), with dots 1,4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 106 (0x6A) to braille"}, {"role": "assistant", "content": "Byte 106 (0x6A) = ⡪ (dots: 2,4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡪ represent?"}, {"role": "assistant", "content": "⡪ represents byte 106 (0x6A), with dots 2,4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 107 (0x6B) to braille"}, {"role": "assistant", "content": "Byte 107 (0x6B) = ⡫ (dots: 1,2,4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡫ represent?"}, {"role": "assistant", "content": "⡫ represents byte 107 (0x6B), with dots 1,2,4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 108 (0x6C) to braille"}, {"role": "assistant", "content": "Byte 108 (0x6C) = ⡬ (dots: 3,4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡬ represent?"}, {"role": "assistant", "content": "⡬ represents byte 108 (0x6C), with dots 3,4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 109 (0x6D) to braille"}, {"role": "assistant", "content": "Byte 109 (0x6D) = ⡭ (dots: 1,3,4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡭ represent?"}, {"role": "assistant", "content": "⡭ represents byte 109 (0x6D), with dots 1,3,4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 110 (0x6E) to braille"}, {"role": "assistant", "content": "Byte 110 (0x6E) = ⡮ (dots: 2,3,4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡮ represent?"}, {"role": "assistant", "content": "⡮ represents byte 110 (0x6E), with dots 2,3,4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 111 (0x6F) to braille"}, {"role": "assistant", "content": "Byte 111 (0x6F) = ⡯ (dots: 1,2,3,4,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡯ represent?"}, {"role": "assistant", "content": "⡯ represents byte 111 (0x6F), with dots 1,2,3,4,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 112 (0x70) to braille"}, {"role": "assistant", "content": "Byte 112 (0x70) = ⡰ (dots: 5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡰ represent?"}, {"role": "assistant", "content": "⡰ represents byte 112 (0x70), with dots 5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 113 (0x71) to braille"}, {"role": "assistant", "content": "Byte 113 (0x71) = ⡱ (dots: 1,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡱ represent?"}, {"role": "assistant", "content": "⡱ represents byte 113 (0x71), with dots 1,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 114 (0x72) to braille"}, {"role": "assistant", "content": "Byte 114 (0x72) = ⡲ (dots: 2,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡲ represent?"}, {"role": "assistant", "content": "⡲ represents byte 114 (0x72), with dots 2,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 115 (0x73) to braille"}, {"role": "assistant", "content": "Byte 115 (0x73) = ⡳ (dots: 1,2,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡳ represent?"}, {"role": "assistant", "content": "⡳ represents byte 115 (0x73), with dots 1,2,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 116 (0x74) to braille"}, {"role": "assistant", "content": "Byte 116 (0x74) = ⡴ (dots: 3,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡴ represent?"}, {"role": "assistant", "content": "⡴ represents byte 116 (0x74), with dots 3,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 117 (0x75) to braille"}, {"role": "assistant", "content": "Byte 117 (0x75) = ⡵ (dots: 1,3,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡵ represent?"}, {"role": "assistant", "content": "⡵ represents byte 117 (0x75), with dots 1,3,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 118 (0x76) to braille"}, {"role": "assistant", "content": "Byte 118 (0x76) = ⡶ (dots: 2,3,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡶ represent?"}, {"role": "assistant", "content": "⡶ represents byte 118 (0x76), with dots 2,3,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 119 (0x77) to braille"}, {"role": "assistant", "content": "Byte 119 (0x77) = ⡷ (dots: 1,2,3,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡷ represent?"}, {"role": "assistant", "content": "⡷ represents byte 119 (0x77), with dots 1,2,3,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 120 (0x78) to braille"}, {"role": "assistant", "content": "Byte 120 (0x78) = ⡸ (dots: 4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡸ represent?"}, {"role": "assistant", "content": "⡸ represents byte 120 (0x78), with dots 4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 121 (0x79) to braille"}, {"role": "assistant", "content": "Byte 121 (0x79) = ⡹ (dots: 1,4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡹ represent?"}, {"role": "assistant", "content": "⡹ represents byte 121 (0x79), with dots 1,4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 122 (0x7A) to braille"}, {"role": "assistant", "content": "Byte 122 (0x7A) = ⡺ (dots: 2,4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡺ represent?"}, {"role": "assistant", "content": "⡺ represents byte 122 (0x7A), with dots 2,4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 123 (0x7B) to braille"}, {"role": "assistant", "content": "Byte 123 (0x7B) = ⡻ (dots: 1,2,4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡻ represent?"}, {"role": "assistant", "content": "⡻ represents byte 123 (0x7B), with dots 1,2,4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 124 (0x7C) to braille"}, {"role": "assistant", "content": "Byte 124 (0x7C) = ⡼ (dots: 3,4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡼ represent?"}, {"role": "assistant", "content": "⡼ represents byte 124 (0x7C), with dots 3,4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 125 (0x7D) to braille"}, {"role": "assistant", "content": "Byte 125 (0x7D) = ⡽ (dots: 1,3,4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡽ represent?"}, {"role": "assistant", "content": "⡽ represents byte 125 (0x7D), with dots 1,3,4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 126 (0x7E) to braille"}, {"role": "assistant", "content": "Byte 126 (0x7E) = ⡾ (dots: 2,3,4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡾ represent?"}, {"role": "assistant", "content": "⡾ represents byte 126 (0x7E), with dots 2,3,4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 127 (0x7F) to braille"}, {"role": "assistant", "content": "Byte 127 (0x7F) = ⡿ (dots: 1,2,3,4,5,6,7)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⡿ represent?"}, {"role": "assistant", "content": "⡿ represents byte 127 (0x7F), with dots 1,2,3,4,5,6,7 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 128 (0x80) to braille"}, {"role": "assistant", "content": "Byte 128 (0x80) = ⢀ (dots: 8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢀ represent?"}, {"role": "assistant", "content": "⢀ represents byte 128 (0x80), with dots 8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 129 (0x81) to braille"}, {"role": "assistant", "content": "Byte 129 (0x81) = ⢁ (dots: 1,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢁ represent?"}, {"role": "assistant", "content": "⢁ represents byte 129 (0x81), with dots 1,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 130 (0x82) to braille"}, {"role": "assistant", "content": "Byte 130 (0x82) = ⢂ (dots: 2,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢂ represent?"}, {"role": "assistant", "content": "⢂ represents byte 130 (0x82), with dots 2,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 131 (0x83) to braille"}, {"role": "assistant", "content": "Byte 131 (0x83) = ⢃ (dots: 1,2,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢃ represent?"}, {"role": "assistant", "content": "⢃ represents byte 131 (0x83), with dots 1,2,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 132 (0x84) to braille"}, {"role": "assistant", "content": "Byte 132 (0x84) = ⢄ (dots: 3,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢄ represent?"}, {"role": "assistant", "content": "⢄ represents byte 132 (0x84), with dots 3,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 133 (0x85) to braille"}, {"role": "assistant", "content": "Byte 133 (0x85) = ⢅ (dots: 1,3,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢅ represent?"}, {"role": "assistant", "content": "⢅ represents byte 133 (0x85), with dots 1,3,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 134 (0x86) to braille"}, {"role": "assistant", "content": "Byte 134 (0x86) = ⢆ (dots: 2,3,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢆ represent?"}, {"role": "assistant", "content": "⢆ represents byte 134 (0x86), with dots 2,3,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 135 (0x87) to braille"}, {"role": "assistant", "content": "Byte 135 (0x87) = ⢇ (dots: 1,2,3,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢇ represent?"}, {"role": "assistant", "content": "⢇ represents byte 135 (0x87), with dots 1,2,3,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 136 (0x88) to braille"}, {"role": "assistant", "content": "Byte 136 (0x88) = ⢈ (dots: 4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢈ represent?"}, {"role": "assistant", "content": "⢈ represents byte 136 (0x88), with dots 4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 137 (0x89) to braille"}, {"role": "assistant", "content": "Byte 137 (0x89) = ⢉ (dots: 1,4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢉ represent?"}, {"role": "assistant", "content": "⢉ represents byte 137 (0x89), with dots 1,4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 138 (0x8A) to braille"}, {"role": "assistant", "content": "Byte 138 (0x8A) = ⢊ (dots: 2,4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢊ represent?"}, {"role": "assistant", "content": "⢊ represents byte 138 (0x8A), with dots 2,4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 139 (0x8B) to braille"}, {"role": "assistant", "content": "Byte 139 (0x8B) = ⢋ (dots: 1,2,4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢋ represent?"}, {"role": "assistant", "content": "⢋ represents byte 139 (0x8B), with dots 1,2,4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 140 (0x8C) to braille"}, {"role": "assistant", "content": "Byte 140 (0x8C) = ⢌ (dots: 3,4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢌ represent?"}, {"role": "assistant", "content": "⢌ represents byte 140 (0x8C), with dots 3,4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 141 (0x8D) to braille"}, {"role": "assistant", "content": "Byte 141 (0x8D) = ⢍ (dots: 1,3,4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢍ represent?"}, {"role": "assistant", "content": "⢍ represents byte 141 (0x8D), with dots 1,3,4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 142 (0x8E) to braille"}, {"role": "assistant", "content": "Byte 142 (0x8E) = ⢎ (dots: 2,3,4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢎ represent?"}, {"role": "assistant", "content": "⢎ represents byte 142 (0x8E), with dots 2,3,4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 143 (0x8F) to braille"}, {"role": "assistant", "content": "Byte 143 (0x8F) = ⢏ (dots: 1,2,3,4,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢏ represent?"}, {"role": "assistant", "content": "⢏ represents byte 143 (0x8F), with dots 1,2,3,4,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 144 (0x90) to braille"}, {"role": "assistant", "content": "Byte 144 (0x90) = ⢐ (dots: 5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢐ represent?"}, {"role": "assistant", "content": "⢐ represents byte 144 (0x90), with dots 5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 145 (0x91) to braille"}, {"role": "assistant", "content": "Byte 145 (0x91) = ⢑ (dots: 1,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢑ represent?"}, {"role": "assistant", "content": "⢑ represents byte 145 (0x91), with dots 1,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 146 (0x92) to braille"}, {"role": "assistant", "content": "Byte 146 (0x92) = ⢒ (dots: 2,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢒ represent?"}, {"role": "assistant", "content": "⢒ represents byte 146 (0x92), with dots 2,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 147 (0x93) to braille"}, {"role": "assistant", "content": "Byte 147 (0x93) = ⢓ (dots: 1,2,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢓ represent?"}, {"role": "assistant", "content": "⢓ represents byte 147 (0x93), with dots 1,2,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 148 (0x94) to braille"}, {"role": "assistant", "content": "Byte 148 (0x94) = ⢔ (dots: 3,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢔ represent?"}, {"role": "assistant", "content": "⢔ represents byte 148 (0x94), with dots 3,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 149 (0x95) to braille"}, {"role": "assistant", "content": "Byte 149 (0x95) = ⢕ (dots: 1,3,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢕ represent?"}, {"role": "assistant", "content": "⢕ represents byte 149 (0x95), with dots 1,3,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 150 (0x96) to braille"}, {"role": "assistant", "content": "Byte 150 (0x96) = ⢖ (dots: 2,3,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢖ represent?"}, {"role": "assistant", "content": "⢖ represents byte 150 (0x96), with dots 2,3,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 151 (0x97) to braille"}, {"role": "assistant", "content": "Byte 151 (0x97) = ⢗ (dots: 1,2,3,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢗ represent?"}, {"role": "assistant", "content": "⢗ represents byte 151 (0x97), with dots 1,2,3,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 152 (0x98) to braille"}, {"role": "assistant", "content": "Byte 152 (0x98) = ⢘ (dots: 4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢘ represent?"}, {"role": "assistant", "content": "⢘ represents byte 152 (0x98), with dots 4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 153 (0x99) to braille"}, {"role": "assistant", "content": "Byte 153 (0x99) = ⢙ (dots: 1,4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢙ represent?"}, {"role": "assistant", "content": "⢙ represents byte 153 (0x99), with dots 1,4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 154 (0x9A) to braille"}, {"role": "assistant", "content": "Byte 154 (0x9A) = ⢚ (dots: 2,4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢚ represent?"}, {"role": "assistant", "content": "⢚ represents byte 154 (0x9A), with dots 2,4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 155 (0x9B) to braille"}, {"role": "assistant", "content": "Byte 155 (0x9B) = ⢛ (dots: 1,2,4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢛ represent?"}, {"role": "assistant", "content": "⢛ represents byte 155 (0x9B), with dots 1,2,4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 156 (0x9C) to braille"}, {"role": "assistant", "content": "Byte 156 (0x9C) = ⢜ (dots: 3,4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢜ represent?"}, {"role": "assistant", "content": "⢜ represents byte 156 (0x9C), with dots 3,4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 157 (0x9D) to braille"}, {"role": "assistant", "content": "Byte 157 (0x9D) = ⢝ (dots: 1,3,4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢝ represent?"}, {"role": "assistant", "content": "⢝ represents byte 157 (0x9D), with dots 1,3,4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 158 (0x9E) to braille"}, {"role": "assistant", "content": "Byte 158 (0x9E) = ⢞ (dots: 2,3,4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢞ represent?"}, {"role": "assistant", "content": "⢞ represents byte 158 (0x9E), with dots 2,3,4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 159 (0x9F) to braille"}, {"role": "assistant", "content": "Byte 159 (0x9F) = ⢟ (dots: 1,2,3,4,5,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢟ represent?"}, {"role": "assistant", "content": "⢟ represents byte 159 (0x9F), with dots 1,2,3,4,5,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 160 (0xA0) to braille"}, {"role": "assistant", "content": "Byte 160 (0xA0) = ⢠ (dots: 6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢠ represent?"}, {"role": "assistant", "content": "⢠ represents byte 160 (0xA0), with dots 6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 161 (0xA1) to braille"}, {"role": "assistant", "content": "Byte 161 (0xA1) = ⢡ (dots: 1,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢡ represent?"}, {"role": "assistant", "content": "⢡ represents byte 161 (0xA1), with dots 1,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 162 (0xA2) to braille"}, {"role": "assistant", "content": "Byte 162 (0xA2) = ⢢ (dots: 2,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢢ represent?"}, {"role": "assistant", "content": "⢢ represents byte 162 (0xA2), with dots 2,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 163 (0xA3) to braille"}, {"role": "assistant", "content": "Byte 163 (0xA3) = ⢣ (dots: 1,2,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢣ represent?"}, {"role": "assistant", "content": "⢣ represents byte 163 (0xA3), with dots 1,2,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 164 (0xA4) to braille"}, {"role": "assistant", "content": "Byte 164 (0xA4) = ⢤ (dots: 3,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢤ represent?"}, {"role": "assistant", "content": "⢤ represents byte 164 (0xA4), with dots 3,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 165 (0xA5) to braille"}, {"role": "assistant", "content": "Byte 165 (0xA5) = ⢥ (dots: 1,3,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢥ represent?"}, {"role": "assistant", "content": "⢥ represents byte 165 (0xA5), with dots 1,3,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 166 (0xA6) to braille"}, {"role": "assistant", "content": "Byte 166 (0xA6) = ⢦ (dots: 2,3,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢦ represent?"}, {"role": "assistant", "content": "⢦ represents byte 166 (0xA6), with dots 2,3,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 167 (0xA7) to braille"}, {"role": "assistant", "content": "Byte 167 (0xA7) = ⢧ (dots: 1,2,3,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢧ represent?"}, {"role": "assistant", "content": "⢧ represents byte 167 (0xA7), with dots 1,2,3,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 168 (0xA8) to braille"}, {"role": "assistant", "content": "Byte 168 (0xA8) = ⢨ (dots: 4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢨ represent?"}, {"role": "assistant", "content": "⢨ represents byte 168 (0xA8), with dots 4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 169 (0xA9) to braille"}, {"role": "assistant", "content": "Byte 169 (0xA9) = ⢩ (dots: 1,4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢩ represent?"}, {"role": "assistant", "content": "⢩ represents byte 169 (0xA9), with dots 1,4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 170 (0xAA) to braille"}, {"role": "assistant", "content": "Byte 170 (0xAA) = ⢪ (dots: 2,4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢪ represent?"}, {"role": "assistant", "content": "⢪ represents byte 170 (0xAA), with dots 2,4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 171 (0xAB) to braille"}, {"role": "assistant", "content": "Byte 171 (0xAB) = ⢫ (dots: 1,2,4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢫ represent?"}, {"role": "assistant", "content": "⢫ represents byte 171 (0xAB), with dots 1,2,4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 172 (0xAC) to braille"}, {"role": "assistant", "content": "Byte 172 (0xAC) = ⢬ (dots: 3,4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢬ represent?"}, {"role": "assistant", "content": "⢬ represents byte 172 (0xAC), with dots 3,4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 173 (0xAD) to braille"}, {"role": "assistant", "content": "Byte 173 (0xAD) = ⢭ (dots: 1,3,4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢭ represent?"}, {"role": "assistant", "content": "⢭ represents byte 173 (0xAD), with dots 1,3,4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 174 (0xAE) to braille"}, {"role": "assistant", "content": "Byte 174 (0xAE) = ⢮ (dots: 2,3,4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢮ represent?"}, {"role": "assistant", "content": "⢮ represents byte 174 (0xAE), with dots 2,3,4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 175 (0xAF) to braille"}, {"role": "assistant", "content": "Byte 175 (0xAF) = ⢯ (dots: 1,2,3,4,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢯ represent?"}, {"role": "assistant", "content": "⢯ represents byte 175 (0xAF), with dots 1,2,3,4,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 176 (0xB0) to braille"}, {"role": "assistant", "content": "Byte 176 (0xB0) = ⢰ (dots: 5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢰ represent?"}, {"role": "assistant", "content": "⢰ represents byte 176 (0xB0), with dots 5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 177 (0xB1) to braille"}, {"role": "assistant", "content": "Byte 177 (0xB1) = ⢱ (dots: 1,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢱ represent?"}, {"role": "assistant", "content": "⢱ represents byte 177 (0xB1), with dots 1,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 178 (0xB2) to braille"}, {"role": "assistant", "content": "Byte 178 (0xB2) = ⢲ (dots: 2,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢲ represent?"}, {"role": "assistant", "content": "⢲ represents byte 178 (0xB2), with dots 2,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 179 (0xB3) to braille"}, {"role": "assistant", "content": "Byte 179 (0xB3) = ⢳ (dots: 1,2,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢳ represent?"}, {"role": "assistant", "content": "⢳ represents byte 179 (0xB3), with dots 1,2,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 180 (0xB4) to braille"}, {"role": "assistant", "content": "Byte 180 (0xB4) = ⢴ (dots: 3,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢴ represent?"}, {"role": "assistant", "content": "⢴ represents byte 180 (0xB4), with dots 3,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 181 (0xB5) to braille"}, {"role": "assistant", "content": "Byte 181 (0xB5) = ⢵ (dots: 1,3,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢵ represent?"}, {"role": "assistant", "content": "⢵ represents byte 181 (0xB5), with dots 1,3,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 182 (0xB6) to braille"}, {"role": "assistant", "content": "Byte 182 (0xB6) = ⢶ (dots: 2,3,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢶ represent?"}, {"role": "assistant", "content": "⢶ represents byte 182 (0xB6), with dots 2,3,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 183 (0xB7) to braille"}, {"role": "assistant", "content": "Byte 183 (0xB7) = ⢷ (dots: 1,2,3,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢷ represent?"}, {"role": "assistant", "content": "⢷ represents byte 183 (0xB7), with dots 1,2,3,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 184 (0xB8) to braille"}, {"role": "assistant", "content": "Byte 184 (0xB8) = ⢸ (dots: 4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢸ represent?"}, {"role": "assistant", "content": "⢸ represents byte 184 (0xB8), with dots 4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 185 (0xB9) to braille"}, {"role": "assistant", "content": "Byte 185 (0xB9) = ⢹ (dots: 1,4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢹ represent?"}, {"role": "assistant", "content": "⢹ represents byte 185 (0xB9), with dots 1,4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 186 (0xBA) to braille"}, {"role": "assistant", "content": "Byte 186 (0xBA) = ⢺ (dots: 2,4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢺ represent?"}, {"role": "assistant", "content": "⢺ represents byte 186 (0xBA), with dots 2,4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 187 (0xBB) to braille"}, {"role": "assistant", "content": "Byte 187 (0xBB) = ⢻ (dots: 1,2,4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢻ represent?"}, {"role": "assistant", "content": "⢻ represents byte 187 (0xBB), with dots 1,2,4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 188 (0xBC) to braille"}, {"role": "assistant", "content": "Byte 188 (0xBC) = ⢼ (dots: 3,4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢼ represent?"}, {"role": "assistant", "content": "⢼ represents byte 188 (0xBC), with dots 3,4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 189 (0xBD) to braille"}, {"role": "assistant", "content": "Byte 189 (0xBD) = ⢽ (dots: 1,3,4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢽ represent?"}, {"role": "assistant", "content": "⢽ represents byte 189 (0xBD), with dots 1,3,4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 190 (0xBE) to braille"}, {"role": "assistant", "content": "Byte 190 (0xBE) = ⢾ (dots: 2,3,4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢾ represent?"}, {"role": "assistant", "content": "⢾ represents byte 190 (0xBE), with dots 2,3,4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 191 (0xBF) to braille"}, {"role": "assistant", "content": "Byte 191 (0xBF) = ⢿ (dots: 1,2,3,4,5,6,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⢿ represent?"}, {"role": "assistant", "content": "⢿ represents byte 191 (0xBF), with dots 1,2,3,4,5,6,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 192 (0xC0) to braille"}, {"role": "assistant", "content": "Byte 192 (0xC0) = ⣀ (dots: 7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣀ represent?"}, {"role": "assistant", "content": "⣀ represents byte 192 (0xC0), with dots 7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 193 (0xC1) to braille"}, {"role": "assistant", "content": "Byte 193 (0xC1) = ⣁ (dots: 1,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣁ represent?"}, {"role": "assistant", "content": "⣁ represents byte 193 (0xC1), with dots 1,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 194 (0xC2) to braille"}, {"role": "assistant", "content": "Byte 194 (0xC2) = ⣂ (dots: 2,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣂ represent?"}, {"role": "assistant", "content": "⣂ represents byte 194 (0xC2), with dots 2,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 195 (0xC3) to braille"}, {"role": "assistant", "content": "Byte 195 (0xC3) = ⣃ (dots: 1,2,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣃ represent?"}, {"role": "assistant", "content": "⣃ represents byte 195 (0xC3), with dots 1,2,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 196 (0xC4) to braille"}, {"role": "assistant", "content": "Byte 196 (0xC4) = ⣄ (dots: 3,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣄ represent?"}, {"role": "assistant", "content": "⣄ represents byte 196 (0xC4), with dots 3,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 197 (0xC5) to braille"}, {"role": "assistant", "content": "Byte 197 (0xC5) = ⣅ (dots: 1,3,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣅ represent?"}, {"role": "assistant", "content": "⣅ represents byte 197 (0xC5), with dots 1,3,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 198 (0xC6) to braille"}, {"role": "assistant", "content": "Byte 198 (0xC6) = ⣆ (dots: 2,3,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣆ represent?"}, {"role": "assistant", "content": "⣆ represents byte 198 (0xC6), with dots 2,3,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 199 (0xC7) to braille"}, {"role": "assistant", "content": "Byte 199 (0xC7) = ⣇ (dots: 1,2,3,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣇ represent?"}, {"role": "assistant", "content": "⣇ represents byte 199 (0xC7), with dots 1,2,3,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 200 (0xC8) to braille"}, {"role": "assistant", "content": "Byte 200 (0xC8) = ⣈ (dots: 4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣈ represent?"}, {"role": "assistant", "content": "⣈ represents byte 200 (0xC8), with dots 4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 201 (0xC9) to braille"}, {"role": "assistant", "content": "Byte 201 (0xC9) = ⣉ (dots: 1,4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣉ represent?"}, {"role": "assistant", "content": "⣉ represents byte 201 (0xC9), with dots 1,4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 202 (0xCA) to braille"}, {"role": "assistant", "content": "Byte 202 (0xCA) = ⣊ (dots: 2,4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣊ represent?"}, {"role": "assistant", "content": "⣊ represents byte 202 (0xCA), with dots 2,4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 203 (0xCB) to braille"}, {"role": "assistant", "content": "Byte 203 (0xCB) = ⣋ (dots: 1,2,4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣋ represent?"}, {"role": "assistant", "content": "⣋ represents byte 203 (0xCB), with dots 1,2,4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 204 (0xCC) to braille"}, {"role": "assistant", "content": "Byte 204 (0xCC) = ⣌ (dots: 3,4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣌ represent?"}, {"role": "assistant", "content": "⣌ represents byte 204 (0xCC), with dots 3,4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 205 (0xCD) to braille"}, {"role": "assistant", "content": "Byte 205 (0xCD) = ⣍ (dots: 1,3,4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣍ represent?"}, {"role": "assistant", "content": "⣍ represents byte 205 (0xCD), with dots 1,3,4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 206 (0xCE) to braille"}, {"role": "assistant", "content": "Byte 206 (0xCE) = ⣎ (dots: 2,3,4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣎ represent?"}, {"role": "assistant", "content": "⣎ represents byte 206 (0xCE), with dots 2,3,4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 207 (0xCF) to braille"}, {"role": "assistant", "content": "Byte 207 (0xCF) = ⣏ (dots: 1,2,3,4,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣏ represent?"}, {"role": "assistant", "content": "⣏ represents byte 207 (0xCF), with dots 1,2,3,4,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 208 (0xD0) to braille"}, {"role": "assistant", "content": "Byte 208 (0xD0) = ⣐ (dots: 5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣐ represent?"}, {"role": "assistant", "content": "⣐ represents byte 208 (0xD0), with dots 5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 209 (0xD1) to braille"}, {"role": "assistant", "content": "Byte 209 (0xD1) = ⣑ (dots: 1,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣑ represent?"}, {"role": "assistant", "content": "⣑ represents byte 209 (0xD1), with dots 1,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 210 (0xD2) to braille"}, {"role": "assistant", "content": "Byte 210 (0xD2) = ⣒ (dots: 2,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣒ represent?"}, {"role": "assistant", "content": "⣒ represents byte 210 (0xD2), with dots 2,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 211 (0xD3) to braille"}, {"role": "assistant", "content": "Byte 211 (0xD3) = ⣓ (dots: 1,2,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣓ represent?"}, {"role": "assistant", "content": "⣓ represents byte 211 (0xD3), with dots 1,2,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 212 (0xD4) to braille"}, {"role": "assistant", "content": "Byte 212 (0xD4) = ⣔ (dots: 3,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣔ represent?"}, {"role": "assistant", "content": "⣔ represents byte 212 (0xD4), with dots 3,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 213 (0xD5) to braille"}, {"role": "assistant", "content": "Byte 213 (0xD5) = ⣕ (dots: 1,3,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣕ represent?"}, {"role": "assistant", "content": "⣕ represents byte 213 (0xD5), with dots 1,3,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 214 (0xD6) to braille"}, {"role": "assistant", "content": "Byte 214 (0xD6) = ⣖ (dots: 2,3,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣖ represent?"}, {"role": "assistant", "content": "⣖ represents byte 214 (0xD6), with dots 2,3,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 215 (0xD7) to braille"}, {"role": "assistant", "content": "Byte 215 (0xD7) = ⣗ (dots: 1,2,3,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣗ represent?"}, {"role": "assistant", "content": "⣗ represents byte 215 (0xD7), with dots 1,2,3,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 216 (0xD8) to braille"}, {"role": "assistant", "content": "Byte 216 (0xD8) = ⣘ (dots: 4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣘ represent?"}, {"role": "assistant", "content": "⣘ represents byte 216 (0xD8), with dots 4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 217 (0xD9) to braille"}, {"role": "assistant", "content": "Byte 217 (0xD9) = ⣙ (dots: 1,4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣙ represent?"}, {"role": "assistant", "content": "⣙ represents byte 217 (0xD9), with dots 1,4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 218 (0xDA) to braille"}, {"role": "assistant", "content": "Byte 218 (0xDA) = ⣚ (dots: 2,4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣚ represent?"}, {"role": "assistant", "content": "⣚ represents byte 218 (0xDA), with dots 2,4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 219 (0xDB) to braille"}, {"role": "assistant", "content": "Byte 219 (0xDB) = ⣛ (dots: 1,2,4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣛ represent?"}, {"role": "assistant", "content": "⣛ represents byte 219 (0xDB), with dots 1,2,4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 220 (0xDC) to braille"}, {"role": "assistant", "content": "Byte 220 (0xDC) = ⣜ (dots: 3,4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣜ represent?"}, {"role": "assistant", "content": "⣜ represents byte 220 (0xDC), with dots 3,4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 221 (0xDD) to braille"}, {"role": "assistant", "content": "Byte 221 (0xDD) = ⣝ (dots: 1,3,4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣝ represent?"}, {"role": "assistant", "content": "⣝ represents byte 221 (0xDD), with dots 1,3,4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 222 (0xDE) to braille"}, {"role": "assistant", "content": "Byte 222 (0xDE) = ⣞ (dots: 2,3,4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣞ represent?"}, {"role": "assistant", "content": "⣞ represents byte 222 (0xDE), with dots 2,3,4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 223 (0xDF) to braille"}, {"role": "assistant", "content": "Byte 223 (0xDF) = ⣟ (dots: 1,2,3,4,5,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣟ represent?"}, {"role": "assistant", "content": "⣟ represents byte 223 (0xDF), with dots 1,2,3,4,5,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 224 (0xE0) to braille"}, {"role": "assistant", "content": "Byte 224 (0xE0) = ⣠ (dots: 6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣠ represent?"}, {"role": "assistant", "content": "⣠ represents byte 224 (0xE0), with dots 6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 225 (0xE1) to braille"}, {"role": "assistant", "content": "Byte 225 (0xE1) = ⣡ (dots: 1,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣡ represent?"}, {"role": "assistant", "content": "⣡ represents byte 225 (0xE1), with dots 1,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 226 (0xE2) to braille"}, {"role": "assistant", "content": "Byte 226 (0xE2) = ⣢ (dots: 2,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣢ represent?"}, {"role": "assistant", "content": "⣢ represents byte 226 (0xE2), with dots 2,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 227 (0xE3) to braille"}, {"role": "assistant", "content": "Byte 227 (0xE3) = ⣣ (dots: 1,2,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣣ represent?"}, {"role": "assistant", "content": "⣣ represents byte 227 (0xE3), with dots 1,2,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 228 (0xE4) to braille"}, {"role": "assistant", "content": "Byte 228 (0xE4) = ⣤ (dots: 3,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣤ represent?"}, {"role": "assistant", "content": "⣤ represents byte 228 (0xE4), with dots 3,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 229 (0xE5) to braille"}, {"role": "assistant", "content": "Byte 229 (0xE5) = ⣥ (dots: 1,3,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣥ represent?"}, {"role": "assistant", "content": "⣥ represents byte 229 (0xE5), with dots 1,3,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 230 (0xE6) to braille"}, {"role": "assistant", "content": "Byte 230 (0xE6) = ⣦ (dots: 2,3,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣦ represent?"}, {"role": "assistant", "content": "⣦ represents byte 230 (0xE6), with dots 2,3,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 231 (0xE7) to braille"}, {"role": "assistant", "content": "Byte 231 (0xE7) = ⣧ (dots: 1,2,3,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣧ represent?"}, {"role": "assistant", "content": "⣧ represents byte 231 (0xE7), with dots 1,2,3,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 232 (0xE8) to braille"}, {"role": "assistant", "content": "Byte 232 (0xE8) = ⣨ (dots: 4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣨ represent?"}, {"role": "assistant", "content": "⣨ represents byte 232 (0xE8), with dots 4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 233 (0xE9) to braille"}, {"role": "assistant", "content": "Byte 233 (0xE9) = ⣩ (dots: 1,4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣩ represent?"}, {"role": "assistant", "content": "⣩ represents byte 233 (0xE9), with dots 1,4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 234 (0xEA) to braille"}, {"role": "assistant", "content": "Byte 234 (0xEA) = ⣪ (dots: 2,4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣪ represent?"}, {"role": "assistant", "content": "⣪ represents byte 234 (0xEA), with dots 2,4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 235 (0xEB) to braille"}, {"role": "assistant", "content": "Byte 235 (0xEB) = ⣫ (dots: 1,2,4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣫ represent?"}, {"role": "assistant", "content": "⣫ represents byte 235 (0xEB), with dots 1,2,4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 236 (0xEC) to braille"}, {"role": "assistant", "content": "Byte 236 (0xEC) = ⣬ (dots: 3,4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣬ represent?"}, {"role": "assistant", "content": "⣬ represents byte 236 (0xEC), with dots 3,4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 237 (0xED) to braille"}, {"role": "assistant", "content": "Byte 237 (0xED) = ⣭ (dots: 1,3,4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣭ represent?"}, {"role": "assistant", "content": "⣭ represents byte 237 (0xED), with dots 1,3,4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 238 (0xEE) to braille"}, {"role": "assistant", "content": "Byte 238 (0xEE) = ⣮ (dots: 2,3,4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣮ represent?"}, {"role": "assistant", "content": "⣮ represents byte 238 (0xEE), with dots 2,3,4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 239 (0xEF) to braille"}, {"role": "assistant", "content": "Byte 239 (0xEF) = ⣯ (dots: 1,2,3,4,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣯ represent?"}, {"role": "assistant", "content": "⣯ represents byte 239 (0xEF), with dots 1,2,3,4,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 240 (0xF0) to braille"}, {"role": "assistant", "content": "Byte 240 (0xF0) = ⣰ (dots: 5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣰ represent?"}, {"role": "assistant", "content": "⣰ represents byte 240 (0xF0), with dots 5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 241 (0xF1) to braille"}, {"role": "assistant", "content": "Byte 241 (0xF1) = ⣱ (dots: 1,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣱ represent?"}, {"role": "assistant", "content": "⣱ represents byte 241 (0xF1), with dots 1,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 242 (0xF2) to braille"}, {"role": "assistant", "content": "Byte 242 (0xF2) = ⣲ (dots: 2,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣲ represent?"}, {"role": "assistant", "content": "⣲ represents byte 242 (0xF2), with dots 2,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 243 (0xF3) to braille"}, {"role": "assistant", "content": "Byte 243 (0xF3) = ⣳ (dots: 1,2,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣳ represent?"}, {"role": "assistant", "content": "⣳ represents byte 243 (0xF3), with dots 1,2,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 244 (0xF4) to braille"}, {"role": "assistant", "content": "Byte 244 (0xF4) = ⣴ (dots: 3,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣴ represent?"}, {"role": "assistant", "content": "⣴ represents byte 244 (0xF4), with dots 3,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 245 (0xF5) to braille"}, {"role": "assistant", "content": "Byte 245 (0xF5) = ⣵ (dots: 1,3,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣵ represent?"}, {"role": "assistant", "content": "⣵ represents byte 245 (0xF5), with dots 1,3,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 246 (0xF6) to braille"}, {"role": "assistant", "content": "Byte 246 (0xF6) = ⣶ (dots: 2,3,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣶ represent?"}, {"role": "assistant", "content": "⣶ represents byte 246 (0xF6), with dots 2,3,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 247 (0xF7) to braille"}, {"role": "assistant", "content": "Byte 247 (0xF7) = ⣷ (dots: 1,2,3,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣷ represent?"}, {"role": "assistant", "content": "⣷ represents byte 247 (0xF7), with dots 1,2,3,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 248 (0xF8) to braille"}, {"role": "assistant", "content": "Byte 248 (0xF8) = ⣸ (dots: 4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣸ represent?"}, {"role": "assistant", "content": "⣸ represents byte 248 (0xF8), with dots 4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 249 (0xF9) to braille"}, {"role": "assistant", "content": "Byte 249 (0xF9) = ⣹ (dots: 1,4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣹ represent?"}, {"role": "assistant", "content": "⣹ represents byte 249 (0xF9), with dots 1,4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 250 (0xFA) to braille"}, {"role": "assistant", "content": "Byte 250 (0xFA) = ⣺ (dots: 2,4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣺ represent?"}, {"role": "assistant", "content": "⣺ represents byte 250 (0xFA), with dots 2,4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 251 (0xFB) to braille"}, {"role": "assistant", "content": "Byte 251 (0xFB) = ⣻ (dots: 1,2,4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣻ represent?"}, {"role": "assistant", "content": "⣻ represents byte 251 (0xFB), with dots 1,2,4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 252 (0xFC) to braille"}, {"role": "assistant", "content": "Byte 252 (0xFC) = ⣼ (dots: 3,4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣼ represent?"}, {"role": "assistant", "content": "⣼ represents byte 252 (0xFC), with dots 3,4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 253 (0xFD) to braille"}, {"role": "assistant", "content": "Byte 253 (0xFD) = ⣽ (dots: 1,3,4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣽ represent?"}, {"role": "assistant", "content": "⣽ represents byte 253 (0xFD), with dots 1,3,4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 254 (0xFE) to braille"}, {"role": "assistant", "content": "Byte 254 (0xFE) = ⣾ (dots: 2,3,4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣾ represent?"}, {"role": "assistant", "content": "⣾ represents byte 254 (0xFE), with dots 2,3,4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Convert byte 255 (0xFF) to braille"}, {"role": "assistant", "content": "Byte 255 (0xFF) = ⣿ (dots: 1,2,3,4,5,6,7,8)"}]}
+{"messages": [{"role": "user", "content": "What byte does ⣿ represent?"}, {"role": "assistant", "content": "⣿ represents byte 255 (0xFF), with dots 1,2,3,4,5,6,7,8 raised."}]}
+{"messages": [{"role": "user", "content": "Encode 'ASCII text' as braille"}, {"role": "assistant", "content": "The ASCII text bytes [0x48 0x65 0x6C 0x6C 0x6F] encode to braille: ⡈⡥⡬⡬⡯"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⡈⡥⡬⡬⡯"}, {"role": "assistant", "content": "The braille ⡈⡥⡬⡬⡯ decodes to bytes [0x48 0x65 0x6C 0x6C 0x6F], which is a ASCII text."}]}
+{"messages": [{"role": "user", "content": "Encode 'sequential bytes' as braille"}, {"role": "assistant", "content": "The sequential bytes bytes [0x00 0x01 0x02 0x03] encode to braille: ⠀⠁⠂⠃"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⠀⠁⠂⠃"}, {"role": "assistant", "content": "The braille ⠀⠁⠂⠃ decodes to bytes [0x00 0x01 0x02 0x03], which is a sequential bytes."}]}
+{"messages": [{"role": "user", "content": "Encode 'high bytes' as braille"}, {"role": "assistant", "content": "The high bytes bytes [0xFF 0xFE 0xFD 0xFC] encode to braille: ⣿⣾⣽⣼"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⣿⣾⣽⣼"}, {"role": "assistant", "content": "The braille ⣿⣾⣽⣼ decodes to bytes [0xFF 0xFE 0xFD 0xFC], which is a high bytes."}]}
+{"messages": [{"role": "user", "content": "Encode 'PNG header' as braille"}, {"role": "assistant", "content": "The PNG header bytes [0x89 0x50 0x4E 0x47] encode to braille: ⢉⡐⡎⡇"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⢉⡐⡎⡇"}, {"role": "assistant", "content": "The braille ⢉⡐⡎⡇ decodes to bytes [0x89 0x50 0x4E 0x47], which is a PNG header."}]}
+{"messages": [{"role": "user", "content": "Encode 'ZIP header' as braille"}, {"role": "assistant", "content": "The ZIP header bytes [0x50 0x4B 0x03 0x04] encode to braille: ⡐⡋⠃⠄"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⡐⡋⠃⠄"}, {"role": "assistant", "content": "The braille ⡐⡋⠃⠄ decodes to bytes [0x50 0x4B 0x03 0x04], which is a ZIP header."}]}
+{"messages": [{"role": "user", "content": "Encode 'JPEG header' as braille"}, {"role": "assistant", "content": "The JPEG header bytes [0xFF 0xD8 0xFF 0xE0] encode to braille: ⣿⣘⣿⣠"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⣿⣘⣿⣠"}, {"role": "assistant", "content": "The braille ⣿⣘⣿⣠ decodes to bytes [0xFF 0xD8 0xFF 0xE0], which is a JPEG header."}]}
+{"messages": [{"role": "user", "content": "Encode 'PDF header' as braille"}, {"role": "assistant", "content": "The PDF header bytes [0x25 0x50 0x44 0x46] encode to braille: ⠥⡐⡄⡆"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⠥⡐⡄⡆"}, {"role": "assistant", "content": "The braille ⠥⡐⡄⡆ decodes to bytes [0x25 0x50 0x44 0x46], which is a PDF header."}]}
+{"messages": [{"role": "user", "content": "Encode 'GZIP header' as braille"}, {"role": "assistant", "content": "The GZIP header bytes [0x1F 0x8B] encode to braille: ⠟⢋"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⠟⢋"}, {"role": "assistant", "content": "The braille ⠟⢋ decodes to bytes [0x1F 0x8B], which is a GZIP header."}]}
+{"messages": [{"role": "user", "content": "Encode 'ELF executable' as braille"}, {"role": "assistant", "content": "The ELF executable bytes [0x7F 0x45 0x4C 0x46] encode to braille: ⡿⡅⡌⡆"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⡿⡅⡌⡆"}, {"role": "assistant", "content": "The braille ⡿⡅⡌⡆ decodes to bytes [0x7F 0x45 0x4C 0x46], which is a ELF executable."}]}
+{"messages": [{"role": "user", "content": "Encode 'GIF header' as braille"}, {"role": "assistant", "content": "The GIF header bytes [0x47 0x49 0x46 0x38 0x39 0x61] encode to braille: ⡇⡉⡆⠸⠹⡡"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⡇⡉⡆⠸⠹⡡"}, {"role": "assistant", "content": "The braille ⡇⡉⡆⠸⠹⡡ decodes to bytes [0x47 0x49 0x46 0x38 0x39 0x61], which is a GIF header."}]}
+{"messages": [{"role": "user", "content": "Encode 'WAV/AVI header' as braille"}, {"role": "assistant", "content": "The WAV/AVI header bytes [0x52 0x49 0x46 0x46] encode to braille: ⡒⡉⡆⡆"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⡒⡉⡆⡆"}, {"role": "assistant", "content": "The braille ⡒⡉⡆⡆ decodes to bytes [0x52 0x49 0x46 0x46], which is a WAV/AVI header."}]}
+{"messages": [{"role": "user", "content": "Encode 'ICO header' as braille"}, {"role": "assistant", "content": "The ICO header bytes [0x00 0x00 0x01 0x00] encode to braille: ⠀⠀⠁⠀"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⠀⠀⠁⠀"}, {"role": "assistant", "content": "The braille ⠀⠀⠁⠀ decodes to bytes [0x00 0x00 0x01 0x00], which is a ICO header."}]}
+{"messages": [{"role": "user", "content": "Encode 'HTML doctype' as braille"}, {"role": "assistant", "content": "The HTML doctype bytes [0x3C 0x21 0x44 0x4F 0x43 0x54 0x59 0x50 0x45] encode to braille: ⠼⠡⡄⡏⡃⡔⡙⡐⡅"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⠼⠡⡄⡏⡃⡔⡙⡐⡅"}, {"role": "assistant", "content": "The braille ⠼⠡⡄⡏⡃⡔⡙⡐⡅ decodes to bytes [0x3C 0x21 0x44 0x4F 0x43 0x54 0x59 0x50 0x45], which is a HTML doctype."}]}
+{"messages": [{"role": "user", "content": "Encode 'JSON start' as braille"}, {"role": "assistant", "content": "The JSON start bytes [0x7B 0x22] encode to braille: ⡻⠢"}]}
+{"messages": [{"role": "user", "content": "What does this braille represent: ⡻⠢"}, {"role": "assistant", "content": "The braille ⡻⠢ decodes to bytes [0x7B 0x22], which is a JSON start."}]}

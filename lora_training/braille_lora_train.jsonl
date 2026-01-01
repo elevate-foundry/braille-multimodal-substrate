@@ -166,3 +166,543 @@
 {"instruction": "A child is learning the letter 'h'. Give a memorable hint about its braille pattern.", "input": "", "output": "The letter 'h' in braille is ⠓. Think of it like a little house! It has dots 1, 2, and 5 - two dots stacked on the left side (like a wall) and one dot on the right (like a window). H is for House!"}
 {"instruction": "A student got 3 correct and 7 wrong while learning braille. Give encouraging feedback.", "input": "", "output": "You're making progress! 3 correct answers means you're starting to recognize patterns. Braille takes practice - even Louis Braille took time to perfect his system. Focus on the letters you got right and build from there. Every expert was once a beginner!"}
 {"instruction": "Generate an easy braille practice exercise for a beginner.", "input": "", "output": "Try this: What letter is ⠑? Hint: It's a vowel and it's the most common letter in English! (Answer: 'e')"}
+{"instruction": "Convert byte 0 (0x00) to braille", "input": "", "output": "Byte 0 (0x00) = ⠀ (dots: none)"}
+{"instruction": "What byte does ⠀ represent?", "input": "", "output": "⠀ represents byte 0 (0x00), with dots none raised."}
+{"instruction": "Convert byte 1 (0x01) to braille", "input": "", "output": "Byte 1 (0x01) = ⠁ (dots: 1)"}
+{"instruction": "What byte does ⠁ represent?", "input": "", "output": "⠁ represents byte 1 (0x01), with dots 1 raised."}
+{"instruction": "Convert byte 2 (0x02) to braille", "input": "", "output": "Byte 2 (0x02) = ⠂ (dots: 2)"}
+{"instruction": "What byte does ⠂ represent?", "input": "", "output": "⠂ represents byte 2 (0x02), with dots 2 raised."}
+{"instruction": "Convert byte 3 (0x03) to braille", "input": "", "output": "Byte 3 (0x03) = ⠃ (dots: 1,2)"}
+{"instruction": "What byte does ⠃ represent?", "input": "", "output": "⠃ represents byte 3 (0x03), with dots 1,2 raised."}
+{"instruction": "Convert byte 4 (0x04) to braille", "input": "", "output": "Byte 4 (0x04) = ⠄ (dots: 3)"}
+{"instruction": "What byte does ⠄ represent?", "input": "", "output": "⠄ represents byte 4 (0x04), with dots 3 raised."}
+{"instruction": "Convert byte 5 (0x05) to braille", "input": "", "output": "Byte 5 (0x05) = ⠅ (dots: 1,3)"}
+{"instruction": "What byte does ⠅ represent?", "input": "", "output": "⠅ represents byte 5 (0x05), with dots 1,3 raised."}
+{"instruction": "Convert byte 6 (0x06) to braille", "input": "", "output": "Byte 6 (0x06) = ⠆ (dots: 2,3)"}
+{"instruction": "What byte does ⠆ represent?", "input": "", "output": "⠆ represents byte 6 (0x06), with dots 2,3 raised."}
+{"instruction": "Convert byte 7 (0x07) to braille", "input": "", "output": "Byte 7 (0x07) = ⠇ (dots: 1,2,3)"}
+{"instruction": "What byte does ⠇ represent?", "input": "", "output": "⠇ represents byte 7 (0x07), with dots 1,2,3 raised."}
+{"instruction": "Convert byte 8 (0x08) to braille", "input": "", "output": "Byte 8 (0x08) = ⠈ (dots: 4)"}
+{"instruction": "What byte does ⠈ represent?", "input": "", "output": "⠈ represents byte 8 (0x08), with dots 4 raised."}
+{"instruction": "Convert byte 9 (0x09) to braille", "input": "", "output": "Byte 9 (0x09) = ⠉ (dots: 1,4)"}
+{"instruction": "What byte does ⠉ represent?", "input": "", "output": "⠉ represents byte 9 (0x09), with dots 1,4 raised."}
+{"instruction": "Convert byte 10 (0x0A) to braille", "input": "", "output": "Byte 10 (0x0A) = ⠊ (dots: 2,4)"}
+{"instruction": "What byte does ⠊ represent?", "input": "", "output": "⠊ represents byte 10 (0x0A), with dots 2,4 raised."}
+{"instruction": "Convert byte 11 (0x0B) to braille", "input": "", "output": "Byte 11 (0x0B) = ⠋ (dots: 1,2,4)"}
+{"instruction": "What byte does ⠋ represent?", "input": "", "output": "⠋ represents byte 11 (0x0B), with dots 1,2,4 raised."}
+{"instruction": "Convert byte 12 (0x0C) to braille", "input": "", "output": "Byte 12 (0x0C) = ⠌ (dots: 3,4)"}
+{"instruction": "What byte does ⠌ represent?", "input": "", "output": "⠌ represents byte 12 (0x0C), with dots 3,4 raised."}
+{"instruction": "Convert byte 13 (0x0D) to braille", "input": "", "output": "Byte 13 (0x0D) = ⠍ (dots: 1,3,4)"}
+{"instruction": "What byte does ⠍ represent?", "input": "", "output": "⠍ represents byte 13 (0x0D), with dots 1,3,4 raised."}
+{"instruction": "Convert byte 14 (0x0E) to braille", "input": "", "output": "Byte 14 (0x0E) = ⠎ (dots: 2,3,4)"}
+{"instruction": "What byte does ⠎ represent?", "input": "", "output": "⠎ represents byte 14 (0x0E), with dots 2,3,4 raised."}
+{"instruction": "Convert byte 15 (0x0F) to braille", "input": "", "output": "Byte 15 (0x0F) = ⠏ (dots: 1,2,3,4)"}
+{"instruction": "What byte does ⠏ represent?", "input": "", "output": "⠏ represents byte 15 (0x0F), with dots 1,2,3,4 raised."}
+{"instruction": "Convert byte 16 (0x10) to braille", "input": "", "output": "Byte 16 (0x10) = ⠐ (dots: 5)"}
+{"instruction": "What byte does ⠐ represent?", "input": "", "output": "⠐ represents byte 16 (0x10), with dots 5 raised."}
+{"instruction": "Convert byte 17 (0x11) to braille", "input": "", "output": "Byte 17 (0x11) = ⠑ (dots: 1,5)"}
+{"instruction": "What byte does ⠑ represent?", "input": "", "output": "⠑ represents byte 17 (0x11), with dots 1,5 raised."}
+{"instruction": "Convert byte 18 (0x12) to braille", "input": "", "output": "Byte 18 (0x12) = ⠒ (dots: 2,5)"}
+{"instruction": "What byte does ⠒ represent?", "input": "", "output": "⠒ represents byte 18 (0x12), with dots 2,5 raised."}
+{"instruction": "Convert byte 19 (0x13) to braille", "input": "", "output": "Byte 19 (0x13) = ⠓ (dots: 1,2,5)"}
+{"instruction": "What byte does ⠓ represent?", "input": "", "output": "⠓ represents byte 19 (0x13), with dots 1,2,5 raised."}
+{"instruction": "Convert byte 20 (0x14) to braille", "input": "", "output": "Byte 20 (0x14) = ⠔ (dots: 3,5)"}
+{"instruction": "What byte does ⠔ represent?", "input": "", "output": "⠔ represents byte 20 (0x14), with dots 3,5 raised."}
+{"instruction": "Convert byte 21 (0x15) to braille", "input": "", "output": "Byte 21 (0x15) = ⠕ (dots: 1,3,5)"}
+{"instruction": "What byte does ⠕ represent?", "input": "", "output": "⠕ represents byte 21 (0x15), with dots 1,3,5 raised."}
+{"instruction": "Convert byte 22 (0x16) to braille", "input": "", "output": "Byte 22 (0x16) = ⠖ (dots: 2,3,5)"}
+{"instruction": "What byte does ⠖ represent?", "input": "", "output": "⠖ represents byte 22 (0x16), with dots 2,3,5 raised."}
+{"instruction": "Convert byte 23 (0x17) to braille", "input": "", "output": "Byte 23 (0x17) = ⠗ (dots: 1,2,3,5)"}
+{"instruction": "What byte does ⠗ represent?", "input": "", "output": "⠗ represents byte 23 (0x17), with dots 1,2,3,5 raised."}
+{"instruction": "Convert byte 24 (0x18) to braille", "input": "", "output": "Byte 24 (0x18) = ⠘ (dots: 4,5)"}
+{"instruction": "What byte does ⠘ represent?", "input": "", "output": "⠘ represents byte 24 (0x18), with dots 4,5 raised."}
+{"instruction": "Convert byte 25 (0x19) to braille", "input": "", "output": "Byte 25 (0x19) = ⠙ (dots: 1,4,5)"}
+{"instruction": "What byte does ⠙ represent?", "input": "", "output": "⠙ represents byte 25 (0x19), with dots 1,4,5 raised."}
+{"instruction": "Convert byte 26 (0x1A) to braille", "input": "", "output": "Byte 26 (0x1A) = ⠚ (dots: 2,4,5)"}
+{"instruction": "What byte does ⠚ represent?", "input": "", "output": "⠚ represents byte 26 (0x1A), with dots 2,4,5 raised."}
+{"instruction": "Convert byte 27 (0x1B) to braille", "input": "", "output": "Byte 27 (0x1B) = ⠛ (dots: 1,2,4,5)"}
+{"instruction": "What byte does ⠛ represent?", "input": "", "output": "⠛ represents byte 27 (0x1B), with dots 1,2,4,5 raised."}
+{"instruction": "Convert byte 28 (0x1C) to braille", "input": "", "output": "Byte 28 (0x1C) = ⠜ (dots: 3,4,5)"}
+{"instruction": "What byte does ⠜ represent?", "input": "", "output": "⠜ represents byte 28 (0x1C), with dots 3,4,5 raised."}
+{"instruction": "Convert byte 29 (0x1D) to braille", "input": "", "output": "Byte 29 (0x1D) = ⠝ (dots: 1,3,4,5)"}
+{"instruction": "What byte does ⠝ represent?", "input": "", "output": "⠝ represents byte 29 (0x1D), with dots 1,3,4,5 raised."}
+{"instruction": "Convert byte 30 (0x1E) to braille", "input": "", "output": "Byte 30 (0x1E) = ⠞ (dots: 2,3,4,5)"}
+{"instruction": "What byte does ⠞ represent?", "input": "", "output": "⠞ represents byte 30 (0x1E), with dots 2,3,4,5 raised."}
+{"instruction": "Convert byte 31 (0x1F) to braille", "input": "", "output": "Byte 31 (0x1F) = ⠟ (dots: 1,2,3,4,5)"}
+{"instruction": "What byte does ⠟ represent?", "input": "", "output": "⠟ represents byte 31 (0x1F), with dots 1,2,3,4,5 raised."}
+{"instruction": "Convert byte 32 (0x20) to braille", "input": "", "output": "Byte 32 (0x20) = ⠠ (dots: 6)"}
+{"instruction": "What byte does ⠠ represent?", "input": "", "output": "⠠ represents byte 32 (0x20), with dots 6 raised."}
+{"instruction": "Convert byte 33 (0x21) to braille", "input": "", "output": "Byte 33 (0x21) = ⠡ (dots: 1,6)"}
+{"instruction": "What byte does ⠡ represent?", "input": "", "output": "⠡ represents byte 33 (0x21), with dots 1,6 raised."}
+{"instruction": "Convert byte 34 (0x22) to braille", "input": "", "output": "Byte 34 (0x22) = ⠢ (dots: 2,6)"}
+{"instruction": "What byte does ⠢ represent?", "input": "", "output": "⠢ represents byte 34 (0x22), with dots 2,6 raised."}
+{"instruction": "Convert byte 35 (0x23) to braille", "input": "", "output": "Byte 35 (0x23) = ⠣ (dots: 1,2,6)"}
+{"instruction": "What byte does ⠣ represent?", "input": "", "output": "⠣ represents byte 35 (0x23), with dots 1,2,6 raised."}
+{"instruction": "Convert byte 36 (0x24) to braille", "input": "", "output": "Byte 36 (0x24) = ⠤ (dots: 3,6)"}
+{"instruction": "What byte does ⠤ represent?", "input": "", "output": "⠤ represents byte 36 (0x24), with dots 3,6 raised."}
+{"instruction": "Convert byte 37 (0x25) to braille", "input": "", "output": "Byte 37 (0x25) = ⠥ (dots: 1,3,6)"}
+{"instruction": "What byte does ⠥ represent?", "input": "", "output": "⠥ represents byte 37 (0x25), with dots 1,3,6 raised."}
+{"instruction": "Convert byte 38 (0x26) to braille", "input": "", "output": "Byte 38 (0x26) = ⠦ (dots: 2,3,6)"}
+{"instruction": "What byte does ⠦ represent?", "input": "", "output": "⠦ represents byte 38 (0x26), with dots 2,3,6 raised."}
+{"instruction": "Convert byte 39 (0x27) to braille", "input": "", "output": "Byte 39 (0x27) = ⠧ (dots: 1,2,3,6)"}
+{"instruction": "What byte does ⠧ represent?", "input": "", "output": "⠧ represents byte 39 (0x27), with dots 1,2,3,6 raised."}
+{"instruction": "Convert byte 40 (0x28) to braille", "input": "", "output": "Byte 40 (0x28) = ⠨ (dots: 4,6)"}
+{"instruction": "What byte does ⠨ represent?", "input": "", "output": "⠨ represents byte 40 (0x28), with dots 4,6 raised."}
+{"instruction": "Convert byte 41 (0x29) to braille", "input": "", "output": "Byte 41 (0x29) = ⠩ (dots: 1,4,6)"}
+{"instruction": "What byte does ⠩ represent?", "input": "", "output": "⠩ represents byte 41 (0x29), with dots 1,4,6 raised."}
+{"instruction": "Convert byte 42 (0x2A) to braille", "input": "", "output": "Byte 42 (0x2A) = ⠪ (dots: 2,4,6)"}
+{"instruction": "What byte does ⠪ represent?", "input": "", "output": "⠪ represents byte 42 (0x2A), with dots 2,4,6 raised."}
+{"instruction": "Convert byte 43 (0x2B) to braille", "input": "", "output": "Byte 43 (0x2B) = ⠫ (dots: 1,2,4,6)"}
+{"instruction": "What byte does ⠫ represent?", "input": "", "output": "⠫ represents byte 43 (0x2B), with dots 1,2,4,6 raised."}
+{"instruction": "Convert byte 44 (0x2C) to braille", "input": "", "output": "Byte 44 (0x2C) = ⠬ (dots: 3,4,6)"}
+{"instruction": "What byte does ⠬ represent?", "input": "", "output": "⠬ represents byte 44 (0x2C), with dots 3,4,6 raised."}
+{"instruction": "Convert byte 45 (0x2D) to braille", "input": "", "output": "Byte 45 (0x2D) = ⠭ (dots: 1,3,4,6)"}
+{"instruction": "What byte does ⠭ represent?", "input": "", "output": "⠭ represents byte 45 (0x2D), with dots 1,3,4,6 raised."}
+{"instruction": "Convert byte 46 (0x2E) to braille", "input": "", "output": "Byte 46 (0x2E) = ⠮ (dots: 2,3,4,6)"}
+{"instruction": "What byte does ⠮ represent?", "input": "", "output": "⠮ represents byte 46 (0x2E), with dots 2,3,4,6 raised."}
+{"instruction": "Convert byte 47 (0x2F) to braille", "input": "", "output": "Byte 47 (0x2F) = ⠯ (dots: 1,2,3,4,6)"}
+{"instruction": "What byte does ⠯ represent?", "input": "", "output": "⠯ represents byte 47 (0x2F), with dots 1,2,3,4,6 raised."}
+{"instruction": "Convert byte 48 (0x30) to braille", "input": "", "output": "Byte 48 (0x30) = ⠰ (dots: 5,6)"}
+{"instruction": "What byte does ⠰ represent?", "input": "", "output": "⠰ represents byte 48 (0x30), with dots 5,6 raised."}
+{"instruction": "Convert byte 49 (0x31) to braille", "input": "", "output": "Byte 49 (0x31) = ⠱ (dots: 1,5,6)"}
+{"instruction": "What byte does ⠱ represent?", "input": "", "output": "⠱ represents byte 49 (0x31), with dots 1,5,6 raised."}
+{"instruction": "Convert byte 50 (0x32) to braille", "input": "", "output": "Byte 50 (0x32) = ⠲ (dots: 2,5,6)"}
+{"instruction": "What byte does ⠲ represent?", "input": "", "output": "⠲ represents byte 50 (0x32), with dots 2,5,6 raised."}
+{"instruction": "Convert byte 51 (0x33) to braille", "input": "", "output": "Byte 51 (0x33) = ⠳ (dots: 1,2,5,6)"}
+{"instruction": "What byte does ⠳ represent?", "input": "", "output": "⠳ represents byte 51 (0x33), with dots 1,2,5,6 raised."}
+{"instruction": "Convert byte 52 (0x34) to braille", "input": "", "output": "Byte 52 (0x34) = ⠴ (dots: 3,5,6)"}
+{"instruction": "What byte does ⠴ represent?", "input": "", "output": "⠴ represents byte 52 (0x34), with dots 3,5,6 raised."}
+{"instruction": "Convert byte 53 (0x35) to braille", "input": "", "output": "Byte 53 (0x35) = ⠵ (dots: 1,3,5,6)"}
+{"instruction": "What byte does ⠵ represent?", "input": "", "output": "⠵ represents byte 53 (0x35), with dots 1,3,5,6 raised."}
+{"instruction": "Convert byte 54 (0x36) to braille", "input": "", "output": "Byte 54 (0x36) = ⠶ (dots: 2,3,5,6)"}
+{"instruction": "What byte does ⠶ represent?", "input": "", "output": "⠶ represents byte 54 (0x36), with dots 2,3,5,6 raised."}
+{"instruction": "Convert byte 55 (0x37) to braille", "input": "", "output": "Byte 55 (0x37) = ⠷ (dots: 1,2,3,5,6)"}
+{"instruction": "What byte does ⠷ represent?", "input": "", "output": "⠷ represents byte 55 (0x37), with dots 1,2,3,5,6 raised."}
+{"instruction": "Convert byte 56 (0x38) to braille", "input": "", "output": "Byte 56 (0x38) = ⠸ (dots: 4,5,6)"}
+{"instruction": "What byte does ⠸ represent?", "input": "", "output": "⠸ represents byte 56 (0x38), with dots 4,5,6 raised."}
+{"instruction": "Convert byte 57 (0x39) to braille", "input": "", "output": "Byte 57 (0x39) = ⠹ (dots: 1,4,5,6)"}
+{"instruction": "What byte does ⠹ represent?", "input": "", "output": "⠹ represents byte 57 (0x39), with dots 1,4,5,6 raised."}
+{"instruction": "Convert byte 58 (0x3A) to braille", "input": "", "output": "Byte 58 (0x3A) = ⠺ (dots: 2,4,5,6)"}
+{"instruction": "What byte does ⠺ represent?", "input": "", "output": "⠺ represents byte 58 (0x3A), with dots 2,4,5,6 raised."}
+{"instruction": "Convert byte 59 (0x3B) to braille", "input": "", "output": "Byte 59 (0x3B) = ⠻ (dots: 1,2,4,5,6)"}
+{"instruction": "What byte does ⠻ represent?", "input": "", "output": "⠻ represents byte 59 (0x3B), with dots 1,2,4,5,6 raised."}
+{"instruction": "Convert byte 60 (0x3C) to braille", "input": "", "output": "Byte 60 (0x3C) = ⠼ (dots: 3,4,5,6)"}
+{"instruction": "What byte does ⠼ represent?", "input": "", "output": "⠼ represents byte 60 (0x3C), with dots 3,4,5,6 raised."}
+{"instruction": "Convert byte 61 (0x3D) to braille", "input": "", "output": "Byte 61 (0x3D) = ⠽ (dots: 1,3,4,5,6)"}
+{"instruction": "What byte does ⠽ represent?", "input": "", "output": "⠽ represents byte 61 (0x3D), with dots 1,3,4,5,6 raised."}
+{"instruction": "Convert byte 62 (0x3E) to braille", "input": "", "output": "Byte 62 (0x3E) = ⠾ (dots: 2,3,4,5,6)"}
+{"instruction": "What byte does ⠾ represent?", "input": "", "output": "⠾ represents byte 62 (0x3E), with dots 2,3,4,5,6 raised."}
+{"instruction": "Convert byte 63 (0x3F) to braille", "input": "", "output": "Byte 63 (0x3F) = ⠿ (dots: 1,2,3,4,5,6)"}
+{"instruction": "What byte does ⠿ represent?", "input": "", "output": "⠿ represents byte 63 (0x3F), with dots 1,2,3,4,5,6 raised."}
+{"instruction": "Convert byte 64 (0x40) to braille", "input": "", "output": "Byte 64 (0x40) = ⡀ (dots: 7)"}
+{"instruction": "What byte does ⡀ represent?", "input": "", "output": "⡀ represents byte 64 (0x40), with dots 7 raised."}
+{"instruction": "Convert byte 65 (0x41) to braille", "input": "", "output": "Byte 65 (0x41) = ⡁ (dots: 1,7)"}
+{"instruction": "What byte does ⡁ represent?", "input": "", "output": "⡁ represents byte 65 (0x41), with dots 1,7 raised."}
+{"instruction": "Convert byte 66 (0x42) to braille", "input": "", "output": "Byte 66 (0x42) = ⡂ (dots: 2,7)"}
+{"instruction": "What byte does ⡂ represent?", "input": "", "output": "⡂ represents byte 66 (0x42), with dots 2,7 raised."}
+{"instruction": "Convert byte 67 (0x43) to braille", "input": "", "output": "Byte 67 (0x43) = ⡃ (dots: 1,2,7)"}
+{"instruction": "What byte does ⡃ represent?", "input": "", "output": "⡃ represents byte 67 (0x43), with dots 1,2,7 raised."}
+{"instruction": "Convert byte 68 (0x44) to braille", "input": "", "output": "Byte 68 (0x44) = ⡄ (dots: 3,7)"}
+{"instruction": "What byte does ⡄ represent?", "input": "", "output": "⡄ represents byte 68 (0x44), with dots 3,7 raised."}
+{"instruction": "Convert byte 69 (0x45) to braille", "input": "", "output": "Byte 69 (0x45) = ⡅ (dots: 1,3,7)"}
+{"instruction": "What byte does ⡅ represent?", "input": "", "output": "⡅ represents byte 69 (0x45), with dots 1,3,7 raised."}
+{"instruction": "Convert byte 70 (0x46) to braille", "input": "", "output": "Byte 70 (0x46) = ⡆ (dots: 2,3,7)"}
+{"instruction": "What byte does ⡆ represent?", "input": "", "output": "⡆ represents byte 70 (0x46), with dots 2,3,7 raised."}
+{"instruction": "Convert byte 71 (0x47) to braille", "input": "", "output": "Byte 71 (0x47) = ⡇ (dots: 1,2,3,7)"}
+{"instruction": "What byte does ⡇ represent?", "input": "", "output": "⡇ represents byte 71 (0x47), with dots 1,2,3,7 raised."}
+{"instruction": "Convert byte 72 (0x48) to braille", "input": "", "output": "Byte 72 (0x48) = ⡈ (dots: 4,7)"}
+{"instruction": "What byte does ⡈ represent?", "input": "", "output": "⡈ represents byte 72 (0x48), with dots 4,7 raised."}
+{"instruction": "Convert byte 73 (0x49) to braille", "input": "", "output": "Byte 73 (0x49) = ⡉ (dots: 1,4,7)"}
+{"instruction": "What byte does ⡉ represent?", "input": "", "output": "⡉ represents byte 73 (0x49), with dots 1,4,7 raised."}
+{"instruction": "Convert byte 74 (0x4A) to braille", "input": "", "output": "Byte 74 (0x4A) = ⡊ (dots: 2,4,7)"}
+{"instruction": "What byte does ⡊ represent?", "input": "", "output": "⡊ represents byte 74 (0x4A), with dots 2,4,7 raised."}
+{"instruction": "Convert byte 75 (0x4B) to braille", "input": "", "output": "Byte 75 (0x4B) = ⡋ (dots: 1,2,4,7)"}
+{"instruction": "What byte does ⡋ represent?", "input": "", "output": "⡋ represents byte 75 (0x4B), with dots 1,2,4,7 raised."}
+{"instruction": "Convert byte 76 (0x4C) to braille", "input": "", "output": "Byte 76 (0x4C) = ⡌ (dots: 3,4,7)"}
+{"instruction": "What byte does ⡌ represent?", "input": "", "output": "⡌ represents byte 76 (0x4C), with dots 3,4,7 raised."}
+{"instruction": "Convert byte 77 (0x4D) to braille", "input": "", "output": "Byte 77 (0x4D) = ⡍ (dots: 1,3,4,7)"}
+{"instruction": "What byte does ⡍ represent?", "input": "", "output": "⡍ represents byte 77 (0x4D), with dots 1,3,4,7 raised."}
+{"instruction": "Convert byte 78 (0x4E) to braille", "input": "", "output": "Byte 78 (0x4E) = ⡎ (dots: 2,3,4,7)"}
+{"instruction": "What byte does ⡎ represent?", "input": "", "output": "⡎ represents byte 78 (0x4E), with dots 2,3,4,7 raised."}
+{"instruction": "Convert byte 79 (0x4F) to braille", "input": "", "output": "Byte 79 (0x4F) = ⡏ (dots: 1,2,3,4,7)"}
+{"instruction": "What byte does ⡏ represent?", "input": "", "output": "⡏ represents byte 79 (0x4F), with dots 1,2,3,4,7 raised."}
+{"instruction": "Convert byte 80 (0x50) to braille", "input": "", "output": "Byte 80 (0x50) = ⡐ (dots: 5,7)"}
+{"instruction": "What byte does ⡐ represent?", "input": "", "output": "⡐ represents byte 80 (0x50), with dots 5,7 raised."}
+{"instruction": "Convert byte 81 (0x51) to braille", "input": "", "output": "Byte 81 (0x51) = ⡑ (dots: 1,5,7)"}
+{"instruction": "What byte does ⡑ represent?", "input": "", "output": "⡑ represents byte 81 (0x51), with dots 1,5,7 raised."}
+{"instruction": "Convert byte 82 (0x52) to braille", "input": "", "output": "Byte 82 (0x52) = ⡒ (dots: 2,5,7)"}
+{"instruction": "What byte does ⡒ represent?", "input": "", "output": "⡒ represents byte 82 (0x52), with dots 2,5,7 raised."}
+{"instruction": "Convert byte 83 (0x53) to braille", "input": "", "output": "Byte 83 (0x53) = ⡓ (dots: 1,2,5,7)"}
+{"instruction": "What byte does ⡓ represent?", "input": "", "output": "⡓ represents byte 83 (0x53), with dots 1,2,5,7 raised."}
+{"instruction": "Convert byte 84 (0x54) to braille", "input": "", "output": "Byte 84 (0x54) = ⡔ (dots: 3,5,7)"}
+{"instruction": "What byte does ⡔ represent?", "input": "", "output": "⡔ represents byte 84 (0x54), with dots 3,5,7 raised."}
+{"instruction": "Convert byte 85 (0x55) to braille", "input": "", "output": "Byte 85 (0x55) = ⡕ (dots: 1,3,5,7)"}
+{"instruction": "What byte does ⡕ represent?", "input": "", "output": "⡕ represents byte 85 (0x55), with dots 1,3,5,7 raised."}
+{"instruction": "Convert byte 86 (0x56) to braille", "input": "", "output": "Byte 86 (0x56) = ⡖ (dots: 2,3,5,7)"}
+{"instruction": "What byte does ⡖ represent?", "input": "", "output": "⡖ represents byte 86 (0x56), with dots 2,3,5,7 raised."}
+{"instruction": "Convert byte 87 (0x57) to braille", "input": "", "output": "Byte 87 (0x57) = ⡗ (dots: 1,2,3,5,7)"}
+{"instruction": "What byte does ⡗ represent?", "input": "", "output": "⡗ represents byte 87 (0x57), with dots 1,2,3,5,7 raised."}
+{"instruction": "Convert byte 88 (0x58) to braille", "input": "", "output": "Byte 88 (0x58) = ⡘ (dots: 4,5,7)"}
+{"instruction": "What byte does ⡘ represent?", "input": "", "output": "⡘ represents byte 88 (0x58), with dots 4,5,7 raised."}
+{"instruction": "Convert byte 89 (0x59) to braille", "input": "", "output": "Byte 89 (0x59) = ⡙ (dots: 1,4,5,7)"}
+{"instruction": "What byte does ⡙ represent?", "input": "", "output": "⡙ represents byte 89 (0x59), with dots 1,4,5,7 raised."}
+{"instruction": "Convert byte 90 (0x5A) to braille", "input": "", "output": "Byte 90 (0x5A) = ⡚ (dots: 2,4,5,7)"}
+{"instruction": "What byte does ⡚ represent?", "input": "", "output": "⡚ represents byte 90 (0x5A), with dots 2,4,5,7 raised."}
+{"instruction": "Convert byte 91 (0x5B) to braille", "input": "", "output": "Byte 91 (0x5B) = ⡛ (dots: 1,2,4,5,7)"}
+{"instruction": "What byte does ⡛ represent?", "input": "", "output": "⡛ represents byte 91 (0x5B), with dots 1,2,4,5,7 raised."}
+{"instruction": "Convert byte 92 (0x5C) to braille", "input": "", "output": "Byte 92 (0x5C) = ⡜ (dots: 3,4,5,7)"}
+{"instruction": "What byte does ⡜ represent?", "input": "", "output": "⡜ represents byte 92 (0x5C), with dots 3,4,5,7 raised."}
+{"instruction": "Convert byte 93 (0x5D) to braille", "input": "", "output": "Byte 93 (0x5D) = ⡝ (dots: 1,3,4,5,7)"}
+{"instruction": "What byte does ⡝ represent?", "input": "", "output": "⡝ represents byte 93 (0x5D), with dots 1,3,4,5,7 raised."}
+{"instruction": "Convert byte 94 (0x5E) to braille", "input": "", "output": "Byte 94 (0x5E) = ⡞ (dots: 2,3,4,5,7)"}
+{"instruction": "What byte does ⡞ represent?", "input": "", "output": "⡞ represents byte 94 (0x5E), with dots 2,3,4,5,7 raised."}
+{"instruction": "Convert byte 95 (0x5F) to braille", "input": "", "output": "Byte 95 (0x5F) = ⡟ (dots: 1,2,3,4,5,7)"}
+{"instruction": "What byte does ⡟ represent?", "input": "", "output": "⡟ represents byte 95 (0x5F), with dots 1,2,3,4,5,7 raised."}
+{"instruction": "Convert byte 96 (0x60) to braille", "input": "", "output": "Byte 96 (0x60) = ⡠ (dots: 6,7)"}
+{"instruction": "What byte does ⡠ represent?", "input": "", "output": "⡠ represents byte 96 (0x60), with dots 6,7 raised."}
+{"instruction": "Convert byte 97 (0x61) to braille", "input": "", "output": "Byte 97 (0x61) = ⡡ (dots: 1,6,7)"}
+{"instruction": "What byte does ⡡ represent?", "input": "", "output": "⡡ represents byte 97 (0x61), with dots 1,6,7 raised."}
+{"instruction": "Convert byte 98 (0x62) to braille", "input": "", "output": "Byte 98 (0x62) = ⡢ (dots: 2,6,7)"}
+{"instruction": "What byte does ⡢ represent?", "input": "", "output": "⡢ represents byte 98 (0x62), with dots 2,6,7 raised."}
+{"instruction": "Convert byte 99 (0x63) to braille", "input": "", "output": "Byte 99 (0x63) = ⡣ (dots: 1,2,6,7)"}
+{"instruction": "What byte does ⡣ represent?", "input": "", "output": "⡣ represents byte 99 (0x63), with dots 1,2,6,7 raised."}
+{"instruction": "Convert byte 100 (0x64) to braille", "input": "", "output": "Byte 100 (0x64) = ⡤ (dots: 3,6,7)"}
+{"instruction": "What byte does ⡤ represent?", "input": "", "output": "⡤ represents byte 100 (0x64), with dots 3,6,7 raised."}
+{"instruction": "Convert byte 101 (0x65) to braille", "input": "", "output": "Byte 101 (0x65) = ⡥ (dots: 1,3,6,7)"}
+{"instruction": "What byte does ⡥ represent?", "input": "", "output": "⡥ represents byte 101 (0x65), with dots 1,3,6,7 raised."}
+{"instruction": "Convert byte 102 (0x66) to braille", "input": "", "output": "Byte 102 (0x66) = ⡦ (dots: 2,3,6,7)"}
+{"instruction": "What byte does ⡦ represent?", "input": "", "output": "⡦ represents byte 102 (0x66), with dots 2,3,6,7 raised."}
+{"instruction": "Convert byte 103 (0x67) to braille", "input": "", "output": "Byte 103 (0x67) = ⡧ (dots: 1,2,3,6,7)"}
+{"instruction": "What byte does ⡧ represent?", "input": "", "output": "⡧ represents byte 103 (0x67), with dots 1,2,3,6,7 raised."}
+{"instruction": "Convert byte 104 (0x68) to braille", "input": "", "output": "Byte 104 (0x68) = ⡨ (dots: 4,6,7)"}
+{"instruction": "What byte does ⡨ represent?", "input": "", "output": "⡨ represents byte 104 (0x68), with dots 4,6,7 raised."}
+{"instruction": "Convert byte 105 (0x69) to braille", "input": "", "output": "Byte 105 (0x69) = ⡩ (dots: 1,4,6,7)"}
+{"instruction": "What byte does ⡩ represent?", "input": "", "output": "⡩ represents byte 105 (0x69), with dots 1,4,6,7 raised."}
+{"instruction": "Convert byte 106 (0x6A) to braille", "input": "", "output": "Byte 106 (0x6A) = ⡪ (dots: 2,4,6,7)"}
+{"instruction": "What byte does ⡪ represent?", "input": "", "output": "⡪ represents byte 106 (0x6A), with dots 2,4,6,7 raised."}
+{"instruction": "Convert byte 107 (0x6B) to braille", "input": "", "output": "Byte 107 (0x6B) = ⡫ (dots: 1,2,4,6,7)"}
+{"instruction": "What byte does ⡫ represent?", "input": "", "output": "⡫ represents byte 107 (0x6B), with dots 1,2,4,6,7 raised."}
+{"instruction": "Convert byte 108 (0x6C) to braille", "input": "", "output": "Byte 108 (0x6C) = ⡬ (dots: 3,4,6,7)"}
+{"instruction": "What byte does ⡬ represent?", "input": "", "output": "⡬ represents byte 108 (0x6C), with dots 3,4,6,7 raised."}
+{"instruction": "Convert byte 109 (0x6D) to braille", "input": "", "output": "Byte 109 (0x6D) = ⡭ (dots: 1,3,4,6,7)"}
+{"instruction": "What byte does ⡭ represent?", "input": "", "output": "⡭ represents byte 109 (0x6D), with dots 1,3,4,6,7 raised."}
+{"instruction": "Convert byte 110 (0x6E) to braille", "input": "", "output": "Byte 110 (0x6E) = ⡮ (dots: 2,3,4,6,7)"}
+{"instruction": "What byte does ⡮ represent?", "input": "", "output": "⡮ represents byte 110 (0x6E), with dots 2,3,4,6,7 raised."}
+{"instruction": "Convert byte 111 (0x6F) to braille", "input": "", "output": "Byte 111 (0x6F) = ⡯ (dots: 1,2,3,4,6,7)"}
+{"instruction": "What byte does ⡯ represent?", "input": "", "output": "⡯ represents byte 111 (0x6F), with dots 1,2,3,4,6,7 raised."}
+{"instruction": "Convert byte 112 (0x70) to braille", "input": "", "output": "Byte 112 (0x70) = ⡰ (dots: 5,6,7)"}
+{"instruction": "What byte does ⡰ represent?", "input": "", "output": "⡰ represents byte 112 (0x70), with dots 5,6,7 raised."}
+{"instruction": "Convert byte 113 (0x71) to braille", "input": "", "output": "Byte 113 (0x71) = ⡱ (dots: 1,5,6,7)"}
+{"instruction": "What byte does ⡱ represent?", "input": "", "output": "⡱ represents byte 113 (0x71), with dots 1,5,6,7 raised."}
+{"instruction": "Convert byte 114 (0x72) to braille", "input": "", "output": "Byte 114 (0x72) = ⡲ (dots: 2,5,6,7)"}
+{"instruction": "What byte does ⡲ represent?", "input": "", "output": "⡲ represents byte 114 (0x72), with dots 2,5,6,7 raised."}
+{"instruction": "Convert byte 115 (0x73) to braille", "input": "", "output": "Byte 115 (0x73) = ⡳ (dots: 1,2,5,6,7)"}
+{"instruction": "What byte does ⡳ represent?", "input": "", "output": "⡳ represents byte 115 (0x73), with dots 1,2,5,6,7 raised."}
+{"instruction": "Convert byte 116 (0x74) to braille", "input": "", "output": "Byte 116 (0x74) = ⡴ (dots: 3,5,6,7)"}
+{"instruction": "What byte does ⡴ represent?", "input": "", "output": "⡴ represents byte 116 (0x74), with dots 3,5,6,7 raised."}
+{"instruction": "Convert byte 117 (0x75) to braille", "input": "", "output": "Byte 117 (0x75) = ⡵ (dots: 1,3,5,6,7)"}
+{"instruction": "What byte does ⡵ represent?", "input": "", "output": "⡵ represents byte 117 (0x75), with dots 1,3,5,6,7 raised."}
+{"instruction": "Convert byte 118 (0x76) to braille", "input": "", "output": "Byte 118 (0x76) = ⡶ (dots: 2,3,5,6,7)"}
+{"instruction": "What byte does ⡶ represent?", "input": "", "output": "⡶ represents byte 118 (0x76), with dots 2,3,5,6,7 raised."}
+{"instruction": "Convert byte 119 (0x77) to braille", "input": "", "output": "Byte 119 (0x77) = ⡷ (dots: 1,2,3,5,6,7)"}
+{"instruction": "What byte does ⡷ represent?", "input": "", "output": "⡷ represents byte 119 (0x77), with dots 1,2,3,5,6,7 raised."}
+{"instruction": "Convert byte 120 (0x78) to braille", "input": "", "output": "Byte 120 (0x78) = ⡸ (dots: 4,5,6,7)"}
+{"instruction": "What byte does ⡸ represent?", "input": "", "output": "⡸ represents byte 120 (0x78), with dots 4,5,6,7 raised."}
+{"instruction": "Convert byte 121 (0x79) to braille", "input": "", "output": "Byte 121 (0x79) = ⡹ (dots: 1,4,5,6,7)"}
+{"instruction": "What byte does ⡹ represent?", "input": "", "output": "⡹ represents byte 121 (0x79), with dots 1,4,5,6,7 raised."}
+{"instruction": "Convert byte 122 (0x7A) to braille", "input": "", "output": "Byte 122 (0x7A) = ⡺ (dots: 2,4,5,6,7)"}
+{"instruction": "What byte does ⡺ represent?", "input": "", "output": "⡺ represents byte 122 (0x7A), with dots 2,4,5,6,7 raised."}
+{"instruction": "Convert byte 123 (0x7B) to braille", "input": "", "output": "Byte 123 (0x7B) = ⡻ (dots: 1,2,4,5,6,7)"}
+{"instruction": "What byte does ⡻ represent?", "input": "", "output": "⡻ represents byte 123 (0x7B), with dots 1,2,4,5,6,7 raised."}
+{"instruction": "Convert byte 124 (0x7C) to braille", "input": "", "output": "Byte 124 (0x7C) = ⡼ (dots: 3,4,5,6,7)"}
+{"instruction": "What byte does ⡼ represent?", "input": "", "output": "⡼ represents byte 124 (0x7C), with dots 3,4,5,6,7 raised."}
+{"instruction": "Convert byte 125 (0x7D) to braille", "input": "", "output": "Byte 125 (0x7D) = ⡽ (dots: 1,3,4,5,6,7)"}
+{"instruction": "What byte does ⡽ represent?", "input": "", "output": "⡽ represents byte 125 (0x7D), with dots 1,3,4,5,6,7 raised."}
+{"instruction": "Convert byte 126 (0x7E) to braille", "input": "", "output": "Byte 126 (0x7E) = ⡾ (dots: 2,3,4,5,6,7)"}
+{"instruction": "What byte does ⡾ represent?", "input": "", "output": "⡾ represents byte 126 (0x7E), with dots 2,3,4,5,6,7 raised."}
+{"instruction": "Convert byte 127 (0x7F) to braille", "input": "", "output": "Byte 127 (0x7F) = ⡿ (dots: 1,2,3,4,5,6,7)"}
+{"instruction": "What byte does ⡿ represent?", "input": "", "output": "⡿ represents byte 127 (0x7F), with dots 1,2,3,4,5,6,7 raised."}
+{"instruction": "Convert byte 128 (0x80) to braille", "input": "", "output": "Byte 128 (0x80) = ⢀ (dots: 8)"}
+{"instruction": "What byte does ⢀ represent?", "input": "", "output": "⢀ represents byte 128 (0x80), with dots 8 raised."}
+{"instruction": "Convert byte 129 (0x81) to braille", "input": "", "output": "Byte 129 (0x81) = ⢁ (dots: 1,8)"}
+{"instruction": "What byte does ⢁ represent?", "input": "", "output": "⢁ represents byte 129 (0x81), with dots 1,8 raised."}
+{"instruction": "Convert byte 130 (0x82) to braille", "input": "", "output": "Byte 130 (0x82) = ⢂ (dots: 2,8)"}
+{"instruction": "What byte does ⢂ represent?", "input": "", "output": "⢂ represents byte 130 (0x82), with dots 2,8 raised."}
+{"instruction": "Convert byte 131 (0x83) to braille", "input": "", "output": "Byte 131 (0x83) = ⢃ (dots: 1,2,8)"}
+{"instruction": "What byte does ⢃ represent?", "input": "", "output": "⢃ represents byte 131 (0x83), with dots 1,2,8 raised."}
+{"instruction": "Convert byte 132 (0x84) to braille", "input": "", "output": "Byte 132 (0x84) = ⢄ (dots: 3,8)"}
+{"instruction": "What byte does ⢄ represent?", "input": "", "output": "⢄ represents byte 132 (0x84), with dots 3,8 raised."}
+{"instruction": "Convert byte 133 (0x85) to braille", "input": "", "output": "Byte 133 (0x85) = ⢅ (dots: 1,3,8)"}
+{"instruction": "What byte does ⢅ represent?", "input": "", "output": "⢅ represents byte 133 (0x85), with dots 1,3,8 raised."}
+{"instruction": "Convert byte 134 (0x86) to braille", "input": "", "output": "Byte 134 (0x86) = ⢆ (dots: 2,3,8)"}
+{"instruction": "What byte does ⢆ represent?", "input": "", "output": "⢆ represents byte 134 (0x86), with dots 2,3,8 raised."}
+{"instruction": "Convert byte 135 (0x87) to braille", "input": "", "output": "Byte 135 (0x87) = ⢇ (dots: 1,2,3,8)"}
+{"instruction": "What byte does ⢇ represent?", "input": "", "output": "⢇ represents byte 135 (0x87), with dots 1,2,3,8 raised."}
+{"instruction": "Convert byte 136 (0x88) to braille", "input": "", "output": "Byte 136 (0x88) = ⢈ (dots: 4,8)"}
+{"instruction": "What byte does ⢈ represent?", "input": "", "output": "⢈ represents byte 136 (0x88), with dots 4,8 raised."}
+{"instruction": "Convert byte 137 (0x89) to braille", "input": "", "output": "Byte 137 (0x89) = ⢉ (dots: 1,4,8)"}
+{"instruction": "What byte does ⢉ represent?", "input": "", "output": "⢉ represents byte 137 (0x89), with dots 1,4,8 raised."}
+{"instruction": "Convert byte 138 (0x8A) to braille", "input": "", "output": "Byte 138 (0x8A) = ⢊ (dots: 2,4,8)"}
+{"instruction": "What byte does ⢊ represent?", "input": "", "output": "⢊ represents byte 138 (0x8A), with dots 2,4,8 raised."}
+{"instruction": "Convert byte 139 (0x8B) to braille", "input": "", "output": "Byte 139 (0x8B) = ⢋ (dots: 1,2,4,8)"}
+{"instruction": "What byte does ⢋ represent?", "input": "", "output": "⢋ represents byte 139 (0x8B), with dots 1,2,4,8 raised."}
+{"instruction": "Convert byte 140 (0x8C) to braille", "input": "", "output": "Byte 140 (0x8C) = ⢌ (dots: 3,4,8)"}
+{"instruction": "What byte does ⢌ represent?", "input": "", "output": "⢌ represents byte 140 (0x8C), with dots 3,4,8 raised."}
+{"instruction": "Convert byte 141 (0x8D) to braille", "input": "", "output": "Byte 141 (0x8D) = ⢍ (dots: 1,3,4,8)"}
+{"instruction": "What byte does ⢍ represent?", "input": "", "output": "⢍ represents byte 141 (0x8D), with dots 1,3,4,8 raised."}
+{"instruction": "Convert byte 142 (0x8E) to braille", "input": "", "output": "Byte 142 (0x8E) = ⢎ (dots: 2,3,4,8)"}
+{"instruction": "What byte does ⢎ represent?", "input": "", "output": "⢎ represents byte 142 (0x8E), with dots 2,3,4,8 raised."}
+{"instruction": "Convert byte 143 (0x8F) to braille", "input": "", "output": "Byte 143 (0x8F) = ⢏ (dots: 1,2,3,4,8)"}
+{"instruction": "What byte does ⢏ represent?", "input": "", "output": "⢏ represents byte 143 (0x8F), with dots 1,2,3,4,8 raised."}
+{"instruction": "Convert byte 144 (0x90) to braille", "input": "", "output": "Byte 144 (0x90) = ⢐ (dots: 5,8)"}
+{"instruction": "What byte does ⢐ represent?", "input": "", "output": "⢐ represents byte 144 (0x90), with dots 5,8 raised."}
+{"instruction": "Convert byte 145 (0x91) to braille", "input": "", "output": "Byte 145 (0x91) = ⢑ (dots: 1,5,8)"}
+{"instruction": "What byte does ⢑ represent?", "input": "", "output": "⢑ represents byte 145 (0x91), with dots 1,5,8 raised."}
+{"instruction": "Convert byte 146 (0x92) to braille", "input": "", "output": "Byte 146 (0x92) = ⢒ (dots: 2,5,8)"}
+{"instruction": "What byte does ⢒ represent?", "input": "", "output": "⢒ represents byte 146 (0x92), with dots 2,5,8 raised."}
+{"instruction": "Convert byte 147 (0x93) to braille", "input": "", "output": "Byte 147 (0x93) = ⢓ (dots: 1,2,5,8)"}
+{"instruction": "What byte does ⢓ represent?", "input": "", "output": "⢓ represents byte 147 (0x93), with dots 1,2,5,8 raised."}
+{"instruction": "Convert byte 148 (0x94) to braille", "input": "", "output": "Byte 148 (0x94) = ⢔ (dots: 3,5,8)"}
+{"instruction": "What byte does ⢔ represent?", "input": "", "output": "⢔ represents byte 148 (0x94), with dots 3,5,8 raised."}
+{"instruction": "Convert byte 149 (0x95) to braille", "input": "", "output": "Byte 149 (0x95) = ⢕ (dots: 1,3,5,8)"}
+{"instruction": "What byte does ⢕ represent?", "input": "", "output": "⢕ represents byte 149 (0x95), with dots 1,3,5,8 raised."}
+{"instruction": "Convert byte 150 (0x96) to braille", "input": "", "output": "Byte 150 (0x96) = ⢖ (dots: 2,3,5,8)"}
+{"instruction": "What byte does ⢖ represent?", "input": "", "output": "⢖ represents byte 150 (0x96), with dots 2,3,5,8 raised."}
+{"instruction": "Convert byte 151 (0x97) to braille", "input": "", "output": "Byte 151 (0x97) = ⢗ (dots: 1,2,3,5,8)"}
+{"instruction": "What byte does ⢗ represent?", "input": "", "output": "⢗ represents byte 151 (0x97), with dots 1,2,3,5,8 raised."}
+{"instruction": "Convert byte 152 (0x98) to braille", "input": "", "output": "Byte 152 (0x98) = ⢘ (dots: 4,5,8)"}
+{"instruction": "What byte does ⢘ represent?", "input": "", "output": "⢘ represents byte 152 (0x98), with dots 4,5,8 raised."}
+{"instruction": "Convert byte 153 (0x99) to braille", "input": "", "output": "Byte 153 (0x99) = ⢙ (dots: 1,4,5,8)"}
+{"instruction": "What byte does ⢙ represent?", "input": "", "output": "⢙ represents byte 153 (0x99), with dots 1,4,5,8 raised."}
+{"instruction": "Convert byte 154 (0x9A) to braille", "input": "", "output": "Byte 154 (0x9A) = ⢚ (dots: 2,4,5,8)"}
+{"instruction": "What byte does ⢚ represent?", "input": "", "output": "⢚ represents byte 154 (0x9A), with dots 2,4,5,8 raised."}
+{"instruction": "Convert byte 155 (0x9B) to braille", "input": "", "output": "Byte 155 (0x9B) = ⢛ (dots: 1,2,4,5,8)"}
+{"instruction": "What byte does ⢛ represent?", "input": "", "output": "⢛ represents byte 155 (0x9B), with dots 1,2,4,5,8 raised."}
+{"instruction": "Convert byte 156 (0x9C) to braille", "input": "", "output": "Byte 156 (0x9C) = ⢜ (dots: 3,4,5,8)"}
+{"instruction": "What byte does ⢜ represent?", "input": "", "output": "⢜ represents byte 156 (0x9C), with dots 3,4,5,8 raised."}
+{"instruction": "Convert byte 157 (0x9D) to braille", "input": "", "output": "Byte 157 (0x9D) = ⢝ (dots: 1,3,4,5,8)"}
+{"instruction": "What byte does ⢝ represent?", "input": "", "output": "⢝ represents byte 157 (0x9D), with dots 1,3,4,5,8 raised."}
+{"instruction": "Convert byte 158 (0x9E) to braille", "input": "", "output": "Byte 158 (0x9E) = ⢞ (dots: 2,3,4,5,8)"}
+{"instruction": "What byte does ⢞ represent?", "input": "", "output": "⢞ represents byte 158 (0x9E), with dots 2,3,4,5,8 raised."}
+{"instruction": "Convert byte 159 (0x9F) to braille", "input": "", "output": "Byte 159 (0x9F) = ⢟ (dots: 1,2,3,4,5,8)"}
+{"instruction": "What byte does ⢟ represent?", "input": "", "output": "⢟ represents byte 159 (0x9F), with dots 1,2,3,4,5,8 raised."}
+{"instruction": "Convert byte 160 (0xA0) to braille", "input": "", "output": "Byte 160 (0xA0) = ⢠ (dots: 6,8)"}
+{"instruction": "What byte does ⢠ represent?", "input": "", "output": "⢠ represents byte 160 (0xA0), with dots 6,8 raised."}
+{"instruction": "Convert byte 161 (0xA1) to braille", "input": "", "output": "Byte 161 (0xA1) = ⢡ (dots: 1,6,8)"}
+{"instruction": "What byte does ⢡ represent?", "input": "", "output": "⢡ represents byte 161 (0xA1), with dots 1,6,8 raised."}
+{"instruction": "Convert byte 162 (0xA2) to braille", "input": "", "output": "Byte 162 (0xA2) = ⢢ (dots: 2,6,8)"}
+{"instruction": "What byte does ⢢ represent?", "input": "", "output": "⢢ represents byte 162 (0xA2), with dots 2,6,8 raised."}
+{"instruction": "Convert byte 163 (0xA3) to braille", "input": "", "output": "Byte 163 (0xA3) = ⢣ (dots: 1,2,6,8)"}
+{"instruction": "What byte does ⢣ represent?", "input": "", "output": "⢣ represents byte 163 (0xA3), with dots 1,2,6,8 raised."}
+{"instruction": "Convert byte 164 (0xA4) to braille", "input": "", "output": "Byte 164 (0xA4) = ⢤ (dots: 3,6,8)"}
+{"instruction": "What byte does ⢤ represent?", "input": "", "output": "⢤ represents byte 164 (0xA4), with dots 3,6,8 raised."}
+{"instruction": "Convert byte 165 (0xA5) to braille", "input": "", "output": "Byte 165 (0xA5) = ⢥ (dots: 1,3,6,8)"}
+{"instruction": "What byte does ⢥ represent?", "input": "", "output": "⢥ represents byte 165 (0xA5), with dots 1,3,6,8 raised."}
+{"instruction": "Convert byte 166 (0xA6) to braille", "input": "", "output": "Byte 166 (0xA6) = ⢦ (dots: 2,3,6,8)"}
+{"instruction": "What byte does ⢦ represent?", "input": "", "output": "⢦ represents byte 166 (0xA6), with dots 2,3,6,8 raised."}
+{"instruction": "Convert byte 167 (0xA7) to braille", "input": "", "output": "Byte 167 (0xA7) = ⢧ (dots: 1,2,3,6,8)"}
+{"instruction": "What byte does ⢧ represent?", "input": "", "output": "⢧ represents byte 167 (0xA7), with dots 1,2,3,6,8 raised."}
+{"instruction": "Convert byte 168 (0xA8) to braille", "input": "", "output": "Byte 168 (0xA8) = ⢨ (dots: 4,6,8)"}
+{"instruction": "What byte does ⢨ represent?", "input": "", "output": "⢨ represents byte 168 (0xA8), with dots 4,6,8 raised."}
+{"instruction": "Convert byte 169 (0xA9) to braille", "input": "", "output": "Byte 169 (0xA9) = ⢩ (dots: 1,4,6,8)"}
+{"instruction": "What byte does ⢩ represent?", "input": "", "output": "⢩ represents byte 169 (0xA9), with dots 1,4,6,8 raised."}
+{"instruction": "Convert byte 170 (0xAA) to braille", "input": "", "output": "Byte 170 (0xAA) = ⢪ (dots: 2,4,6,8)"}
+{"instruction": "What byte does ⢪ represent?", "input": "", "output": "⢪ represents byte 170 (0xAA), with dots 2,4,6,8 raised."}
+{"instruction": "Convert byte 171 (0xAB) to braille", "input": "", "output": "Byte 171 (0xAB) = ⢫ (dots: 1,2,4,6,8)"}
+{"instruction": "What byte does ⢫ represent?", "input": "", "output": "⢫ represents byte 171 (0xAB), with dots 1,2,4,6,8 raised."}
+{"instruction": "Convert byte 172 (0xAC) to braille", "input": "", "output": "Byte 172 (0xAC) = ⢬ (dots: 3,4,6,8)"}
+{"instruction": "What byte does ⢬ represent?", "input": "", "output": "⢬ represents byte 172 (0xAC), with dots 3,4,6,8 raised."}
+{"instruction": "Convert byte 173 (0xAD) to braille", "input": "", "output": "Byte 173 (0xAD) = ⢭ (dots: 1,3,4,6,8)"}
+{"instruction": "What byte does ⢭ represent?", "input": "", "output": "⢭ represents byte 173 (0xAD), with dots 1,3,4,6,8 raised."}
+{"instruction": "Convert byte 174 (0xAE) to braille", "input": "", "output": "Byte 174 (0xAE) = ⢮ (dots: 2,3,4,6,8)"}
+{"instruction": "What byte does ⢮ represent?", "input": "", "output": "⢮ represents byte 174 (0xAE), with dots 2,3,4,6,8 raised."}
+{"instruction": "Convert byte 175 (0xAF) to braille", "input": "", "output": "Byte 175 (0xAF) = ⢯ (dots: 1,2,3,4,6,8)"}
+{"instruction": "What byte does ⢯ represent?", "input": "", "output": "⢯ represents byte 175 (0xAF), with dots 1,2,3,4,6,8 raised."}
+{"instruction": "Convert byte 176 (0xB0) to braille", "input": "", "output": "Byte 176 (0xB0) = ⢰ (dots: 5,6,8)"}
+{"instruction": "What byte does ⢰ represent?", "input": "", "output": "⢰ represents byte 176 (0xB0), with dots 5,6,8 raised."}
+{"instruction": "Convert byte 177 (0xB1) to braille", "input": "", "output": "Byte 177 (0xB1) = ⢱ (dots: 1,5,6,8)"}
+{"instruction": "What byte does ⢱ represent?", "input": "", "output": "⢱ represents byte 177 (0xB1), with dots 1,5,6,8 raised."}
+{"instruction": "Convert byte 178 (0xB2) to braille", "input": "", "output": "Byte 178 (0xB2) = ⢲ (dots: 2,5,6,8)"}
+{"instruction": "What byte does ⢲ represent?", "input": "", "output": "⢲ represents byte 178 (0xB2), with dots 2,5,6,8 raised."}
+{"instruction": "Convert byte 179 (0xB3) to braille", "input": "", "output": "Byte 179 (0xB3) = ⢳ (dots: 1,2,5,6,8)"}
+{"instruction": "What byte does ⢳ represent?", "input": "", "output": "⢳ represents byte 179 (0xB3), with dots 1,2,5,6,8 raised."}
+{"instruction": "Convert byte 180 (0xB4) to braille", "input": "", "output": "Byte 180 (0xB4) = ⢴ (dots: 3,5,6,8)"}
+{"instruction": "What byte does ⢴ represent?", "input": "", "output": "⢴ represents byte 180 (0xB4), with dots 3,5,6,8 raised."}
+{"instruction": "Convert byte 181 (0xB5) to braille", "input": "", "output": "Byte 181 (0xB5) = ⢵ (dots: 1,3,5,6,8)"}
+{"instruction": "What byte does ⢵ represent?", "input": "", "output": "⢵ represents byte 181 (0xB5), with dots 1,3,5,6,8 raised."}
+{"instruction": "Convert byte 182 (0xB6) to braille", "input": "", "output": "Byte 182 (0xB6) = ⢶ (dots: 2,3,5,6,8)"}
+{"instruction": "What byte does ⢶ represent?", "input": "", "output": "⢶ represents byte 182 (0xB6), with dots 2,3,5,6,8 raised."}
+{"instruction": "Convert byte 183 (0xB7) to braille", "input": "", "output": "Byte 183 (0xB7) = ⢷ (dots: 1,2,3,5,6,8)"}
+{"instruction": "What byte does ⢷ represent?", "input": "", "output": "⢷ represents byte 183 (0xB7), with dots 1,2,3,5,6,8 raised."}
+{"instruction": "Convert byte 184 (0xB8) to braille", "input": "", "output": "Byte 184 (0xB8) = ⢸ (dots: 4,5,6,8)"}
+{"instruction": "What byte does ⢸ represent?", "input": "", "output": "⢸ represents byte 184 (0xB8), with dots 4,5,6,8 raised."}
+{"instruction": "Convert byte 185 (0xB9) to braille", "input": "", "output": "Byte 185 (0xB9) = ⢹ (dots: 1,4,5,6,8)"}
+{"instruction": "What byte does ⢹ represent?", "input": "", "output": "⢹ represents byte 185 (0xB9), with dots 1,4,5,6,8 raised."}
+{"instruction": "Convert byte 186 (0xBA) to braille", "input": "", "output": "Byte 186 (0xBA) = ⢺ (dots: 2,4,5,6,8)"}
+{"instruction": "What byte does ⢺ represent?", "input": "", "output": "⢺ represents byte 186 (0xBA), with dots 2,4,5,6,8 raised."}
+{"instruction": "Convert byte 187 (0xBB) to braille", "input": "", "output": "Byte 187 (0xBB) = ⢻ (dots: 1,2,4,5,6,8)"}
+{"instruction": "What byte does ⢻ represent?", "input": "", "output": "⢻ represents byte 187 (0xBB), with dots 1,2,4,5,6,8 raised."}
+{"instruction": "Convert byte 188 (0xBC) to braille", "input": "", "output": "Byte 188 (0xBC) = ⢼ (dots: 3,4,5,6,8)"}
+{"instruction": "What byte does ⢼ represent?", "input": "", "output": "⢼ represents byte 188 (0xBC), with dots 3,4,5,6,8 raised."}
+{"instruction": "Convert byte 189 (0xBD) to braille", "input": "", "output": "Byte 189 (0xBD) = ⢽ (dots: 1,3,4,5,6,8)"}
+{"instruction": "What byte does ⢽ represent?", "input": "", "output": "⢽ represents byte 189 (0xBD), with dots 1,3,4,5,6,8 raised."}
+{"instruction": "Convert byte 190 (0xBE) to braille", "input": "", "output": "Byte 190 (0xBE) = ⢾ (dots: 2,3,4,5,6,8)"}
+{"instruction": "What byte does ⢾ represent?", "input": "", "output": "⢾ represents byte 190 (0xBE), with dots 2,3,4,5,6,8 raised."}
+{"instruction": "Convert byte 191 (0xBF) to braille", "input": "", "output": "Byte 191 (0xBF) = ⢿ (dots: 1,2,3,4,5,6,8)"}
+{"instruction": "What byte does ⢿ represent?", "input": "", "output": "⢿ represents byte 191 (0xBF), with dots 1,2,3,4,5,6,8 raised."}
+{"instruction": "Convert byte 192 (0xC0) to braille", "input": "", "output": "Byte 192 (0xC0) = ⣀ (dots: 7,8)"}
+{"instruction": "What byte does ⣀ represent?", "input": "", "output": "⣀ represents byte 192 (0xC0), with dots 7,8 raised."}
+{"instruction": "Convert byte 193 (0xC1) to braille", "input": "", "output": "Byte 193 (0xC1) = ⣁ (dots: 1,7,8)"}
+{"instruction": "What byte does ⣁ represent?", "input": "", "output": "⣁ represents byte 193 (0xC1), with dots 1,7,8 raised."}
+{"instruction": "Convert byte 194 (0xC2) to braille", "input": "", "output": "Byte 194 (0xC2) = ⣂ (dots: 2,7,8)"}
+{"instruction": "What byte does ⣂ represent?", "input": "", "output": "⣂ represents byte 194 (0xC2), with dots 2,7,8 raised."}
+{"instruction": "Convert byte 195 (0xC3) to braille", "input": "", "output": "Byte 195 (0xC3) = ⣃ (dots: 1,2,7,8)"}
+{"instruction": "What byte does ⣃ represent?", "input": "", "output": "⣃ represents byte 195 (0xC3), with dots 1,2,7,8 raised."}
+{"instruction": "Convert byte 196 (0xC4) to braille", "input": "", "output": "Byte 196 (0xC4) = ⣄ (dots: 3,7,8)"}
+{"instruction": "What byte does ⣄ represent?", "input": "", "output": "⣄ represents byte 196 (0xC4), with dots 3,7,8 raised."}
+{"instruction": "Convert byte 197 (0xC5) to braille", "input": "", "output": "Byte 197 (0xC5) = ⣅ (dots: 1,3,7,8)"}
+{"instruction": "What byte does ⣅ represent?", "input": "", "output": "⣅ represents byte 197 (0xC5), with dots 1,3,7,8 raised."}
+{"instruction": "Convert byte 198 (0xC6) to braille", "input": "", "output": "Byte 198 (0xC6) = ⣆ (dots: 2,3,7,8)"}
+{"instruction": "What byte does ⣆ represent?", "input": "", "output": "⣆ represents byte 198 (0xC6), with dots 2,3,7,8 raised."}
+{"instruction": "Convert byte 199 (0xC7) to braille", "input": "", "output": "Byte 199 (0xC7) = ⣇ (dots: 1,2,3,7,8)"}
+{"instruction": "What byte does ⣇ represent?", "input": "", "output": "⣇ represents byte 199 (0xC7), with dots 1,2,3,7,8 raised."}
+{"instruction": "Convert byte 200 (0xC8) to braille", "input": "", "output": "Byte 200 (0xC8) = ⣈ (dots: 4,7,8)"}
+{"instruction": "What byte does ⣈ represent?", "input": "", "output": "⣈ represents byte 200 (0xC8), with dots 4,7,8 raised."}
+{"instruction": "Convert byte 201 (0xC9) to braille", "input": "", "output": "Byte 201 (0xC9) = ⣉ (dots: 1,4,7,8)"}
+{"instruction": "What byte does ⣉ represent?", "input": "", "output": "⣉ represents byte 201 (0xC9), with dots 1,4,7,8 raised."}
+{"instruction": "Convert byte 202 (0xCA) to braille", "input": "", "output": "Byte 202 (0xCA) = ⣊ (dots: 2,4,7,8)"}
+{"instruction": "What byte does ⣊ represent?", "input": "", "output": "⣊ represents byte 202 (0xCA), with dots 2,4,7,8 raised."}
+{"instruction": "Convert byte 203 (0xCB) to braille", "input": "", "output": "Byte 203 (0xCB) = ⣋ (dots: 1,2,4,7,8)"}
+{"instruction": "What byte does ⣋ represent?", "input": "", "output": "⣋ represents byte 203 (0xCB), with dots 1,2,4,7,8 raised."}
+{"instruction": "Convert byte 204 (0xCC) to braille", "input": "", "output": "Byte 204 (0xCC) = ⣌ (dots: 3,4,7,8)"}
+{"instruction": "What byte does ⣌ represent?", "input": "", "output": "⣌ represents byte 204 (0xCC), with dots 3,4,7,8 raised."}
+{"instruction": "Convert byte 205 (0xCD) to braille", "input": "", "output": "Byte 205 (0xCD) = ⣍ (dots: 1,3,4,7,8)"}
+{"instruction": "What byte does ⣍ represent?", "input": "", "output": "⣍ represents byte 205 (0xCD), with dots 1,3,4,7,8 raised."}
+{"instruction": "Convert byte 206 (0xCE) to braille", "input": "", "output": "Byte 206 (0xCE) = ⣎ (dots: 2,3,4,7,8)"}
+{"instruction": "What byte does ⣎ represent?", "input": "", "output": "⣎ represents byte 206 (0xCE), with dots 2,3,4,7,8 raised."}
+{"instruction": "Convert byte 207 (0xCF) to braille", "input": "", "output": "Byte 207 (0xCF) = ⣏ (dots: 1,2,3,4,7,8)"}
+{"instruction": "What byte does ⣏ represent?", "input": "", "output": "⣏ represents byte 207 (0xCF), with dots 1,2,3,4,7,8 raised."}
+{"instruction": "Convert byte 208 (0xD0) to braille", "input": "", "output": "Byte 208 (0xD0) = ⣐ (dots: 5,7,8)"}
+{"instruction": "What byte does ⣐ represent?", "input": "", "output": "⣐ represents byte 208 (0xD0), with dots 5,7,8 raised."}
+{"instruction": "Convert byte 209 (0xD1) to braille", "input": "", "output": "Byte 209 (0xD1) = ⣑ (dots: 1,5,7,8)"}
+{"instruction": "What byte does ⣑ represent?", "input": "", "output": "⣑ represents byte 209 (0xD1), with dots 1,5,7,8 raised."}
+{"instruction": "Convert byte 210 (0xD2) to braille", "input": "", "output": "Byte 210 (0xD2) = ⣒ (dots: 2,5,7,8)"}
+{"instruction": "What byte does ⣒ represent?", "input": "", "output": "⣒ represents byte 210 (0xD2), with dots 2,5,7,8 raised."}
+{"instruction": "Convert byte 211 (0xD3) to braille", "input": "", "output": "Byte 211 (0xD3) = ⣓ (dots: 1,2,5,7,8)"}
+{"instruction": "What byte does ⣓ represent?", "input": "", "output": "⣓ represents byte 211 (0xD3), with dots 1,2,5,7,8 raised."}
+{"instruction": "Convert byte 212 (0xD4) to braille", "input": "", "output": "Byte 212 (0xD4) = ⣔ (dots: 3,5,7,8)"}
+{"instruction": "What byte does ⣔ represent?", "input": "", "output": "⣔ represents byte 212 (0xD4), with dots 3,5,7,8 raised."}
+{"instruction": "Convert byte 213 (0xD5) to braille", "input": "", "output": "Byte 213 (0xD5) = ⣕ (dots: 1,3,5,7,8)"}
+{"instruction": "What byte does ⣕ represent?", "input": "", "output": "⣕ represents byte 213 (0xD5), with dots 1,3,5,7,8 raised."}
+{"instruction": "Convert byte 214 (0xD6) to braille", "input": "", "output": "Byte 214 (0xD6) = ⣖ (dots: 2,3,5,7,8)"}
+{"instruction": "What byte does ⣖ represent?", "input": "", "output": "⣖ represents byte 214 (0xD6), with dots 2,3,5,7,8 raised."}
+{"instruction": "Convert byte 215 (0xD7) to braille", "input": "", "output": "Byte 215 (0xD7) = ⣗ (dots: 1,2,3,5,7,8)"}
+{"instruction": "What byte does ⣗ represent?", "input": "", "output": "⣗ represents byte 215 (0xD7), with dots 1,2,3,5,7,8 raised."}
+{"instruction": "Convert byte 216 (0xD8) to braille", "input": "", "output": "Byte 216 (0xD8) = ⣘ (dots: 4,5,7,8)"}
+{"instruction": "What byte does ⣘ represent?", "input": "", "output": "⣘ represents byte 216 (0xD8), with dots 4,5,7,8 raised."}
+{"instruction": "Convert byte 217 (0xD9) to braille", "input": "", "output": "Byte 217 (0xD9) = ⣙ (dots: 1,4,5,7,8)"}
+{"instruction": "What byte does ⣙ represent?", "input": "", "output": "⣙ represents byte 217 (0xD9), with dots 1,4,5,7,8 raised."}
+{"instruction": "Convert byte 218 (0xDA) to braille", "input": "", "output": "Byte 218 (0xDA) = ⣚ (dots: 2,4,5,7,8)"}
+{"instruction": "What byte does ⣚ represent?", "input": "", "output": "⣚ represents byte 218 (0xDA), with dots 2,4,5,7,8 raised."}
+{"instruction": "Convert byte 219 (0xDB) to braille", "input": "", "output": "Byte 219 (0xDB) = ⣛ (dots: 1,2,4,5,7,8)"}
+{"instruction": "What byte does ⣛ represent?", "input": "", "output": "⣛ represents byte 219 (0xDB), with dots 1,2,4,5,7,8 raised."}
+{"instruction": "Convert byte 220 (0xDC) to braille", "input": "", "output": "Byte 220 (0xDC) = ⣜ (dots: 3,4,5,7,8)"}
+{"instruction": "What byte does ⣜ represent?", "input": "", "output": "⣜ represents byte 220 (0xDC), with dots 3,4,5,7,8 raised."}
+{"instruction": "Convert byte 221 (0xDD) to braille", "input": "", "output": "Byte 221 (0xDD) = ⣝ (dots: 1,3,4,5,7,8)"}
+{"instruction": "What byte does ⣝ represent?", "input": "", "output": "⣝ represents byte 221 (0xDD), with dots 1,3,4,5,7,8 raised."}
+{"instruction": "Convert byte 222 (0xDE) to braille", "input": "", "output": "Byte 222 (0xDE) = ⣞ (dots: 2,3,4,5,7,8)"}
+{"instruction": "What byte does ⣞ represent?", "input": "", "output": "⣞ represents byte 222 (0xDE), with dots 2,3,4,5,7,8 raised."}
+{"instruction": "Convert byte 223 (0xDF) to braille", "input": "", "output": "Byte 223 (0xDF) = ⣟ (dots: 1,2,3,4,5,7,8)"}
+{"instruction": "What byte does ⣟ represent?", "input": "", "output": "⣟ represents byte 223 (0xDF), with dots 1,2,3,4,5,7,8 raised."}
+{"instruction": "Convert byte 224 (0xE0) to braille", "input": "", "output": "Byte 224 (0xE0) = ⣠ (dots: 6,7,8)"}
+{"instruction": "What byte does ⣠ represent?", "input": "", "output": "⣠ represents byte 224 (0xE0), with dots 6,7,8 raised."}
+{"instruction": "Convert byte 225 (0xE1) to braille", "input": "", "output": "Byte 225 (0xE1) = ⣡ (dots: 1,6,7,8)"}
+{"instruction": "What byte does ⣡ represent?", "input": "", "output": "⣡ represents byte 225 (0xE1), with dots 1,6,7,8 raised."}
+{"instruction": "Convert byte 226 (0xE2) to braille", "input": "", "output": "Byte 226 (0xE2) = ⣢ (dots: 2,6,7,8)"}
+{"instruction": "What byte does ⣢ represent?", "input": "", "output": "⣢ represents byte 226 (0xE2), with dots 2,6,7,8 raised."}
+{"instruction": "Convert byte 227 (0xE3) to braille", "input": "", "output": "Byte 227 (0xE3) = ⣣ (dots: 1,2,6,7,8)"}
+{"instruction": "What byte does ⣣ represent?", "input": "", "output": "⣣ represents byte 227 (0xE3), with dots 1,2,6,7,8 raised."}
+{"instruction": "Convert byte 228 (0xE4) to braille", "input": "", "output": "Byte 228 (0xE4) = ⣤ (dots: 3,6,7,8)"}
+{"instruction": "What byte does ⣤ represent?", "input": "", "output": "⣤ represents byte 228 (0xE4), with dots 3,6,7,8 raised."}
+{"instruction": "Convert byte 229 (0xE5) to braille", "input": "", "output": "Byte 229 (0xE5) = ⣥ (dots: 1,3,6,7,8)"}
+{"instruction": "What byte does ⣥ represent?", "input": "", "output": "⣥ represents byte 229 (0xE5), with dots 1,3,6,7,8 raised."}
+{"instruction": "Convert byte 230 (0xE6) to braille", "input": "", "output": "Byte 230 (0xE6) = ⣦ (dots: 2,3,6,7,8)"}
+{"instruction": "What byte does ⣦ represent?", "input": "", "output": "⣦ represents byte 230 (0xE6), with dots 2,3,6,7,8 raised."}
+{"instruction": "Convert byte 231 (0xE7) to braille", "input": "", "output": "Byte 231 (0xE7) = ⣧ (dots: 1,2,3,6,7,8)"}
+{"instruction": "What byte does ⣧ represent?", "input": "", "output": "⣧ represents byte 231 (0xE7), with dots 1,2,3,6,7,8 raised."}
+{"instruction": "Convert byte 232 (0xE8) to braille", "input": "", "output": "Byte 232 (0xE8) = ⣨ (dots: 4,6,7,8)"}
+{"instruction": "What byte does ⣨ represent?", "input": "", "output": "⣨ represents byte 232 (0xE8), with dots 4,6,7,8 raised."}
+{"instruction": "Convert byte 233 (0xE9) to braille", "input": "", "output": "Byte 233 (0xE9) = ⣩ (dots: 1,4,6,7,8)"}
+{"instruction": "What byte does ⣩ represent?", "input": "", "output": "⣩ represents byte 233 (0xE9), with dots 1,4,6,7,8 raised."}
+{"instruction": "Convert byte 234 (0xEA) to braille", "input": "", "output": "Byte 234 (0xEA) = ⣪ (dots: 2,4,6,7,8)"}
+{"instruction": "What byte does ⣪ represent?", "input": "", "output": "⣪ represents byte 234 (0xEA), with dots 2,4,6,7,8 raised."}
+{"instruction": "Convert byte 235 (0xEB) to braille", "input": "", "output": "Byte 235 (0xEB) = ⣫ (dots: 1,2,4,6,7,8)"}
+{"instruction": "What byte does ⣫ represent?", "input": "", "output": "⣫ represents byte 235 (0xEB), with dots 1,2,4,6,7,8 raised."}
+{"instruction": "Convert byte 236 (0xEC) to braille", "input": "", "output": "Byte 236 (0xEC) = ⣬ (dots: 3,4,6,7,8)"}
+{"instruction": "What byte does ⣬ represent?", "input": "", "output": "⣬ represents byte 236 (0xEC), with dots 3,4,6,7,8 raised."}
+{"instruction": "Convert byte 237 (0xED) to braille", "input": "", "output": "Byte 237 (0xED) = ⣭ (dots: 1,3,4,6,7,8)"}
+{"instruction": "What byte does ⣭ represent?", "input": "", "output": "⣭ represents byte 237 (0xED), with dots 1,3,4,6,7,8 raised."}
+{"instruction": "Convert byte 238 (0xEE) to braille", "input": "", "output": "Byte 238 (0xEE) = ⣮ (dots: 2,3,4,6,7,8)"}
+{"instruction": "What byte does ⣮ represent?", "input": "", "output": "⣮ represents byte 238 (0xEE), with dots 2,3,4,6,7,8 raised."}
+{"instruction": "Convert byte 239 (0xEF) to braille", "input": "", "output": "Byte 239 (0xEF) = ⣯ (dots: 1,2,3,4,6,7,8)"}
+{"instruction": "What byte does ⣯ represent?", "input": "", "output": "⣯ represents byte 239 (0xEF), with dots 1,2,3,4,6,7,8 raised."}
+{"instruction": "Convert byte 240 (0xF0) to braille", "input": "", "output": "Byte 240 (0xF0) = ⣰ (dots: 5,6,7,8)"}
+{"instruction": "What byte does ⣰ represent?", "input": "", "output": "⣰ represents byte 240 (0xF0), with dots 5,6,7,8 raised."}
+{"instruction": "Convert byte 241 (0xF1) to braille", "input": "", "output": "Byte 241 (0xF1) = ⣱ (dots: 1,5,6,7,8)"}
+{"instruction": "What byte does ⣱ represent?", "input": "", "output": "⣱ represents byte 241 (0xF1), with dots 1,5,6,7,8 raised."}
+{"instruction": "Convert byte 242 (0xF2) to braille", "input": "", "output": "Byte 242 (0xF2) = ⣲ (dots: 2,5,6,7,8)"}
+{"instruction": "What byte does ⣲ represent?", "input": "", "output": "⣲ represents byte 242 (0xF2), with dots 2,5,6,7,8 raised."}
+{"instruction": "Convert byte 243 (0xF3) to braille", "input": "", "output": "Byte 243 (0xF3) = ⣳ (dots: 1,2,5,6,7,8)"}
+{"instruction": "What byte does ⣳ represent?", "input": "", "output": "⣳ represents byte 243 (0xF3), with dots 1,2,5,6,7,8 raised."}
+{"instruction": "Convert byte 244 (0xF4) to braille", "input": "", "output": "Byte 244 (0xF4) = ⣴ (dots: 3,5,6,7,8)"}
+{"instruction": "What byte does ⣴ represent?", "input": "", "output": "⣴ represents byte 244 (0xF4), with dots 3,5,6,7,8 raised."}
+{"instruction": "Convert byte 245 (0xF5) to braille", "input": "", "output": "Byte 245 (0xF5) = ⣵ (dots: 1,3,5,6,7,8)"}
+{"instruction": "What byte does ⣵ represent?", "input": "", "output": "⣵ represents byte 245 (0xF5), with dots 1,3,5,6,7,8 raised."}
+{"instruction": "Convert byte 246 (0xF6) to braille", "input": "", "output": "Byte 246 (0xF6) = ⣶ (dots: 2,3,5,6,7,8)"}
+{"instruction": "What byte does ⣶ represent?", "input": "", "output": "⣶ represents byte 246 (0xF6), with dots 2,3,5,6,7,8 raised."}
+{"instruction": "Convert byte 247 (0xF7) to braille", "input": "", "output": "Byte 247 (0xF7) = ⣷ (dots: 1,2,3,5,6,7,8)"}
+{"instruction": "What byte does ⣷ represent?", "input": "", "output": "⣷ represents byte 247 (0xF7), with dots 1,2,3,5,6,7,8 raised."}
+{"instruction": "Convert byte 248 (0xF8) to braille", "input": "", "output": "Byte 248 (0xF8) = ⣸ (dots: 4,5,6,7,8)"}
+{"instruction": "What byte does ⣸ represent?", "input": "", "output": "⣸ represents byte 248 (0xF8), with dots 4,5,6,7,8 raised."}
+{"instruction": "Convert byte 249 (0xF9) to braille", "input": "", "output": "Byte 249 (0xF9) = ⣹ (dots: 1,4,5,6,7,8)"}
+{"instruction": "What byte does ⣹ represent?", "input": "", "output": "⣹ represents byte 249 (0xF9), with dots 1,4,5,6,7,8 raised."}
+{"instruction": "Convert byte 250 (0xFA) to braille", "input": "", "output": "Byte 250 (0xFA) = ⣺ (dots: 2,4,5,6,7,8)"}
+{"instruction": "What byte does ⣺ represent?", "input": "", "output": "⣺ represents byte 250 (0xFA), with dots 2,4,5,6,7,8 raised."}
+{"instruction": "Convert byte 251 (0xFB) to braille", "input": "", "output": "Byte 251 (0xFB) = ⣻ (dots: 1,2,4,5,6,7,8)"}
+{"instruction": "What byte does ⣻ represent?", "input": "", "output": "⣻ represents byte 251 (0xFB), with dots 1,2,4,5,6,7,8 raised."}
+{"instruction": "Convert byte 252 (0xFC) to braille", "input": "", "output": "Byte 252 (0xFC) = ⣼ (dots: 3,4,5,6,7,8)"}
+{"instruction": "What byte does ⣼ represent?", "input": "", "output": "⣼ represents byte 252 (0xFC), with dots 3,4,5,6,7,8 raised."}
+{"instruction": "Convert byte 253 (0xFD) to braille", "input": "", "output": "Byte 253 (0xFD) = ⣽ (dots: 1,3,4,5,6,7,8)"}
+{"instruction": "What byte does ⣽ represent?", "input": "", "output": "⣽ represents byte 253 (0xFD), with dots 1,3,4,5,6,7,8 raised."}
+{"instruction": "Convert byte 254 (0xFE) to braille", "input": "", "output": "Byte 254 (0xFE) = ⣾ (dots: 2,3,4,5,6,7,8)"}
+{"instruction": "What byte does ⣾ represent?", "input": "", "output": "⣾ represents byte 254 (0xFE), with dots 2,3,4,5,6,7,8 raised."}
+{"instruction": "Convert byte 255 (0xFF) to braille", "input": "", "output": "Byte 255 (0xFF) = ⣿ (dots: 1,2,3,4,5,6,7,8)"}
+{"instruction": "What byte does ⣿ represent?", "input": "", "output": "⣿ represents byte 255 (0xFF), with dots 1,2,3,4,5,6,7,8 raised."}
+{"instruction": "Encode 'ASCII text' as braille", "input": "", "output": "The ASCII text bytes [0x48 0x65 0x6C 0x6C 0x6F] encode to braille: ⡈⡥⡬⡬⡯"}
+{"instruction": "What does this braille represent: ⡈⡥⡬⡬⡯", "input": "", "output": "The braille ⡈⡥⡬⡬⡯ decodes to bytes [0x48 0x65 0x6C 0x6C 0x6F], which is a ASCII text."}
+{"instruction": "Encode 'sequential bytes' as braille", "input": "", "output": "The sequential bytes bytes [0x00 0x01 0x02 0x03] encode to braille: ⠀⠁⠂⠃"}
+{"instruction": "What does this braille represent: ⠀⠁⠂⠃", "input": "", "output": "The braille ⠀⠁⠂⠃ decodes to bytes [0x00 0x01 0x02 0x03], which is a sequential bytes."}
+{"instruction": "Encode 'high bytes' as braille", "input": "", "output": "The high bytes bytes [0xFF 0xFE 0xFD 0xFC] encode to braille: ⣿⣾⣽⣼"}
+{"instruction": "What does this braille represent: ⣿⣾⣽⣼", "input": "", "output": "The braille ⣿⣾⣽⣼ decodes to bytes [0xFF 0xFE 0xFD 0xFC], which is a high bytes."}
+{"instruction": "Encode 'PNG header' as braille", "input": "", "output": "The PNG header bytes [0x89 0x50 0x4E 0x47] encode to braille: ⢉⡐⡎⡇"}
+{"instruction": "What does this braille represent: ⢉⡐⡎⡇", "input": "", "output": "The braille ⢉⡐⡎⡇ decodes to bytes [0x89 0x50 0x4E 0x47], which is a PNG header."}
+{"instruction": "Encode 'ZIP header' as braille", "input": "", "output": "The ZIP header bytes [0x50 0x4B 0x03 0x04] encode to braille: ⡐⡋⠃⠄"}
+{"instruction": "What does this braille represent: ⡐⡋⠃⠄", "input": "", "output": "The braille ⡐⡋⠃⠄ decodes to bytes [0x50 0x4B 0x03 0x04], which is a ZIP header."}
+{"instruction": "Encode 'JPEG header' as braille", "input": "", "output": "The JPEG header bytes [0xFF 0xD8 0xFF 0xE0] encode to braille: ⣿⣘⣿⣠"}
+{"instruction": "What does this braille represent: ⣿⣘⣿⣠", "input": "", "output": "The braille ⣿⣘⣿⣠ decodes to bytes [0xFF 0xD8 0xFF 0xE0], which is a JPEG header."}
+{"instruction": "Encode 'PDF header' as braille", "input": "", "output": "The PDF header bytes [0x25 0x50 0x44 0x46] encode to braille: ⠥⡐⡄⡆"}
+{"instruction": "What does this braille represent: ⠥⡐⡄⡆", "input": "", "output": "The braille ⠥⡐⡄⡆ decodes to bytes [0x25 0x50 0x44 0x46], which is a PDF header."}
+{"instruction": "Encode 'GZIP header' as braille", "input": "", "output": "The GZIP header bytes [0x1F 0x8B] encode to braille: ⠟⢋"}
+{"instruction": "What does this braille represent: ⠟⢋", "input": "", "output": "The braille ⠟⢋ decodes to bytes [0x1F 0x8B], which is a GZIP header."}
+{"instruction": "Encode 'ELF executable' as braille", "input": "", "output": "The ELF executable bytes [0x7F 0x45 0x4C 0x46] encode to braille: ⡿⡅⡌⡆"}
+{"instruction": "What does this braille represent: ⡿⡅⡌⡆", "input": "", "output": "The braille ⡿⡅⡌⡆ decodes to bytes [0x7F 0x45 0x4C 0x46], which is a ELF executable."}
+{"instruction": "Encode 'GIF header' as braille", "input": "", "output": "The GIF header bytes [0x47 0x49 0x46 0x38 0x39 0x61] encode to braille: ⡇⡉⡆⠸⠹⡡"}
+{"instruction": "What does this braille represent: ⡇⡉⡆⠸⠹⡡", "input": "", "output": "The braille ⡇⡉⡆⠸⠹⡡ decodes to bytes [0x47 0x49 0x46 0x38 0x39 0x61], which is a GIF header."}
+{"instruction": "Encode 'WAV/AVI header' as braille", "input": "", "output": "The WAV/AVI header bytes [0x52 0x49 0x46 0x46] encode to braille: ⡒⡉⡆⡆"}
+{"instruction": "What does this braille represent: ⡒⡉⡆⡆", "input": "", "output": "The braille ⡒⡉⡆⡆ decodes to bytes [0x52 0x49 0x46 0x46], which is a WAV/AVI header."}
+{"instruction": "Encode 'ICO header' as braille", "input": "", "output": "The ICO header bytes [0x00 0x00 0x01 0x00] encode to braille: ⠀⠀⠁⠀"}
+{"instruction": "What does this braille represent: ⠀⠀⠁⠀", "input": "", "output": "The braille ⠀⠀⠁⠀ decodes to bytes [0x00 0x00 0x01 0x00], which is a ICO header."}
+{"instruction": "Encode 'HTML doctype' as braille", "input": "", "output": "The HTML doctype bytes [0x3C 0x21 0x44 0x4F 0x43 0x54 0x59 0x50 0x45] encode to braille: ⠼⠡⡄⡏⡃⡔⡙⡐⡅"}
+{"instruction": "What does this braille represent: ⠼⠡⡄⡏⡃⡔⡙⡐⡅", "input": "", "output": "The braille ⠼⠡⡄⡏⡃⡔⡙⡐⡅ decodes to bytes [0x3C 0x21 0x44 0x4F 0x43 0x54 0x59 0x50 0x45], which is a HTML doctype."}
+{"instruction": "Encode 'JSON start' as braille", "input": "", "output": "The JSON start bytes [0x7B 0x22] encode to braille: ⡻⠢"}
+{"instruction": "What does this braille represent: ⡻⠢", "input": "", "output": "The braille ⡻⠢ decodes to bytes [0x7B 0x22], which is a JSON start."}

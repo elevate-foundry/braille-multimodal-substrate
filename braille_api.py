@@ -46,6 +46,9 @@ class ImageRequest(BaseModel):
     pattern: str = "gradient"
     size: int = 8
 
+class FileRequest(BaseModel):
+    braille: str  # Braille-encoded binary data
+
 
 @app.get("/", response_class=HTMLResponse)
 async def home():
@@ -264,6 +267,79 @@ async def chat_braille(req: ChatRequest):
         return {"message": req.message, "response": "Request timed out"}
     except Exception as e:
         return {"message": req.message, "response": f"Error: {str(e)}"}
+
+
+@app.post("/analyze-binary")
+async def analyze_binary(req: FileRequest):
+    """
+    Analyze braille-encoded binary data (zip files, images, etc.)
+    Converts braille back to bytes and identifies file type.
+    """
+    import struct
+    
+    # Convert braille to bytes
+    try:
+        bytes_data = bytes(ord(c) - BRAILLE_OFFSET for c in req.braille if ord(c) >= BRAILLE_OFFSET)
+    except:
+        return {"error": "Invalid braille data"}
+    
+    if len(bytes_data) < 4:
+        return {"error": "Data too short to analyze"}
+    
+    # File signature detection
+    signatures = {
+        b'PK\x03\x04': 'ZIP archive',
+        b'PK\x05\x06': 'ZIP (empty)',
+        b'\x89PNG': 'PNG image',
+        b'\xff\xd8\xff': 'JPEG image',
+        b'GIF8': 'GIF image',
+        b'%PDF': 'PDF document',
+        b'RIFF': 'RIFF (WAV/AVI)',
+        b'\x1f\x8b': 'GZIP compressed',
+        b'BZ': 'BZIP2 compressed',
+        b'\x7fELF': 'ELF executable',
+        b'MZ': 'DOS/Windows executable',
+    }
+    
+    file_type = "Unknown binary"
+    for sig, name in signatures.items():
+        if bytes_data[:len(sig)] == sig:
+            file_type = name
+            break
+    
+    result = {
+        "size_bytes": len(bytes_data),
+        "size_braille": len(req.braille),
+        "file_type": file_type,
+        "header_hex": bytes_data[:16].hex(),
+        "header_braille": req.braille[:16]
+    }
+    
+    # Special handling for ZIP files
+    if file_type == 'ZIP archive':
+        try:
+            import zipfile
+            import io
+            zf = zipfile.ZipFile(io.BytesIO(bytes_data))
+            result["zip_contents"] = [
+                {"name": info.filename, "size": info.file_size, "compressed": info.compress_size}
+                for info in zf.infolist()
+            ]
+            result["zip_comment"] = zf.comment.decode('utf-8', errors='ignore') if zf.comment else None
+        except Exception as e:
+            result["zip_error"] = str(e)
+    
+    return result
+
+
+@app.post("/encode-file")
+async def encode_file_to_braille(file_bytes: bytes = None):
+    """
+    Encode raw bytes to braille representation.
+    Useful for converting any file to braille.
+    """
+    # This would need file upload handling - simplified for demo
+    return {"info": "Use /analyze-binary with braille-encoded data"}
 
 
 @app.get("/health")

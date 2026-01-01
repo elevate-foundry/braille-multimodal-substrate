@@ -35,6 +35,121 @@ def create_instruction_dataset():
     examples = []
     
     # =========================================================================
+    # 0. BINARY FILE SIGNATURES - Teach the model to recognize file types
+    # =========================================================================
+    
+    # File signatures in braille (8-dot = full byte mapping)
+    file_signatures = [
+        {
+            "name": "ZIP archive",
+            "bytes": [0x50, 0x4B, 0x03, 0x04],  # PK\x03\x04
+            "braille": "⡐⡋⠃⠄",
+            "description": "ZIP local file header - indicates a compressed archive containing files"
+        },
+        {
+            "name": "PNG image",
+            "bytes": [0x89, 0x50, 0x4E, 0x47],  # \x89PNG
+            "braille": "⢉⡐⡎⡇",
+            "description": "PNG image header - a lossless compressed image format"
+        },
+        {
+            "name": "JPEG image",
+            "bytes": [0xFF, 0xD8, 0xFF, 0xE0],
+            "braille": "⣿⢘⣿⡠",
+            "description": "JPEG image header - a lossy compressed image format"
+        },
+        {
+            "name": "PDF document",
+            "bytes": [0x25, 0x50, 0x44, 0x46],  # %PDF
+            "braille": "⠥⡐⡄⡆",
+            "description": "PDF document header - Portable Document Format"
+        },
+        {
+            "name": "GZIP compressed",
+            "bytes": [0x1F, 0x8B],
+            "braille": "⠟⢋",
+            "description": "GZIP compression header - commonly used for .gz files"
+        },
+        {
+            "name": "ELF executable",
+            "bytes": [0x7F, 0x45, 0x4C, 0x46],  # \x7fELF
+            "braille": "⡿⡅⡌⡆",
+            "description": "ELF executable header - Linux/Unix binary format"
+        },
+        {
+            "name": "WAV audio",
+            "bytes": [0x52, 0x49, 0x46, 0x46],  # RIFF
+            "braille": "⡒⡉⡆⡆",
+            "description": "RIFF header - used for WAV audio and AVI video files"
+        },
+    ]
+    
+    for sig in file_signatures:
+        braille = sig["braille"]
+        name = sig["name"]
+        desc = sig["description"]
+        hex_str = ''.join(f'{b:02X}' for b in sig["bytes"])
+        
+        # Recognition
+        examples.append({
+            "instruction": f"What file type does this braille header indicate: {braille}",
+            "input": "",
+            "output": f"The braille pattern {braille} represents the bytes {hex_str}, which is a {name} header. {desc}"
+        })
+        
+        # Reverse lookup
+        examples.append({
+            "instruction": f"What is the braille signature for a {name}?",
+            "input": "",
+            "output": f"A {name} starts with the braille pattern {braille} (bytes: {hex_str}). {desc}"
+        })
+    
+    # ZIP structure understanding
+    examples.append({
+        "instruction": "Explain the structure of a ZIP file in braille encoding",
+        "input": "",
+        "output": """A ZIP file in braille has this structure:
+1. Local file headers: Start with ⡐⡋⠃⠄ (PK\\x03\\x04) for each file
+2. File data: Compressed content as braille bytes
+3. Central directory: Starts with ⡐⡋⠁⠂ (PK\\x01\\x02) listing all files
+4. End of central directory: Ends with ⡐⡋⠅⠆ (PK\\x05\\x06)
+
+The ⡐⡋ pattern (bytes 0x50, 0x4B = 'PK') appears throughout as the ZIP signature."""
+    })
+    
+    examples.append({
+        "instruction": "I see ⡐⡋⠃⠄ followed by ⠔⠀⠀⠀ in braille-encoded data. What does this mean?",
+        "input": "",
+        "output": "The ⡐⡋⠃⠄ is a ZIP local file header (PK\\x03\\x04). The following ⠔⠀⠀⠀ represents bytes indicating the ZIP version needed to extract (0x14 = version 2.0) and flags (0x00 = no special flags). This is the start of a standard ZIP archive."
+    })
+    
+    # Binary data interpretation
+    examples.append({
+        "instruction": "How can braille represent any binary file?",
+        "input": "",
+        "output": """8-dot braille (Unicode U+2800-U+28FF) provides exactly 256 unique patterns, mapping 1:1 to byte values 0-255. This means:
+
+- Byte 0x00 → ⠀ (empty cell)
+- Byte 0xFF → ⣿ (all 8 dots)
+- Any byte value maps to exactly one braille character
+
+This makes braille a universal binary encoding. A ZIP file, PNG image, or executable can all be represented as braille strings, preserving all information perfectly."""
+    })
+    
+    examples.append({
+        "instruction": "What's the difference between 6-dot and 8-dot braille for binary encoding?",
+        "input": "",
+        "output": """6-dot braille has 64 patterns (2^6), only enough for text characters.
+8-dot braille has 256 patterns (2^8), matching exactly one byte.
+
+For binary files:
+- 6-dot: Cannot represent all byte values, requires encoding schemes
+- 8-dot: Direct 1:1 mapping, any file can be converted losslessly
+
+This is why 8-dot braille is ideal for multimodal AI - it can natively represent text, images, audio, video, and any binary format."""
+    })
+    
+    # =========================================================================
     # 1. TEXT ENCODING/DECODING - Teach the model braille letter patterns
     # =========================================================================
     

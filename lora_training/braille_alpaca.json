@@ -1,0 +1,577 @@
+[
+  {
+    "instruction": "What is the braille pattern for the letter 'a'?",
+    "input": "",
+    "output": "The letter 'a' in braille is ⠁"
+  },
+  {
+    "instruction": "Decode this braille character: ⠁",
+    "input": "",
+    "output": "The braille character ⠁ represents the letter 'a'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'b'?",
+    "input": "",
+    "output": "The letter 'b' in braille is ⠃"
+  },
+  {
+    "instruction": "Decode this braille character: ⠃",
+    "input": "",
+    "output": "The braille character ⠃ represents the letter 'b'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'c'?",
+    "input": "",
+    "output": "The letter 'c' in braille is ⠉"
+  },
+  {
+    "instruction": "Decode this braille character: ⠉",
+    "input": "",
+    "output": "The braille character ⠉ represents the letter 'c'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'd'?",
+    "input": "",
+    "output": "The letter 'd' in braille is ⠙"
+  },
+  {
+    "instruction": "Decode this braille character: ⠙",
+    "input": "",
+    "output": "The braille character ⠙ represents the letter 'd'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'e'?",
+    "input": "",
+    "output": "The letter 'e' in braille is ⠑"
+  },
+  {
+    "instruction": "Decode this braille character: ⠑",
+    "input": "",
+    "output": "The braille character ⠑ represents the letter 'e'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'f'?",
+    "input": "",
+    "output": "The letter 'f' in braille is ⠋"
+  },
+  {
+    "instruction": "Decode this braille character: ⠋",
+    "input": "",
+    "output": "The braille character ⠋ represents the letter 'f'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'g'?",
+    "input": "",
+    "output": "The letter 'g' in braille is ⠛"
+  },
+  {
+    "instruction": "Decode this braille character: ⠛",
+    "input": "",
+    "output": "The braille character ⠛ represents the letter 'g'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'h'?",
+    "input": "",
+    "output": "The letter 'h' in braille is ⠓"
+  },
+  {
+    "instruction": "Decode this braille character: ⠓",
+    "input": "",
+    "output": "The braille character ⠓ represents the letter 'h'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'i'?",
+    "input": "",
+    "output": "The letter 'i' in braille is ⠊"
+  },
+  {
+    "instruction": "Decode this braille character: ⠊",
+    "input": "",
+    "output": "The braille character ⠊ represents the letter 'i'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'j'?",
+    "input": "",
+    "output": "The letter 'j' in braille is ⠚"
+  },
+  {
+    "instruction": "Decode this braille character: ⠚",
+    "input": "",
+    "output": "The braille character ⠚ represents the letter 'j'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'k'?",
+    "input": "",
+    "output": "The letter 'k' in braille is ⠅"
+  },
+  {
+    "instruction": "Decode this braille character: ⠅",
+    "input": "",
+    "output": "The braille character ⠅ represents the letter 'k'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'l'?",
+    "input": "",
+    "output": "The letter 'l' in braille is ⠇"
+  },
+  {
+    "instruction": "Decode this braille character: ⠇",
+    "input": "",
+    "output": "The braille character ⠇ represents the letter 'l'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'm'?",
+    "input": "",
+    "output": "The letter 'm' in braille is ⠍"
+  },
+  {
+    "instruction": "Decode this braille character: ⠍",
+    "input": "",
+    "output": "The braille character ⠍ represents the letter 'm'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'n'?",
+    "input": "",
+    "output": "The letter 'n' in braille is ⠝"
+  },
+  {
+    "instruction": "Decode this braille character: ⠝",
+    "input": "",
+    "output": "The braille character ⠝ represents the letter 'n'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'o'?",
+    "input": "",
+    "output": "The letter 'o' in braille is ⠕"
+  },
+  {
+    "instruction": "Decode this braille character: ⠕",
+    "input": "",
+    "output": "The braille character ⠕ represents the letter 'o'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'p'?",
+    "input": "",
+    "output": "The letter 'p' in braille is ⠏"
+  },
+  {
+    "instruction": "Decode this braille character: ⠏",
+    "input": "",
+    "output": "The braille character ⠏ represents the letter 'p'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'q'?",
+    "input": "",
+    "output": "The letter 'q' in braille is ⠟"
+  },
+  {
+    "instruction": "Decode this braille character: ⠟",
+    "input": "",
+    "output": "The braille character ⠟ represents the letter 'q'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'r'?",
+    "input": "",
+    "output": "The letter 'r' in braille is ⠗"
+  },
+  {
+    "instruction": "Decode this braille character: ⠗",
+    "input": "",
+    "output": "The braille character ⠗ represents the letter 'r'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 's'?",
+    "input": "",
+    "output": "The letter 's' in braille is ⠎"
+  },
+  {
+    "instruction": "Decode this braille character: ⠎",
+    "input": "",
+    "output": "The braille character ⠎ represents the letter 's'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 't'?",
+    "input": "",
+    "output": "The letter 't' in braille is ⠞"
+  },
+  {
+    "instruction": "Decode this braille character: ⠞",
+    "input": "",
+    "output": "The braille character ⠞ represents the letter 't'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'u'?",
+    "input": "",
+    "output": "The letter 'u' in braille is ⠥"
+  },
+  {
+    "instruction": "Decode this braille character: ⠥",
+    "input": "",
+    "output": "The braille character ⠥ represents the letter 'u'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'v'?",
+    "input": "",
+    "output": "The letter 'v' in braille is ⠧"
+  },
+  {
+    "instruction": "Decode this braille character: ⠧",
+    "input": "",
+    "output": "The braille character ⠧ represents the letter 'v'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'w'?",
+    "input": "",
+    "output": "The letter 'w' in braille is ⠺"
+  },
+  {
+    "instruction": "Decode this braille character: ⠺",
+    "input": "",
+    "output": "The braille character ⠺ represents the letter 'w'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'x'?",
+    "input": "",
+    "output": "The letter 'x' in braille is ⠭"
+  },
+  {
+    "instruction": "Decode this braille character: ⠭",
+    "input": "",
+    "output": "The braille character ⠭ represents the letter 'x'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'y'?",
+    "input": "",
+    "output": "The letter 'y' in braille is ⠽"
+  },
+  {
+    "instruction": "Decode this braille character: ⠽",
+    "input": "",
+    "output": "The braille character ⠽ represents the letter 'y'"
+  },
+  {
+    "instruction": "What is the braille pattern for the letter 'z'?",
+    "input": "",
+    "output": "The letter 'z' in braille is ⠵"
+  },
+  {
+    "instruction": "Decode this braille character: ⠵",
+    "input": "",
+    "output": "The braille character ⠵ represents the letter 'z'"
+  },
+  {
+    "instruction": "Encode the word 'hello' in braille",
+    "input": "",
+    "output": "'hello' in braille is: ⠓⠑⠇⠇⠕"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠓⠑⠇⠇⠕",
+    "input": "",
+    "output": "The braille ⠓⠑⠇⠇⠕ spells 'hello'"
+  },
+  {
+    "instruction": "Encode the word 'world' in braille",
+    "input": "",
+    "output": "'world' in braille is: ⠺⠕⠗⠇⠙"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠺⠕⠗⠇⠙",
+    "input": "",
+    "output": "The braille ⠺⠕⠗⠇⠙ spells 'world'"
+  },
+  {
+    "instruction": "Encode the word 'braille' in braille",
+    "input": "",
+    "output": "'braille' in braille is: ⠃⠗⠁⠊⠇⠇⠑"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠃⠗⠁⠊⠇⠇⠑",
+    "input": "",
+    "output": "The braille ⠃⠗⠁⠊⠇⠇⠑ spells 'braille'"
+  },
+  {
+    "instruction": "Encode the word 'learn' in braille",
+    "input": "",
+    "output": "'learn' in braille is: ⠇⠑⠁⠗⠝"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠇⠑⠁⠗⠝",
+    "input": "",
+    "output": "The braille ⠇⠑⠁⠗⠝ spells 'learn'"
+  },
+  {
+    "instruction": "Encode the word 'read' in braille",
+    "input": "",
+    "output": "'read' in braille is: ⠗⠑⠁⠙"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠗⠑⠁⠙",
+    "input": "",
+    "output": "The braille ⠗⠑⠁⠙ spells 'read'"
+  },
+  {
+    "instruction": "Encode the word 'write' in braille",
+    "input": "",
+    "output": "'write' in braille is: ⠺⠗⠊⠞⠑"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠺⠗⠊⠞⠑",
+    "input": "",
+    "output": "The braille ⠺⠗⠊⠞⠑ spells 'write'"
+  },
+  {
+    "instruction": "Encode the word 'touch' in braille",
+    "input": "",
+    "output": "'touch' in braille is: ⠞⠕⠥⠉⠓"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠞⠕⠥⠉⠓",
+    "input": "",
+    "output": "The braille ⠞⠕⠥⠉⠓ spells 'touch'"
+  },
+  {
+    "instruction": "Encode the word 'feel' in braille",
+    "input": "",
+    "output": "'feel' in braille is: ⠋⠑⠑⠇"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠋⠑⠑⠇",
+    "input": "",
+    "output": "The braille ⠋⠑⠑⠇ spells 'feel'"
+  },
+  {
+    "instruction": "Encode the word 'dots' in braille",
+    "input": "",
+    "output": "'dots' in braille is: ⠙⠕⠞⠎"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠙⠕⠞⠎",
+    "input": "",
+    "output": "The braille ⠙⠕⠞⠎ spells 'dots'"
+  },
+  {
+    "instruction": "Encode the word 'pattern' in braille",
+    "input": "",
+    "output": "'pattern' in braille is: ⠏⠁⠞⠞⠑⠗⠝"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠏⠁⠞⠞⠑⠗⠝",
+    "input": "",
+    "output": "The braille ⠏⠁⠞⠞⠑⠗⠝ spells 'pattern'"
+  },
+  {
+    "instruction": "Encode the word 'blind' in braille",
+    "input": "",
+    "output": "'blind' in braille is: ⠃⠇⠊⠝⠙"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠃⠇⠊⠝⠙",
+    "input": "",
+    "output": "The braille ⠃⠇⠊⠝⠙ spells 'blind'"
+  },
+  {
+    "instruction": "Encode the word 'vision' in braille",
+    "input": "",
+    "output": "'vision' in braille is: ⠧⠊⠎⠊⠕⠝"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠧⠊⠎⠊⠕⠝",
+    "input": "",
+    "output": "The braille ⠧⠊⠎⠊⠕⠝ spells 'vision'"
+  },
+  {
+    "instruction": "Encode the word 'access' in braille",
+    "input": "",
+    "output": "'access' in braille is: ⠁⠉⠉⠑⠎⠎"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠁⠉⠉⠑⠎⠎",
+    "input": "",
+    "output": "The braille ⠁⠉⠉⠑⠎⠎ spells 'access'"
+  },
+  {
+    "instruction": "Encode the word 'include' in braille",
+    "input": "",
+    "output": "'include' in braille is: ⠊⠝⠉⠇⠥⠙⠑"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠊⠝⠉⠇⠥⠙⠑",
+    "input": "",
+    "output": "The braille ⠊⠝⠉⠇⠥⠙⠑ spells 'include'"
+  },
+  {
+    "instruction": "Encode the word 'child' in braille",
+    "input": "",
+    "output": "'child' in braille is: ⠉⠓⠊⠇⠙"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠉⠓⠊⠇⠙",
+    "input": "",
+    "output": "The braille ⠉⠓⠊⠇⠙ spells 'child'"
+  },
+  {
+    "instruction": "Encode the word 'play' in braille",
+    "input": "",
+    "output": "'play' in braille is: ⠏⠇⠁⠽"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠏⠇⠁⠽",
+    "input": "",
+    "output": "The braille ⠏⠇⠁⠽ spells 'play'"
+  },
+  {
+    "instruction": "Encode the word 'game' in braille",
+    "input": "",
+    "output": "'game' in braille is: ⠛⠁⠍⠑"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠛⠁⠍⠑",
+    "input": "",
+    "output": "The braille ⠛⠁⠍⠑ spells 'game'"
+  },
+  {
+    "instruction": "Encode the word 'fun' in braille",
+    "input": "",
+    "output": "'fun' in braille is: ⠋⠥⠝"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠋⠥⠝",
+    "input": "",
+    "output": "The braille ⠋⠥⠝ spells 'fun'"
+  },
+  {
+    "instruction": "Encode the word 'easy' in braille",
+    "input": "",
+    "output": "'easy' in braille is: ⠑⠁⠎⠽"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠑⠁⠎⠽",
+    "input": "",
+    "output": "The braille ⠑⠁⠎⠽ spells 'easy'"
+  },
+  {
+    "instruction": "Encode the word 'hard' in braille",
+    "input": "",
+    "output": "'hard' in braille is: ⠓⠁⠗⠙"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠓⠁⠗⠙",
+    "input": "",
+    "output": "The braille ⠓⠁⠗⠙ spells 'hard'"
+  },
+  {
+    "instruction": "Encode the word 'practice' in braille",
+    "input": "",
+    "output": "'practice' in braille is: ⠏⠗⠁⠉⠞⠊⠉⠑"
+  },
+  {
+    "instruction": "What word does this braille spell: ⠏⠗⠁⠉⠞⠊⠉⠑",
+    "input": "",
+    "output": "The braille ⠏⠗⠁⠉⠞⠊⠉⠑ spells 'practice'"
+  },
+  {
+    "instruction": "Compare the braille patterns for 'a' and 'b'. How are they related?",
+    "input": "",
+    "output": "The letter 'a' is ⠁ (dot 1 only) and 'b' is ⠃ (dots 1,2). They share dot 1, but 'b' adds dot 2 below it. This follows the braille pattern where letters build on each other."
+  },
+  {
+    "instruction": "Which braille letters use only the top row of dots?",
+    "input": "",
+    "output": "Letters using only top dots (1,4): 'a' ⠁, 'c' ⠉. The top row contains dots 1 (left) and 4 (right)."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'a'?",
+    "input": "",
+    "output": "The braille letter 'a' (⠁) has 1 raised dot."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'b'?",
+    "input": "",
+    "output": "The braille letter 'b' (⠃) has 2 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'c'?",
+    "input": "",
+    "output": "The braille letter 'c' (⠉) has 2 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'd'?",
+    "input": "",
+    "output": "The braille letter 'd' (⠙) has 3 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'e'?",
+    "input": "",
+    "output": "The braille letter 'e' (⠑) has 2 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'f'?",
+    "input": "",
+    "output": "The braille letter 'f' (⠋) has 3 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'g'?",
+    "input": "",
+    "output": "The braille letter 'g' (⠛) has 4 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'h'?",
+    "input": "",
+    "output": "The braille letter 'h' (⠓) has 3 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'i'?",
+    "input": "",
+    "output": "The braille letter 'i' (⠊) has 2 raised dots."
+  },
+  {
+    "instruction": "How many raised dots are in the braille letter 'j'?",
+    "input": "",
+    "output": "The braille letter 'j' (⠚) has 3 raised dots."
+  },
+  {
+    "instruction": "This braille represents pixel intensities in an image: ⠀⠁⠃⠇⠏⠟⠿⣿. Describe the visual pattern.",
+    "input": "",
+    "output": "This is a gradient from dark (⠀, intensity 0) to bright (⣿, intensity 255). Each braille character encodes a pixel value, with more dots meaning brighter pixels. This represents a smooth left-to-right brightness transition."
+  },
+  {
+    "instruction": "What kind of image would produce this braille pattern: ⣿⣿⣿⣿⠀⠀⠀⠀⣿⣿⣿⣿",
+    "input": "",
+    "output": "This pattern shows bright (⣿) regions on the left and right with a dark (⠀) gap in the middle. This could represent two bright objects separated by darkness, like two lights in a dark room or a split image."
+  },
+  {
+    "instruction": "This braille represents audio MFCC features: ⡀⡀⣿⣿⡀⡀⣿⣿. What does it sound like?",
+    "input": "",
+    "output": "The alternating pattern of low (⡀) and high (⣿) values suggests a rhythmic sound with regular beats. The 4-character cycle indicates a tempo. This could be a drum beat or rhythmic music."
+  },
+  {
+    "instruction": "These braille frames show motion. Frame 1: ⣿⠀⠀⠀, Frame 2: ⠀⣿⠀⠀, Frame 3: ⠀⠀⣿⠀, Frame 4: ⠀⠀⠀⣿. Describe the motion.",
+    "input": "",
+    "output": "A bright object (⣿) is moving from left to right across 4 frames. The motion is linear and constant-speed. This represents horizontal movement like a ball rolling or a light moving across a screen."
+  },
+  {
+    "instruction": "What is the Hamming distance between ⠁ and ⠃?",
+    "input": "",
+    "output": "⠁ (letter 'a') has pattern 00000001 and ⠃ (letter 'b') has pattern 00000011. They differ by 1 bit (dot 2), so the Hamming distance is 1. This means they are very similar patterns."
+  },
+  {
+    "instruction": "Explain why braille is ideal for encoding multimodal data.",
+    "input": "",
+    "output": "8-dot braille provides 256 unique patterns (U+2800-U+28FF), mapping perfectly to byte values (0-255). This makes it ideal for: 1) Text (letter mappings), 2) Images (pixel intensities), 3) Audio (spectral features), 4) Video (frame sequences). The tactile nature also enables haptic output."
+  },
+  {
+    "instruction": "A child is learning the letter 'h'. Give a memorable hint about its braille pattern.",
+    "input": "",
+    "output": "The letter 'h' in braille is ⠓. Think of it like a little house! It has dots 1, 2, and 5 - two dots stacked on the left side (like a wall) and one dot on the right (like a window). H is for House!"
+  },
+  {
+    "instruction": "A student got 3 correct and 7 wrong while learning braille. Give encouraging feedback.",
+    "input": "",
+    "output": "You're making progress! 3 correct answers means you're starting to recognize patterns. Braille takes practice - even Louis Braille took time to perfect his system. Focus on the letters you got right and build from there. Every expert was once a beginner!"
+  },
+  {
+    "instruction": "Generate an easy braille practice exercise for a beginner.",
+    "input": "",
+    "output": "Try this: What letter is ⠑? Hint: It's a vowel and it's the most common letter in English! (Answer: 'e')"
+  }
+]

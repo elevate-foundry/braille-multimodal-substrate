@@ -1,0 +1,11 @@
+{
+  "total_examples": 115,
+  "avg_instruction_length": 42.81739130434783,
+  "avg_output_length": 51.08695652173913,
+  "categories": {
+    "encoding_decoding": 47,
+    "pattern_analysis": 43,
+    "multimodal": 3,
+    "tutoring": 5
+  }
+}

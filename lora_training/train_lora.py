@@ -189,8 +189,12 @@ def train():
 def train_simple():
     """Simplified training without Unsloth (uses transformers directly)"""
     
+    import warnings
+    warnings.filterwarnings("ignore", category=FutureWarning)
+    warnings.filterwarnings("ignore", category=UserWarning)
+    
     print("=" * 60)
-    print("Simple LoRA Training (no Unsloth)")
+    print("LoRA Training for Braille-Native Cognition")
     print("=" * 60)
     
     try:
@@ -207,25 +211,30 @@ def train_simple():
     if data is None:
         return
     
-    # Use a small model
-    model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    # Use a very small model for M1 Pro 16GB
+    model_name = "distilgpt2"  # 82M params, fits easily in memory
     
-    print(f"\nLoading model: {model_name}")
+    print(f"Loading model: {model_name} (82M params)")
     
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "right"
     
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-        device_map="auto" if torch.cuda.is_available() else None,
+        torch_dtype=torch.float32,
     )
     
-    # LoRA config
+    # Move to MPS if available
+    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    print(f"Using device: {device}")
+    model = model.to(device)
+    
+    # LoRA config - GPT2 uses different attention module names
     lora_config = LoraConfig(
         r=8,
         lora_alpha=16,
-        target_modules=["q_proj", "v_proj"],
+        target_modules=["c_attn"],  # GPT2 attention layer
         lora_dropout=0.05,
         bias="none",
         task_type=TaskType.CAUSAL_LM,
@@ -234,10 +243,13 @@ def train_simple():
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
     
-    # Prepare dataset
+    # Prepare dataset with labels
     def tokenize(example):
         prompt = format_prompt(example)
-        return tokenizer(prompt, truncation=True, max_length=512, padding="max_length")
+        encodings = tokenizer(prompt, truncation=True, max_length=512, padding="max_length", return_tensors=None)
+        # For causal LM, labels = input_ids (model predicts next token)
+        encodings["labels"] = encodings["input_ids"].copy()
+        return encodings
     
     dataset = Dataset.from_list(data)
     tokenized = dataset.map(tokenize, remove_columns=dataset.column_names)
@@ -245,18 +257,21 @@ def train_simple():
     # Training
     training_args = TrainingArguments(
         output_dir="./braille_lora_simple",
-        per_device_train_batch_size=1,
+        per_device_train_batch_size=2,
         gradient_accumulation_steps=4,
-        num_train_epochs=1,
-        learning_rate=1e-4,
-        logging_steps=10,
+        num_train_epochs=3,
+        learning_rate=2e-4,
+        logging_steps=5,
         save_steps=50,
+        use_cpu=False,  # Use MPS on Mac
+        dataloader_pin_memory=False,  # Disable for MPS
     )
     
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=tokenized,
+        processing_class=tokenizer,  # Updated from deprecated 'tokenizer'
     )
     
     print("\nStarting training...")

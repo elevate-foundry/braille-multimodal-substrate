@@ -1,13 +1,15 @@
 """
 Lightweight Braille API - Direct Ollama integration without Parlant overhead
 Fast, simple REST API for multimodal braille operations
+Includes WebSocket streaming for real-time AI responses
 """
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 import subprocess
+import asyncio
 import numpy as np
 import json
 from braille_converter import BRAILLE_CHARS, BRAILLE_OFFSET
@@ -89,14 +91,75 @@ async def home():
         </div>
         
         <div class="section">
-            <h2>💬 Chat with Braille AI</h2>
+            <h2>💬 Chat with Braille AI <span id="wsStatus" style="font-size:0.5em;color:#666">(REST)</span></h2>
             <textarea id="chatInput" rows="2" placeholder="Ask about braille..."></textarea>
-            <button onclick="chat()">Send</button>
+            <button onclick="chat()">Send (REST)</button>
+            <button onclick="streamChat()" style="background:#9c27b0">Stream (WebSocket)</button>
+        </div>
+        
+        <div class="section">
+            <h2>⌨️ Live Typing (WebSocket)</h2>
+            <input type="text" id="liveInput" placeholder="Type to see braille in real-time..." oninput="liveEncode(this.value)">
+            <div id="liveResult" class="braille" style="margin-top:10px;font-size:1.5em"></div>
         </div>
         
         <div id="result" class="braille"></div>
         
         <script>
+            // WebSocket connections
+            let chatWs = null;
+            let encodeWs = null;
+            
+            function connectChatWs() {
+                if (chatWs && chatWs.readyState === WebSocket.OPEN) return;
+                chatWs = new WebSocket('ws://' + window.location.host + '/ws/chat');
+                chatWs.onopen = () => document.getElementById('wsStatus').textContent = '(WebSocket Connected)';
+                chatWs.onclose = () => document.getElementById('wsStatus').textContent = '(WebSocket Disconnected)';
+                chatWs.onmessage = (event) => {
+                    const data = JSON.parse(event.data);
+                    const result = document.getElementById('result');
+                    if (data.type === 'start') {
+                        result.innerText = '';
+                    } else if (data.type === 'token') {
+                        result.innerText += data.content;
+                    } else if (data.type === 'complete') {
+                        // Done streaming
+                    } else if (data.type === 'error') {
+                        result.innerText = 'Error: ' + data.error;
+                    }
+                };
+            }
+            
+            function connectEncodeWs() {
+                if (encodeWs && encodeWs.readyState === WebSocket.OPEN) return;
+                encodeWs = new WebSocket('ws://' + window.location.host + '/ws/encode');
+                encodeWs.onmessage = (event) => {
+                    const data = JSON.parse(event.data);
+                    document.getElementById('liveResult').innerText = data.braille;
+                };
+            }
+            
+            function streamChat() {
+                connectChatWs();
+                const message = document.getElementById('chatInput').value;
+                document.getElementById('result').innerText = 'Streaming...';
+                if (chatWs.readyState === WebSocket.OPEN) {
+                    chatWs.send(JSON.stringify({message}));
+                } else {
+                    chatWs.onopen = () => chatWs.send(JSON.stringify({message}));
+                }
+            }
+            
+            function liveEncode(text) {
+                connectEncodeWs();
+                if (encodeWs.readyState === WebSocket.OPEN) {
+                    encodeWs.send(text);
+                }
+            }
+            
+            // Connect on page load
+            setTimeout(() => { connectChatWs(); connectEncodeWs(); }, 500);
+            
             async function encode() {
                 const text = document.getElementById('textInput').value;
                 const res = await fetch('/encode', {
@@ -208,8 +271,116 @@ async def health():
     return {"status": "ok", "model": "braille-fast"}
 
 
+# ============================================================================
+# WEBSOCKET STREAMING
+# ============================================================================
+
+class ConnectionManager:
+    """Manage WebSocket connections"""
+    def __init__(self):
+        self.active_connections: list[WebSocket] = []
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+
+    def disconnect(self, websocket: WebSocket):
+        if websocket in self.active_connections:
+            self.active_connections.remove(websocket)
+
+    async def send_text(self, message: str, websocket: WebSocket):
+        await websocket.send_text(message)
+
+
+manager = ConnectionManager()
+
+
+@app.websocket("/ws/chat")
+async def websocket_chat(websocket: WebSocket):
+    """
+    WebSocket endpoint for streaming AI chat responses.
+    Send a message, receive tokens as they're generated.
+    """
+    await manager.connect(websocket)
+    try:
+        while True:
+            # Receive message from client
+            data = await websocket.receive_text()
+            message_data = json.loads(data)
+            user_message = message_data.get("message", "")
+            
+            if not user_message:
+                await websocket.send_json({"error": "No message provided"})
+                continue
+            
+            # Send start signal
+            await websocket.send_json({"type": "start", "message": user_message})
+            
+            # Stream response from Ollama
+            try:
+                process = await asyncio.create_subprocess_exec(
+                    "ollama", "run", "braille-fast", user_message,
+                    stdout=asyncio.subprocess.PIPE,
+                    stderr=asyncio.subprocess.PIPE
+                )
+                
+                # Stream stdout
+                full_response = ""
+                while True:
+                    chunk = await process.stdout.read(50)  # Read in small chunks
+                    if not chunk:
+                        break
+                    text = chunk.decode('utf-8', errors='ignore')
+                    full_response += text
+                    await websocket.send_json({
+                        "type": "token",
+                        "content": text
+                    })
+                
+                # Wait for process to complete
+                await process.wait()
+                
+                # Send completion signal
+                await websocket.send_json({
+                    "type": "complete",
+                    "full_response": full_response.strip()
+                })
+                
+            except Exception as e:
+                await websocket.send_json({
+                    "type": "error",
+                    "error": str(e)
+                })
+                
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+    except Exception as e:
+        manager.disconnect(websocket)
+
+
+@app.websocket("/ws/encode")
+async def websocket_encode(websocket: WebSocket):
+    """
+    WebSocket for real-time text-to-braille encoding.
+    Useful for live typing feedback.
+    """
+    await manager.connect(websocket)
+    try:
+        while True:
+            text = await websocket.receive_text()
+            braille = ''.join(LETTER_MAP.get(c.lower(), '⠿') for c in text)
+            await websocket.send_json({
+                "text": text,
+                "braille": braille
+            })
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+
+
 if __name__ == "__main__":
     import uvicorn
     print("🔤 Starting Braille Multimodal API...")
-    print("📍 Open http://localhost:8000 in your browser")
+    print("📍 REST API: http://localhost:8000")
+    print("📍 WebSocket Chat: ws://localhost:8000/ws/chat")
+    print("📍 WebSocket Encode: ws://localhost:8000/ws/encode")
     uvicorn.run(app, host="0.0.0.0", port=8000)

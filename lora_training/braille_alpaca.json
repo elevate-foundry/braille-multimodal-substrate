@@ -82,7 +82,182 @@
   {
     "instruction": "How can braille represent any binary file?",
     "input": "",
-    "output": "8-dot braille (Unicode U+2800-U+28FF) provides exactly 256 unique patterns, mapping 1:1 to byte values 0-255. This means:\n\n- Byte 0x00 → ⠀ (empty cell)\n- Byte 0xFF → ⣿ (all 8 dots)\n- Any byte value maps to exactly one braille character\n\nThis makes braille a universal binary encoding. A ZIP file, PNG image, or executable can all be represented as braille strings, preserving all information perfectly."
+    "output": "8-dot braille (Unicode U+2800-U+28FF) provides exactly 256 unique patterns, mapping 1:1 to byte values 0-255. This means:\n\n- Byte 0x00 → ⠀ (empty cell, no dots)\n- Byte 0x40 → ⡀ (dot 7 only)\n- Byte 0x80 → ⢀ (dot 8 only)\n- Byte 0xC0 → ⣀ (dots 7 and 8)\n- Byte 0xFF → ⣿ (all 8 dots)\n\nDots 7 and 8 (the bottom row) are essential for representing bytes 64-255. This makes braille a universal binary encoding."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 64 (0x40)?",
+    "input": "",
+    "output": "Byte 64 (0x40) is represented by ⡀ which has dot 7 only. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⡀ represent?",
+    "input": "",
+    "output": "The braille pattern ⡀ represents byte value 64 (0x40). It uses dot 7 only."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 128 (0x80)?",
+    "input": "",
+    "output": "Byte 128 (0x80) is represented by ⢀ which has dot 8 only. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⢀ represent?",
+    "input": "",
+    "output": "The braille pattern ⢀ represents byte value 128 (0x80). It uses dot 8 only."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 192 (0xC0)?",
+    "input": "",
+    "output": "Byte 192 (0xC0) is represented by ⣀ which has dots 7 and 8. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⣀ represent?",
+    "input": "",
+    "output": "The braille pattern ⣀ represents byte value 192 (0xC0). It uses dots 7 and 8."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 65 (0x41)?",
+    "input": "",
+    "output": "Byte 65 (0x41) is represented by ⡁ which has dots 1 and 7. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⡁ represent?",
+    "input": "",
+    "output": "The braille pattern ⡁ represents byte value 65 (0x41). It uses dots 1 and 7."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 129 (0x81)?",
+    "input": "",
+    "output": "Byte 129 (0x81) is represented by ⢁ which has dots 1 and 8. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⢁ represent?",
+    "input": "",
+    "output": "The braille pattern ⢁ represents byte value 129 (0x81). It uses dots 1 and 8."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 193 (0xC1)?",
+    "input": "",
+    "output": "Byte 193 (0xC1) is represented by ⣁ which has dots 1, 7, and 8. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⣁ represent?",
+    "input": "",
+    "output": "The braille pattern ⣁ represents byte value 193 (0xC1). It uses dots 1, 7, and 8."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 127 (0x7F)?",
+    "input": "",
+    "output": "Byte 127 (0x7F) is represented by ⡿ which has all except dot 8. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⡿ represent?",
+    "input": "",
+    "output": "The braille pattern ⡿ represents byte value 127 (0x7F). It uses all except dot 8."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 191 (0xBF)?",
+    "input": "",
+    "output": "Byte 191 (0xBF) is represented by ⢿ which has all except dot 7. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⢿ represent?",
+    "input": "",
+    "output": "The braille pattern ⢿ represents byte value 191 (0xBF). It uses all except dot 7."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 255 (0xFF)?",
+    "input": "",
+    "output": "Byte 255 (0xFF) is represented by ⣿ which has all 8 dots. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⣿ represent?",
+    "input": "",
+    "output": "The braille pattern ⣿ represents byte value 255 (0xFF). It uses all 8 dots."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 240 (0xF0)?",
+    "input": "",
+    "output": "Byte 240 (0xF0) is represented by ⣰ which has bottom half. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⣰ represent?",
+    "input": "",
+    "output": "The braille pattern ⣰ represents byte value 240 (0xF0). It uses bottom half."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 15 (0x0F)?",
+    "input": "",
+    "output": "Byte 15 (0x0F) is represented by ⠏ which has top half (6-dot compatible). This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⠏ represent?",
+    "input": "",
+    "output": "The braille pattern ⠏ represents byte value 15 (0x0F). It uses top half (6-dot compatible)."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 170 (0xAA)?",
+    "input": "",
+    "output": "Byte 170 (0xAA) is represented by ⢪ which has even dots. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⢪ represent?",
+    "input": "",
+    "output": "The braille pattern ⢪ represents byte value 170 (0xAA). It uses even dots."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 85 (0x55)?",
+    "input": "",
+    "output": "Byte 85 (0x55) is represented by ⡕ which has odd dots. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⡕ represent?",
+    "input": "",
+    "output": "The braille pattern ⡕ represents byte value 85 (0x55). It uses odd dots."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 224 (0xE0)?",
+    "input": "",
+    "output": "Byte 224 (0xE0) is represented by ⣠ which has bottom-right corner. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⣠ represent?",
+    "input": "",
+    "output": "The braille pattern ⣠ represents byte value 224 (0xE0). It uses bottom-right corner."
+  },
+  {
+    "instruction": "What braille pattern represents byte value 112 (0x70)?",
+    "input": "",
+    "output": "Byte 112 (0x70) is represented by ⡰ which has middle-right to bottom-left. This requires 8-dot braille since it uses dots beyond the standard 6."
+  },
+  {
+    "instruction": "What byte value does the braille pattern ⡰ represent?",
+    "input": "",
+    "output": "The braille pattern ⡰ represents byte value 112 (0x70). It uses middle-right to bottom-left."
+  },
+  {
+    "instruction": "Show a braille gradient using all 256 intensity levels",
+    "input": "",
+    "output": "A full 8-dot braille gradient from dark to bright:\n\n⠀⠁⠂⠃⠄⠅⠆⠇⠈⠉⠊⠋⠌⠍⠎⠏ (0-15, 6-dot range)\n⠐⠑⠒⠓⠔⠕⠖⠗⠘⠙⠚⠛⠜⠝⠞⠟ (16-31)\n⠠⠡⠢⠣⠤⠥⠦⠧⠨⠩⠪⠫⠬⠭⠮⠯ (32-47)\n⠰⠱⠲⠳⠴⠵⠶⠷⠸⠹⠺⠻⠼⠽⠾⠿ (48-63, end of 6-dot)\n⡀⡁⡂⡃⡄⡅⡆⡇⡈⡉⡊⡋⡌⡍⡎⡏ (64-79, DOT 7 STARTS)\n⡐⡑⡒⡓⡔⡕⡖⡗⡘⡙⡚⡛⡜⡝⡞⡟ (80-95)\n⡠⡡⡢⡣⡤⡥⡦⡧⡨⡩⡪⡫⡬⡭⡮⡯ (96-111)\n⡰⡱⡲⡳⡴⡵⡶⡷⡸⡹⡺⡻⡼⡽⡾⡿ (112-127)\n⢀⢁⢂⢃⢄⢅⢆⢇⢈⢉⢊⢋⢌⢍⢎⢏ (128-143, DOT 8 STARTS)\n⢐⢑⢒⢓⢔⢕⢖⢗⢘⢙⢚⢛⢜⢝⢞⢟ (144-159)\n⢠⢡⢢⢣⢤⢥⢦⢧⢨⢩⢪⢫⢬⢭⢮⢯ (160-175)\n⢰⢱⢲⢳⢴⢵⢶⢷⢸⢹⢺⢻⢼⢽⢾⢿ (176-191)\n⣀⣁⣂⣃⣄⣅⣆⣇⣈⣉⣊⣋⣌⣍⣎⣏ (192-207, DOTS 7+8)\n⣐⣑⣒⣓⣔⣕⣖⣗⣘⣙⣚⣛⣜⣝⣞⣟ (208-223)\n⣠⣡⣢⣣⣤⣥⣦⣧⣨⣩⣪⣫⣬⣭⣮⣯ (224-239)\n⣰⣱⣲⣳⣴⣵⣶⣷⣸⣹⣺⣻⣼⣽⣾⣿ (240-255, FULL RANGE)\n\nBytes 64+ require dot 7, bytes 128+ require dot 8, bytes 192+ require both."
+  },
+  {
+    "instruction": "Encode audio with high-frequency content as braille",
+    "input": "",
+    "output": "High-frequency audio produces high MFCC values (128-255), requiring dots 7 and 8:\n\nLow frequency (bass):  ⠀⠁⠃⠇⠏⠟⠿ (bytes 0-63, 6-dot range)\nMid frequency:         ⡀⡁⡃⡇⡏⡟⡿ (bytes 64-127, dot 7 active)\nHigh frequency:        ⢀⢁⢃⢇⢏⢟⢿ (bytes 128-191, dot 8 active)\nVery high (sibilants): ⣀⣁⣃⣇⣏⣟⣿ (bytes 192-255, dots 7+8)\n\nA cymbal crash: ⣿⣾⣼⣸⣰⣠⣀⢀⡀⠀ (high to low fade)\nA bass drum:    ⠀⠁⠃⠇⠏⠟⠿⡿⢿⣿ (low to high attack)"
+  },
+  {
+    "instruction": "What does ⣿⢘⣿⡠ at the start of braille data indicate?",
+    "input": "",
+    "output": "⣿⢘⣿⡠ represents bytes [0xFF, 0xD8, 0xFF, 0xE0] which is the JPEG image header.\n\nBreaking it down:\n- ⣿ = 0xFF (255) - all 8 dots raised\n- ⢘ = 0xD8 (216) - dots 4,5,8\n- ⣿ = 0xFF (255) - all 8 dots raised  \n- ⡠ = 0xE0 (224) - dots 6,7,8\n\nThese high byte values (>127) require 8-dot braille. 6-dot braille cannot represent JPEG headers."
+  },
+  {
+    "instruction": "Why is 8-dot braille essential for representing compressed data?",
+    "input": "",
+    "output": "Compressed data (ZIP, GZIP, PNG, JPEG) has high entropy with bytes uniformly distributed 0-255.\n\n6-dot braille only covers bytes 0-63 (25% of values).\n8-dot braille covers all 256 byte values:\n- ⠀-⠿: bytes 0-63 (no dots 7,8)\n- ⡀-⡿: bytes 64-127 (dot 7)\n- ⢀-⢿: bytes 128-191 (dot 8)\n- ⣀-⣿: bytes 192-255 (dots 7+8)\n\nExample compressed data: ⢋⣴⡏⢿⣸⡆⢭⣿\nEach character likely uses dots 7 or 8 because compression produces high-entropy output."
+  },
+  {
+    "instruction": "Explain the 8-dot braille cell layout",
+    "input": "",
+    "output": "8-dot braille cell positions:\n\n  1 4\n  2 5\n  3 6\n  7 8  ← Extended dots (not in 6-dot braille)\n\nDot values (binary):\n- Dot 1: bit 0 (value 1)\n- Dot 2: bit 1 (value 2)\n- Dot 3: bit 2 (value 4)\n- Dot 4: bit 3 (value 8)\n- Dot 5: bit 4 (value 16)\n- Dot 6: bit 5 (value 32)\n- Dot 7: bit 6 (value 64)  ← Enables bytes 64-127\n- Dot 8: bit 7 (value 128) ← Enables bytes 128-255\n\nPattern = sum of dot values. Example: ⣿ = 1+2+4+8+16+32+64+128 = 255"
   },
   {
     "instruction": "What's the difference between 6-dot and 8-dot braille for binary encoding?",

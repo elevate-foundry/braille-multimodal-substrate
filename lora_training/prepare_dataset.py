@@ -129,11 +129,148 @@ The ⡐⡋ pattern (bytes 0x50, 0x4B = 'PK') appears throughout as the ZIP signa
         "input": "",
         "output": """8-dot braille (Unicode U+2800-U+28FF) provides exactly 256 unique patterns, mapping 1:1 to byte values 0-255. This means:
 
-- Byte 0x00 → ⠀ (empty cell)
+- Byte 0x00 → ⠀ (empty cell, no dots)
+- Byte 0x40 → ⡀ (dot 7 only)
+- Byte 0x80 → ⢀ (dot 8 only)
+- Byte 0xC0 → ⣀ (dots 7 and 8)
 - Byte 0xFF → ⣿ (all 8 dots)
-- Any byte value maps to exactly one braille character
 
-This makes braille a universal binary encoding. A ZIP file, PNG image, or executable can all be represented as braille strings, preserving all information perfectly."""
+Dots 7 and 8 (the bottom row) are essential for representing bytes 64-255. This makes braille a universal binary encoding."""
+    })
+    
+    # =========================================================================
+    # 0.5 TRUE 8-DOT EXAMPLES - Training data requiring dots 7 and 8
+    # =========================================================================
+    
+    # Dot 7 and 8 patterns (bytes 64-255)
+    dot78_examples = [
+        {"byte": 0x40, "braille": "⡀", "dots": "7", "desc": "dot 7 only"},
+        {"byte": 0x80, "braille": "⢀", "dots": "8", "desc": "dot 8 only"},
+        {"byte": 0xC0, "braille": "⣀", "dots": "7,8", "desc": "dots 7 and 8"},
+        {"byte": 0x41, "braille": "⡁", "dots": "1,7", "desc": "dots 1 and 7"},
+        {"byte": 0x81, "braille": "⢁", "dots": "1,8", "desc": "dots 1 and 8"},
+        {"byte": 0xC1, "braille": "⣁", "dots": "1,7,8", "desc": "dots 1, 7, and 8"},
+        {"byte": 0x7F, "braille": "⡿", "dots": "1,2,3,4,5,6,7", "desc": "all except dot 8"},
+        {"byte": 0xBF, "braille": "⢿", "dots": "1,2,3,4,5,6,8", "desc": "all except dot 7"},
+        {"byte": 0xFF, "braille": "⣿", "dots": "1,2,3,4,5,6,7,8", "desc": "all 8 dots"},
+        {"byte": 0xF0, "braille": "⣰", "dots": "5,6,7,8", "desc": "bottom half"},
+        {"byte": 0x0F, "braille": "⠏", "dots": "1,2,3,4", "desc": "top half (6-dot compatible)"},
+        {"byte": 0xAA, "braille": "⢪", "dots": "2,4,6,8", "desc": "even dots"},
+        {"byte": 0x55, "braille": "⡕", "dots": "1,3,5,7", "desc": "odd dots"},
+        {"byte": 0xE0, "braille": "⣠", "dots": "6,7,8", "desc": "bottom-right corner"},
+        {"byte": 0x70, "braille": "⡰", "dots": "5,6,7", "desc": "middle-right to bottom-left"},
+    ]
+    
+    for ex in dot78_examples:
+        # Byte to braille
+        examples.append({
+            "instruction": f"What braille pattern represents byte value {ex['byte']} (0x{ex['byte']:02X})?",
+            "input": "",
+            "output": f"Byte {ex['byte']} (0x{ex['byte']:02X}) is represented by {ex['braille']} which has {ex['desc']}. This requires 8-dot braille since it uses dots beyond the standard 6."
+        })
+        
+        # Braille to byte
+        examples.append({
+            "instruction": f"What byte value does the braille pattern {ex['braille']} represent?",
+            "input": "",
+            "output": f"The braille pattern {ex['braille']} represents byte value {ex['byte']} (0x{ex['byte']:02X}). It uses {ex['desc']}."
+        })
+    
+    # Image pixel examples using full 8-dot range
+    examples.append({
+        "instruction": "Show a braille gradient using all 256 intensity levels",
+        "input": "",
+        "output": """A full 8-dot braille gradient from dark to bright:
+
+⠀⠁⠂⠃⠄⠅⠆⠇⠈⠉⠊⠋⠌⠍⠎⠏ (0-15, 6-dot range)
+⠐⠑⠒⠓⠔⠕⠖⠗⠘⠙⠚⠛⠜⠝⠞⠟ (16-31)
+⠠⠡⠢⠣⠤⠥⠦⠧⠨⠩⠪⠫⠬⠭⠮⠯ (32-47)
+⠰⠱⠲⠳⠴⠵⠶⠷⠸⠹⠺⠻⠼⠽⠾⠿ (48-63, end of 6-dot)
+⡀⡁⡂⡃⡄⡅⡆⡇⡈⡉⡊⡋⡌⡍⡎⡏ (64-79, DOT 7 STARTS)
+⡐⡑⡒⡓⡔⡕⡖⡗⡘⡙⡚⡛⡜⡝⡞⡟ (80-95)
+⡠⡡⡢⡣⡤⡥⡦⡧⡨⡩⡪⡫⡬⡭⡮⡯ (96-111)
+⡰⡱⡲⡳⡴⡵⡶⡷⡸⡹⡺⡻⡼⡽⡾⡿ (112-127)
+⢀⢁⢂⢃⢄⢅⢆⢇⢈⢉⢊⢋⢌⢍⢎⢏ (128-143, DOT 8 STARTS)
+⢐⢑⢒⢓⢔⢕⢖⢗⢘⢙⢚⢛⢜⢝⢞⢟ (144-159)
+⢠⢡⢢⢣⢤⢥⢦⢧⢨⢩⢪⢫⢬⢭⢮⢯ (160-175)
+⢰⢱⢲⢳⢴⢵⢶⢷⢸⢹⢺⢻⢼⢽⢾⢿ (176-191)
+⣀⣁⣂⣃⣄⣅⣆⣇⣈⣉⣊⣋⣌⣍⣎⣏ (192-207, DOTS 7+8)
+⣐⣑⣒⣓⣔⣕⣖⣗⣘⣙⣚⣛⣜⣝⣞⣟ (208-223)
+⣠⣡⣢⣣⣤⣥⣦⣧⣨⣩⣪⣫⣬⣭⣮⣯ (224-239)
+⣰⣱⣲⣳⣴⣵⣶⣷⣸⣹⣺⣻⣼⣽⣾⣿ (240-255, FULL RANGE)
+
+Bytes 64+ require dot 7, bytes 128+ require dot 8, bytes 192+ require both."""
+    })
+    
+    # Audio MFCC example with high values
+    examples.append({
+        "instruction": "Encode audio with high-frequency content as braille",
+        "input": "",
+        "output": """High-frequency audio produces high MFCC values (128-255), requiring dots 7 and 8:
+
+Low frequency (bass):  ⠀⠁⠃⠇⠏⠟⠿ (bytes 0-63, 6-dot range)
+Mid frequency:         ⡀⡁⡃⡇⡏⡟⡿ (bytes 64-127, dot 7 active)
+High frequency:        ⢀⢁⢃⢇⢏⢟⢿ (bytes 128-191, dot 8 active)
+Very high (sibilants): ⣀⣁⣃⣇⣏⣟⣿ (bytes 192-255, dots 7+8)
+
+A cymbal crash: ⣿⣾⣼⣸⣰⣠⣀⢀⡀⠀ (high to low fade)
+A bass drum:    ⠀⠁⠃⠇⠏⠟⠿⡿⢿⣿ (low to high attack)"""
+    })
+    
+    # Binary file with high bytes
+    examples.append({
+        "instruction": "What does ⣿⢘⣿⡠ at the start of braille data indicate?",
+        "input": "",
+        "output": """⣿⢘⣿⡠ represents bytes [0xFF, 0xD8, 0xFF, 0xE0] which is the JPEG image header.
+
+Breaking it down:
+- ⣿ = 0xFF (255) - all 8 dots raised
+- ⢘ = 0xD8 (216) - dots 4,5,8
+- ⣿ = 0xFF (255) - all 8 dots raised  
+- ⡠ = 0xE0 (224) - dots 6,7,8
+
+These high byte values (>127) require 8-dot braille. 6-dot braille cannot represent JPEG headers."""
+    })
+    
+    # Compression patterns
+    examples.append({
+        "instruction": "Why is 8-dot braille essential for representing compressed data?",
+        "input": "",
+        "output": """Compressed data (ZIP, GZIP, PNG, JPEG) has high entropy with bytes uniformly distributed 0-255.
+
+6-dot braille only covers bytes 0-63 (25% of values).
+8-dot braille covers all 256 byte values:
+- ⠀-⠿: bytes 0-63 (no dots 7,8)
+- ⡀-⡿: bytes 64-127 (dot 7)
+- ⢀-⢿: bytes 128-191 (dot 8)
+- ⣀-⣿: bytes 192-255 (dots 7+8)
+
+Example compressed data: ⢋⣴⡏⢿⣸⡆⢭⣿
+Each character likely uses dots 7 or 8 because compression produces high-entropy output."""
+    })
+    
+    # Dot position reference
+    examples.append({
+        "instruction": "Explain the 8-dot braille cell layout",
+        "input": "",
+        "output": """8-dot braille cell positions:
+
+  1 4
+  2 5
+  3 6
+  7 8  ← Extended dots (not in 6-dot braille)
+
+Dot values (binary):
+- Dot 1: bit 0 (value 1)
+- Dot 2: bit 1 (value 2)
+- Dot 3: bit 2 (value 4)
+- Dot 4: bit 3 (value 8)
+- Dot 5: bit 4 (value 16)
+- Dot 6: bit 5 (value 32)
+- Dot 7: bit 6 (value 64)  ← Enables bytes 64-127
+- Dot 8: bit 7 (value 128) ← Enables bytes 128-255
+
+Pattern = sum of dot values. Example: ⣿ = 1+2+4+8+16+32+64+128 = 255"""
     })
     
     examples.append({

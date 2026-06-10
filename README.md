@@ -129,3 +129,17 @@ MIT
 - [native-braille-ai](https://github.com/elevate-foundry/native-braille-ai) - Native braille processing
 - [sal-llm](https://github.com/elevate-foundry/sal-llm) - SAL LLM with braille consciousness
 - [sal-voice](https://github.com/elevate-foundry/sal-voice) - Multimodal interface with braille core
+
+<!-- ELEVATE:BEGIN (auto-generated section; edits here are overwritten) -->
+## About
+
+| | |
+| --- | --- |
+| **Description** | 8-dot braille as universal encoding substrate for text, images, audio, and video - Braille-Native Cognition with Ollama integration |
+| **Language** | Python |
+| **Commits** | 13 |
+| **Created** | 2026-01-01 |
+| **Last push** | 2026-01-01 |
+
+Part of [**elevate-foundry**](https://github.com/elevate-foundry) · [repository](https://github.com/elevate-foundry/braille-multimodal-substrate)
+<!-- ELEVATE:END -->
